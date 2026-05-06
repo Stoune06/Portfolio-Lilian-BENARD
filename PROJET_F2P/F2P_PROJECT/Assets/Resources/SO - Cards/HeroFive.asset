@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee50233409be1834380448dd9a1327d2, type: 3}
+  m_Name: HeroFive
+  m_EditorClassIdentifier: 
+  _CardName: Ranim
+  _CardIcon: {fileID: 21300000, guid: f31485adebf460343b30d3742eb28234, type: 3}
+  _CardDescription: {fileID: 21300000, guid: 24b299ebb2e76d546aab47cd5b9e365c, type: 3}
+  _PrefabCharacter: {fileID: 7025455566187609855, guid: 41ae7746f0326d547a4d4911173e799e, type: 3}
+  _Health: 0
+  _Damage: 0
+  _Rarity: 2
+  _Price: 20

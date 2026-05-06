@@ -1,0 +1,44 @@
+[gd_scene load_steps=2 format=3 uid="uid://tjc8d45fygcd"]
+
+[ext_resource type="Script" path="res://Scripts/GameObjects/Recipients/Stove.cs" id="1_rrqqe"]
+
+[node name="Stove" type="Node2D" node_paths=PackedStringArray("bakingPosition")]
+script = ExtResource("1_rrqqe")
+bakingPosition = [NodePath("Renderer/BakingEmplacement"), NodePath("Renderer/BakingEmplacement2"), NodePath("Renderer/BakingEmplacement3"), NodePath("Renderer/BakingEmplacement4"), NodePath("Renderer/BakingEmplacement5"), NodePath("Renderer/BakingEmplacement6"), NodePath("Renderer/BakingEmplacement7"), NodePath("Renderer/BakingEmplacement8"), NodePath("Renderer/BakingEmplacement9")]
+
+[node name="Renderer" type="ColorRect" parent="."]
+offset_right = 700.0
+offset_bottom = 700.0
+color = Color(0.190762, 0.190762, 0.190762, 1)
+
+[node name="BakingEmplacement" type="Marker2D" parent="Renderer"]
+position = Vector2(353, 360)
+
+[node name="BakingEmplacement2" type="Marker2D" parent="Renderer"]
+position = Vector2(48, 360)
+
+[node name="BakingEmplacement3" type="Marker2D" parent="Renderer"]
+position = Vector2(642, 360)
+
+[node name="BakingEmplacement4" type="Marker2D" parent="Renderer"]
+position = Vector2(636, 46)
+
+[node name="BakingEmplacement5" type="Marker2D" parent="Renderer"]
+position = Vector2(337, 46)
+
+[node name="BakingEmplacement6" type="Marker2D" parent="Renderer"]
+position = Vector2(48, 46)
+
+[node name="BakingEmplacement7" type="Marker2D" parent="Renderer"]
+position = Vector2(48, 653)
+
+[node name="BakingEmplacement8" type="Marker2D" parent="Renderer"]
+position = Vector2(360, 653)
+
+[node name="BakingEmplacement9" type="Marker2D" parent="Renderer"]
+position = Vector2(657, 653)
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+position = Vector2(24, -2)
+color = Color(0.192157, 0.192157, 0.192157, 1)
+polygon = PackedVector2Array(612, -72, 778, 15, 769, 633, 683, 776, 37, 776, -120, 662, -114, 29, -15, -90)

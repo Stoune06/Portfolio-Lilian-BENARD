@@ -1,0 +1,28 @@
+[gd_scene load_steps=6 format=3 uid="uid://c4wenjxug0xe3"]
+
+[ext_resource type="Texture2D" uid="uid://cyq6psdkl1snd" path="res://Assets/Textures/Particles/DustParticles.png" id="1_bj2r0"]
+[ext_resource type="Script" path="res://Scripts/Particles/MovableTransition.cs" id="2_nul0q"]
+
+[sub_resource type="Gradient" id="Gradient_nevev"]
+colors = PackedColorArray(0.90327, 0.935962, 1, 1, 1, 1, 1, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_3rfyn"]
+gradient = SubResource("Gradient_nevev")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_n84l2"]
+particle_flag_disable_z = true
+emission_shape_offset = Vector3(200, 0, 0)
+emission_shape_scale = Vector3(200, 1, 1)
+emission_shape = 3
+emission_box_extents = Vector3(1, 1, 1)
+gravity = Vector3(0, 0, 0)
+scale_min = 0.05
+scale_max = 0.1
+color = Color(0.717647, 1, 1, 1)
+color_ramp = SubResource("GradientTexture1D_3rfyn")
+
+[node name="MovableTransition" type="GPUParticles2D"]
+amount = 5000
+process_material = SubResource("ParticleProcessMaterial_n84l2")
+texture = ExtResource("1_bj2r0")
+script = ExtResource("2_nul0q")

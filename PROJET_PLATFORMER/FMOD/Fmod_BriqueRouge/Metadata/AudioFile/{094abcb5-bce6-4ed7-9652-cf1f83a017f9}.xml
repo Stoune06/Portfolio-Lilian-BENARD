@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{094abcb5-bce6-4ed7-9652-cf1f83a017f9}">
+		<property name="assetPath">
+			<value>BG_Birds_Fly3.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.16666666666666666</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{abb68068-9e76-410e-a4f2-729e2a978454}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,1794 @@
+fileFormatVersion: 2
+guid: abf3d5be6028df24ca246d689f43207e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5344224461088193497
+    second: LOGO-ISART_baselineEN_150DPI_white_0
+  - first:
+      213: 5099703069416249358
+    second: LOGO-ISART_baselineEN_150DPI_white_1
+  - first:
+      213: 4825069761493735639
+    second: LOGO-ISART_baselineEN_150DPI_white_2
+  - first:
+      213: 7056195939263348060
+    second: LOGO-ISART_baselineEN_150DPI_white_3
+  - first:
+      213: -3123726796933024733
+    second: LOGO-ISART_baselineEN_150DPI_white_4
+  - first:
+      213: -828220480188881003
+    second: LOGO-ISART_baselineEN_150DPI_white_5
+  - first:
+      213: 2204406964439646907
+    second: LOGO-ISART_baselineEN_150DPI_white_6
+  - first:
+      213: -2065459795633602255
+    second: LOGO-ISART_baselineEN_150DPI_white_7
+  - first:
+      213: 8623055579823777261
+    second: LOGO-ISART_baselineEN_150DPI_white_8
+  - first:
+      213: -6688794347831115764
+    second: LOGO-ISART_baselineEN_150DPI_white_9
+  - first:
+      213: -4299573262592471057
+    second: LOGO-ISART_baselineEN_150DPI_white_10
+  - first:
+      213: -7293559703977860117
+    second: LOGO-ISART_baselineEN_150DPI_white_11
+  - first:
+      213: 1507463191032744635
+    second: LOGO-ISART_baselineEN_150DPI_white_12
+  - first:
+      213: -4847574485028160239
+    second: LOGO-ISART_baselineEN_150DPI_white_13
+  - first:
+      213: 3986551922679139921
+    second: LOGO-ISART_baselineEN_150DPI_white_14
+  - first:
+      213: 3145448953921234444
+    second: LOGO-ISART_baselineEN_150DPI_white_15
+  - first:
+      213: -1328943952626148307
+    second: LOGO-ISART_baselineEN_150DPI_white_16
+  - first:
+      213: -705612575804195041
+    second: LOGO-ISART_baselineEN_150DPI_white_17
+  - first:
+      213: 4299203670301900386
+    second: LOGO-ISART_baselineEN_150DPI_white_18
+  - first:
+      213: 7261445199789671416
+    second: LOGO-ISART_baselineEN_150DPI_white_19
+  - first:
+      213: -8131229759306427513
+    second: LOGO-ISART_baselineEN_150DPI_white_20
+  - first:
+      213: -2241588545095043441
+    second: LOGO-ISART_baselineEN_150DPI_white_21
+  - first:
+      213: 7927423779035532300
+    second: LOGO-ISART_baselineEN_150DPI_white_22
+  - first:
+      213: 8261844614880923108
+    second: LOGO-ISART_baselineEN_150DPI_white_23
+  - first:
+      213: -1111406321559190265
+    second: LOGO-ISART_baselineEN_150DPI_white_24
+  - first:
+      213: -9056577044365906380
+    second: LOGO-ISART_baselineEN_150DPI_white_25
+  - first:
+      213: -5733449923471312414
+    second: LOGO-ISART_baselineEN_150DPI_white_26
+  - first:
+      213: -4491994241952226882
+    second: LOGO-ISART_baselineEN_150DPI_white_27
+  - first:
+      213: 3772568048141208410
+    second: LOGO-ISART_baselineEN_150DPI_white_28
+  - first:
+      213: 1205411649632173100
+    second: LOGO-ISART_baselineEN_150DPI_white_29
+  - first:
+      213: 9157107786747487655
+    second: LOGO-ISART_baselineEN_150DPI_white_30
+  - first:
+      213: -5962987819086488446
+    second: LOGO-ISART_baselineEN_150DPI_white_31
+  - first:
+      213: 6938707344622121817
+    second: LOGO-ISART_baselineEN_150DPI_white_32
+  - first:
+      213: 9093870773122658028
+    second: LOGO-ISART_baselineEN_150DPI_white_33
+  - first:
+      213: -8563086168162040442
+    second: LOGO-ISART_baselineEN_150DPI_white_34
+  - first:
+      213: -8022969940455227960
+    second: LOGO-ISART_baselineEN_150DPI_white_35
+  - first:
+      213: -2049146208183132574
+    second: LOGO-ISART_baselineEN_150DPI_white_36
+  - first:
+      213: 7385289368238780430
+    second: LOGO-ISART_baselineEN_150DPI_white_37
+  - first:
+      213: 1850055719921822602
+    second: LOGO-ISART_baselineEN_150DPI_white_38
+  - first:
+      213: 3122104652179174881
+    second: LOGO-ISART_baselineEN_150DPI_white_39
+  - first:
+      213: -2242925125252930780
+    second: LOGO-ISART_baselineEN_150DPI_white_40
+  - first:
+      213: -4402874706331378096
+    second: LOGO-ISART_baselineEN_150DPI_white_41
+  - first:
+      213: 3165133154578366784
+    second: LOGO-ISART_baselineEN_150DPI_white_42
+  - first:
+      213: -2215315678456490015
+    second: LOGO-ISART_baselineEN_150DPI_white_43
+  - first:
+      213: -3996858072653533217
+    second: LOGO-ISART_baselineEN_150DPI_white_44
+  - first:
+      213: 1766217400090079815
+    second: LOGO-ISART_baselineEN_150DPI_white_45
+  - first:
+      213: -3981001065759846880
+    second: LOGO-ISART_baselineEN_150DPI_white_46
+  - first:
+      213: 5654589147105112219
+    second: LOGO-ISART_baselineEN_150DPI_white_47
+  - first:
+      213: -912616856322282683
+    second: LOGO-ISART_baselineEN_150DPI_white_48
+  - first:
+      213: 6256829830736888530
+    second: LOGO-ISART_baselineEN_150DPI_white_49
+  - first:
+      213: 5934943471738236400
+    second: LOGO-ISART_baselineEN_150DPI_white_50
+  - first:
+      213: -7036520604481980335
+    second: LOGO-ISART_baselineEN_150DPI_white_51
+  - first:
+      213: -1530003145495653692
+    second: LOGO-ISART_baselineEN_150DPI_white_52
+  - first:
+      213: 7989121805782568485
+    second: LOGO-ISART_baselineEN_150DPI_white_53
+  - first:
+      213: -81950470371561437
+    second: LOGO-ISART_baselineEN_150DPI_white_54
+  - first:
+      213: -287683183938248316
+    second: LOGO-ISART_baselineEN_150DPI_white_55
+  - first:
+      213: 8136538761643518779
+    second: LOGO-ISART_baselineEN_150DPI_white_56
+  - first:
+      213: 5793658587372104939
+    second: LOGO-ISART_baselineEN_150DPI_white_57
+  - first:
+      213: 919208887876996790
+    second: LOGO-ISART_baselineEN_150DPI_white_58
+  - first:
+      213: 210567895830753506
+    second: LOGO-ISART_baselineEN_150DPI_white_59
+  - first:
+      213: 2757115669823034507
+    second: LOGO-ISART_baselineEN_150DPI_white_60
+  - first:
+      213: 4798580454853197785
+    second: LOGO-ISART_baselineEN_150DPI_white_61
+  - first:
+      213: 1766658452012398764
+    second: LOGO-ISART_baselineEN_150DPI_white_62
+  - first:
+      213: -677248675947470151
+    second: LOGO-ISART_baselineEN_150DPI_white_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 214
+        width: 25
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72482e4ea2085d5b0800000000000000
+      internalID: -5344224461088193497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 211
+        width: 159
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0856881ce8c5c640800000000000000
+      internalID: 5099703069416249358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_2
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 214
+        width: 185
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d8105e326716f240800000000000000
+      internalID: 4825069761493735639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_3
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 214
+        width: 172
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d785942d4ace160800000000000000
+      internalID: 7056195939263348060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_4
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 214
+        width: 94
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3243075470b46a4d0800000000000000
+      internalID: -3123726796933024733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_5
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 360
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59763a28cd19184f0800000000000000
+      internalID: -828220480188881003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 148
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb282d76470a79e10800000000000000
+      internalID: 2204406964439646907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_7
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 148
+        width: 10
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 131886752430653e0800000000000000
+      internalID: -2065459795633602255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_8
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 147
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de5a8d9ec5f3ba770800000000000000
+      internalID: 8623055579823777261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_9
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 148
+        width: 9
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c00c2e9baf0ac23a0800000000000000
+      internalID: -6688794347831115764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_10
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 148
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef8865d5e8d454c0800000000000000
+      internalID: -4299573262592471057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_11
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 148
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be3eb48971218ca90800000000000000
+      internalID: -7293559703977860117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_12
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 148
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbacb7d09c59be410800000000000000
+      internalID: 1507463191032744635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 707
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d36ad70b4f9bcb0800000000000000
+      internalID: -4847574485028160239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 68
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ec0fd1ad3135730800000000000000
+      internalID: 3986551922679139921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_15
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 68
+        width: 8
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0669958821e6ab20800000000000000
+      internalID: 3145448953921234444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_16
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 68
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2c90512484ae8de0800000000000000
+      internalID: -1328943952626148307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 68
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f742ec9192536f0800000000000000
+      internalID: -705612575804195041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_18
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 68
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e7661c5f6d9ab30800000000000000
+      internalID: 4299203670301900386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_19
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 68
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f3cd69bfe5d5c460800000000000000
+      internalID: 7261445199789671416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_20
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 68
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78394717d91182f80800000000000000
+      internalID: -8131229759306427513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_21
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 68
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f86760d381744e0e0800000000000000
+      internalID: -2241588545095043441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_22
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 68
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0cc56dfcedd30e60800000000000000
+      internalID: 7927423779035532300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_23
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 68
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed837377e7f7a270800000000000000
+      internalID: 8261844614880923108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_24
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 68
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 705475ac6dd7390f0800000000000000
+      internalID: -1111406321559190265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_25
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 68
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43eec957923905280800000000000000
+      internalID: -9056577044365906380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_26
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 76
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e97006fba1be60b0800000000000000
+      internalID: -5733449923471312414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_27
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 68
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb1665b590b39a1c0800000000000000
+      internalID: -4491994241952226882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_28
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 68
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5b0270e6aada5430800000000000000
+      internalID: 3772568048141208410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_29
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 68
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c7170428b7ab010800000000000000
+      internalID: 1205411649632173100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_30
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 68
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a52c0ff305941f70800000000000000
+      internalID: 9157107786747487655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_31
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 68
+        width: 7
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28c5e5bfb263f3da0800000000000000
+      internalID: -5962987819086488446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_32
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 68
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 953789c219d3b4060800000000000000
+      internalID: 6938707344622121817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_33
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 68
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee6849694be33e70800000000000000
+      internalID: 9093870773122658028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_34
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 68
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68504adcf7ec92980800000000000000
+      internalID: -8563086168162040442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_35
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 68
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd778fb85fa8a090800000000000000
+      internalID: -8022969940455227960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_36
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 68
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26ed7686168ff83e0800000000000000
+      internalID: -2049146208183132574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_37
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 68
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e00775d2d81dd7660800000000000000
+      internalID: 7385289368238780430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_38
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 68
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8bae9010e7bca910800000000000000
+      internalID: 1850055719921822602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_39
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 68
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e5fbb8b3a1f35b20800000000000000
+      internalID: 3122104652179174881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 42
+        width: 707
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 423208b6b778fd0e0800000000000000
+      internalID: -2242925125252930780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_41
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ed09238c8d5e2c0800000000000000
+      internalID: -4402874706331378096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_42
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 0
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0418471a5dfcceb20800000000000000
+      internalID: 3165133154578366784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_43
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 0
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e75f30b02e9141e0800000000000000
+      internalID: -2215315678456490015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_44
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 0
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf65d952ce4888c0800000000000000
+      internalID: -3996858072653533217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_45
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 8
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 742bb781e5dd28810800000000000000
+      internalID: 1766217400090079815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_46
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 0
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02ecee87f94a0c8c0800000000000000
+      internalID: -3981001065759846880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_47
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 0
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b90baf7bed2297e40800000000000000
+      internalID: 5654589147105112219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_48
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 0
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54b60eeedcbb553f0800000000000000
+      internalID: -912616856322282683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_49
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 0
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d2c329b499b4d650800000000000000
+      internalID: 6256829830736888530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_50
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 8
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fd2bf294a72d5250800000000000000
+      internalID: 5934943471738236400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_51
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 0
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15872239ac1495e90800000000000000
+      internalID: -7036520604481980335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_52
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 0
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c25087de3654cae0800000000000000
+      internalID: -1530003145495653692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_53
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 0
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e4ff444ff0fde60800000000000000
+      internalID: 7989121805782568485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_54
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 0
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 320b35c3b7adcdef0800000000000000
+      internalID: -81950470371561437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_55
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 481e18d1ba1f10cf0800000000000000
+      internalID: -287683183938248316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_56
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 0
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3b65fcf4eacae070800000000000000
+      internalID: 8136538761643518779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_57
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 0
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beca4320ac5376050800000000000000
+      internalID: 5793658587372104939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_58
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 0
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6be4a440d9fa1cc00800000000000000
+      internalID: 919208887876996790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_59
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 0
+        width: 47
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e0f718b2661ce200800000000000000
+      internalID: 210567895830753506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_60
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 0
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b841778081e334620800000000000000
+      internalID: 2757115669823034507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_61
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 0
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df38adef7bf79240800000000000000
+      internalID: 4798580454853197785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_62
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 0
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca8f3af708e648810800000000000000
+      internalID: 1766658452012398764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO-ISART_baselineEN_150DPI_white_63
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 0
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b22c8ddaede996f0800000000000000
+      internalID: -677248675947470151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LOGO-ISART_baselineEN_150DPI_white_0: -5344224461088193497
+      LOGO-ISART_baselineEN_150DPI_white_1: 5099703069416249358
+      LOGO-ISART_baselineEN_150DPI_white_10: -4299573262592471057
+      LOGO-ISART_baselineEN_150DPI_white_11: -7293559703977860117
+      LOGO-ISART_baselineEN_150DPI_white_12: 1507463191032744635
+      LOGO-ISART_baselineEN_150DPI_white_13: -4847574485028160239
+      LOGO-ISART_baselineEN_150DPI_white_14: 3986551922679139921
+      LOGO-ISART_baselineEN_150DPI_white_15: 3145448953921234444
+      LOGO-ISART_baselineEN_150DPI_white_16: -1328943952626148307
+      LOGO-ISART_baselineEN_150DPI_white_17: -705612575804195041
+      LOGO-ISART_baselineEN_150DPI_white_18: 4299203670301900386
+      LOGO-ISART_baselineEN_150DPI_white_19: 7261445199789671416
+      LOGO-ISART_baselineEN_150DPI_white_2: 4825069761493735639
+      LOGO-ISART_baselineEN_150DPI_white_20: -8131229759306427513
+      LOGO-ISART_baselineEN_150DPI_white_21: -2241588545095043441
+      LOGO-ISART_baselineEN_150DPI_white_22: 7927423779035532300
+      LOGO-ISART_baselineEN_150DPI_white_23: 8261844614880923108
+      LOGO-ISART_baselineEN_150DPI_white_24: -1111406321559190265
+      LOGO-ISART_baselineEN_150DPI_white_25: -9056577044365906380
+      LOGO-ISART_baselineEN_150DPI_white_26: -5733449923471312414
+      LOGO-ISART_baselineEN_150DPI_white_27: -4491994241952226882
+      LOGO-ISART_baselineEN_150DPI_white_28: 3772568048141208410
+      LOGO-ISART_baselineEN_150DPI_white_29: 1205411649632173100
+      LOGO-ISART_baselineEN_150DPI_white_3: 7056195939263348060
+      LOGO-ISART_baselineEN_150DPI_white_30: 9157107786747487655
+      LOGO-ISART_baselineEN_150DPI_white_31: -5962987819086488446
+      LOGO-ISART_baselineEN_150DPI_white_32: 6938707344622121817
+      LOGO-ISART_baselineEN_150DPI_white_33: 9093870773122658028
+      LOGO-ISART_baselineEN_150DPI_white_34: -8563086168162040442
+      LOGO-ISART_baselineEN_150DPI_white_35: -8022969940455227960
+      LOGO-ISART_baselineEN_150DPI_white_36: -2049146208183132574
+      LOGO-ISART_baselineEN_150DPI_white_37: 7385289368238780430
+      LOGO-ISART_baselineEN_150DPI_white_38: 1850055719921822602
+      LOGO-ISART_baselineEN_150DPI_white_39: 3122104652179174881
+      LOGO-ISART_baselineEN_150DPI_white_4: -3123726796933024733
+      LOGO-ISART_baselineEN_150DPI_white_40: -2242925125252930780
+      LOGO-ISART_baselineEN_150DPI_white_41: -4402874706331378096
+      LOGO-ISART_baselineEN_150DPI_white_42: 3165133154578366784
+      LOGO-ISART_baselineEN_150DPI_white_43: -2215315678456490015
+      LOGO-ISART_baselineEN_150DPI_white_44: -3996858072653533217
+      LOGO-ISART_baselineEN_150DPI_white_45: 1766217400090079815
+      LOGO-ISART_baselineEN_150DPI_white_46: -3981001065759846880
+      LOGO-ISART_baselineEN_150DPI_white_47: 5654589147105112219
+      LOGO-ISART_baselineEN_150DPI_white_48: -912616856322282683
+      LOGO-ISART_baselineEN_150DPI_white_49: 6256829830736888530
+      LOGO-ISART_baselineEN_150DPI_white_5: -828220480188881003
+      LOGO-ISART_baselineEN_150DPI_white_50: 5934943471738236400
+      LOGO-ISART_baselineEN_150DPI_white_51: -7036520604481980335
+      LOGO-ISART_baselineEN_150DPI_white_52: -1530003145495653692
+      LOGO-ISART_baselineEN_150DPI_white_53: 7989121805782568485
+      LOGO-ISART_baselineEN_150DPI_white_54: -81950470371561437
+      LOGO-ISART_baselineEN_150DPI_white_55: -287683183938248316
+      LOGO-ISART_baselineEN_150DPI_white_56: 8136538761643518779
+      LOGO-ISART_baselineEN_150DPI_white_57: 5793658587372104939
+      LOGO-ISART_baselineEN_150DPI_white_58: 919208887876996790
+      LOGO-ISART_baselineEN_150DPI_white_59: 210567895830753506
+      LOGO-ISART_baselineEN_150DPI_white_6: 2204406964439646907
+      LOGO-ISART_baselineEN_150DPI_white_60: 2757115669823034507
+      LOGO-ISART_baselineEN_150DPI_white_61: 4798580454853197785
+      LOGO-ISART_baselineEN_150DPI_white_62: 1766658452012398764
+      LOGO-ISART_baselineEN_150DPI_white_63: -677248675947470151
+      LOGO-ISART_baselineEN_150DPI_white_7: -2065459795633602255
+      LOGO-ISART_baselineEN_150DPI_white_8: 8623055579823777261
+      LOGO-ISART_baselineEN_150DPI_white_9: -6688794347831115764
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

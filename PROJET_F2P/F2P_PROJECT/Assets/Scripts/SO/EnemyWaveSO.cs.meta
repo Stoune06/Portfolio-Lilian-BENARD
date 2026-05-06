@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 39e8bdd8f7c085044a6628e2cd8a05d2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _WaveIllustration: {fileID: 21300000, guid: d769d20de36aaa74d80b8c62102f268b, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

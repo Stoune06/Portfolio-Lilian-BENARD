@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{26a7aa79-c15c-4a5c-bc58-193533ec6854}">
+		<property name="assetPath">
+			<value>BTL_Intro_V1Voices.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>70</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{abb68068-9e76-410e-a4f2-729e2a978454}</destination>
+		</relationship>
+	</object>
+</objects>

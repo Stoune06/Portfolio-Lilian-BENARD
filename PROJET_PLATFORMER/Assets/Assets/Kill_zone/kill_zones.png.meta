@@ -1,0 +1,714 @@
+fileFormatVersion: 2
+guid: 2dad8b89966dc354c9b7fe65a42bcdb4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3580879840964736752
+    second: kill_zones_0
+  - first:
+      213: -4540990811411514352
+    second: kill_zones_1
+  - first:
+      213: 6889403857656208540
+    second: kill_zones_2
+  - first:
+      213: 1345653622407451925
+    second: kill_zones_3
+  - first:
+      213: 8407317802127078079
+    second: kill_zones_4
+  - first:
+      213: -4862201413629812365
+    second: kill_zones_5
+  - first:
+      213: 996301284963146811
+    second: kill_zones_6
+  - first:
+      213: 5762569484957367650
+    second: kill_zones_7
+  - first:
+      213: 843358954783643514
+    second: kill_zones_8
+  - first:
+      213: -2376153259635291033
+    second: kill_zones_9
+  - first:
+      213: -8889067510701976585
+    second: kill_zones_10
+  - first:
+      213: -6076908703786780078
+    second: kill_zones_11
+  - first:
+      213: 3514252265953865395
+    second: kill_zones_12
+  - first:
+      213: 6007995336200732342
+    second: kill_zones_13
+  - first:
+      213: -5091196313486527618
+    second: kill_zones_14
+  - first:
+      213: -8099426947684040984
+    second: kill_zones_15
+  - first:
+      213: 1341166108910931963
+    second: kill_zones_16
+  - first:
+      213: -8698322130418927803
+    second: kill_zones_17
+  - first:
+      213: -7376428755698758989
+    second: kill_zones_18
+  - first:
+      213: -3558128883337621089
+    second: kill_zones_19
+  - first:
+      213: 5742175668883336997
+    second: kill_zones_20
+  - first:
+      213: -8697862474663020378
+    second: kill_zones_21
+  - first:
+      213: 8429809675053607239
+    second: kill_zones_22
+  - first:
+      213: 1326978413716879720
+    second: kill_zones_23
+  - first:
+      213: -2977079681061575234
+    second: kill_zones_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kill_zones_0
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 922
+        width: 73
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f67f083e37d1b130800000000000000
+      internalID: 3580879840964736752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kill_zones_1
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 925
+        width: 126
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01cf08d8ae82bf0c0800000000000000
+      internalID: -4540990811411514352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kill_zones_2
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 924
+        width: 131
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9cddc19e441c9f50800000000000000
+      internalID: 6889403857656208540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kill_zones_3
+      rect:
+        serializedVersion: 2
+        x: 2144
+        y: 923
+        width: 111
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 515505a07d8bca210800000000000000
+      internalID: 1345653622407451925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kill_zones_4
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 437
+        width: 502
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb23a954ffacca470800000000000000
+      internalID: 8407317802127078079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kill_zones_7
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 443
+        width: 512
+        height: 434
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26db3684a62c8ff40800000000000000
+      internalID: 5762569484957367650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kill_zones_8
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 444
+        width: 481
+        height: 445
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a771606408634bb00800000000000000
+      internalID: 843358954783643514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kill_zones_9
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 637
+        width: 171
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76c4d832335360fd0800000000000000
+      internalID: -2376153259635291033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kill_zones_10
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 639
+        width: 161
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f394200230b3a480800000000000000
+      internalID: -8889067510701976585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kill_zones_11
+      rect:
+        serializedVersion: 2
+        x: 2162
+        y: 639
+        width: 152
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a3f421bbb7aaba0800000000000000
+      internalID: -6076908703786780078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kill_zones_12
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 477
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3beaa4b01d125c030800000000000000
+      internalID: 3514252265953865395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kill_zones_13
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 477
+        width: 144
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6beb2723defa06350800000000000000
+      internalID: 6007995336200732342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kill_zones_14
+      rect:
+        serializedVersion: 2
+        x: 2074
+        y: 479
+        width: 99
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e737bdc5def6859b0800000000000000
+      internalID: -5091196313486527618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kill_zones_15
+      rect:
+        serializedVersion: 2
+        x: 2214
+        y: 479
+        width: 89
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eef01b8a1e099f80800000000000000
+      internalID: -8099426947684040984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kill_zones_16
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 223
+        width: 129
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bffcd626877cc9210800000000000000
+      internalID: 1341166108910931963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kill_zones_17
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 228
+        width: 103
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 547f57aab1a594780800000000000000
+      internalID: -8698322130418927803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kill_zones_18
+      rect:
+        serializedVersion: 2
+        x: 2078
+        y: 237
+        width: 85
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ba4991f029a1a990800000000000000
+      internalID: -7376428755698758989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kill_zones_19
+      rect:
+        serializedVersion: 2
+        x: 2217
+        y: 248
+        width: 75
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f919a93e1acfe9ec0800000000000000
+      internalID: -3558128883337621089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kill_zones_21
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 70
+        width: 43
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a8b28c992cfa4780800000000000000
+      internalID: -8697862474663020378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kill_zones_22
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 77
+        width: 60
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749a8b58c33bcf470800000000000000
+      internalID: 8429809675053607239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kill_zones_23
+      rect:
+        serializedVersion: 2
+        x: 2116
+        y: 74
+        width: 48
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 869b43e26df5a6210800000000000000
+      internalID: 1326978413716879720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kill_zones_24
+      rect:
+        serializedVersion: 2
+        x: 2252
+        y: 78
+        width: 42
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb5aa46adc94fa6d0800000000000000
+      internalID: -2977079681061575234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 23388084c4bdfc2428e8bb9ce4f5fac8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      kill_zones_0: 3580879840964736752
+      kill_zones_1: -4540990811411514352
+      kill_zones_10: -8889067510701976585
+      kill_zones_11: -6076908703786780078
+      kill_zones_12: 3514252265953865395
+      kill_zones_13: 6007995336200732342
+      kill_zones_14: -5091196313486527618
+      kill_zones_15: -8099426947684040984
+      kill_zones_16: 1341166108910931963
+      kill_zones_17: -8698322130418927803
+      kill_zones_18: -7376428755698758989
+      kill_zones_19: -3558128883337621089
+      kill_zones_2: 6889403857656208540
+      kill_zones_20: 5742175668883336997
+      kill_zones_21: -8697862474663020378
+      kill_zones_22: 8429809675053607239
+      kill_zones_23: 1326978413716879720
+      kill_zones_24: -2977079681061575234
+      kill_zones_3: 1345653622407451925
+      kill_zones_4: 8407317802127078079
+      kill_zones_5: -4862201413629812365
+      kill_zones_6: 996301284963146811
+      kill_zones_7: 5762569484957367650
+      kill_zones_8: 843358954783643514
+      kill_zones_9: -2376153259635291033
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

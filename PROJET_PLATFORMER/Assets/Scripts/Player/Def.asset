@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3c8a3fca6a95bd4794ba86fe6fcadb2, type: 3}
+  m_Name: Def
+  m_EditorClassIdentifier: 
+  movementSpeed: 7
+  maxRunSpeed: 7
+  groundAcceleration: 20
+  groundDeceleration: 20
+  airAcceleration: 1.8
+  airDeceleration: 0.25
+  maxAirControl: 5
+  jumpHeight: 2
+  jumpHeightCompensationFactor: 1.054
+  timeTillJumpApex: 0.37
+  gravityOnReleaseMultiplier: 0.97
+  maxFallSpeed: 20
+  fastFallGravityMultiplier: 1.5
+  timeForUpwardsCancel: 0.121
+  apexThreshold: 0.97
+  apexHangTime: 0.074
+  jumpBufferTime: 0.166
+  jumpCoyoteTime: 0.1
+  timeTillWallJumpApex: 0.37
+  wallJumpHeight: 3
+  wallImpulsion: 7
+  inAirMovementSpeed: 10
+  OnWallVelocityY: 1
+  WallJumpForceGravityMultiplier: 10
+  DeadZoneGravityMultiplier: 0.5
+  MaxWallJump: 4

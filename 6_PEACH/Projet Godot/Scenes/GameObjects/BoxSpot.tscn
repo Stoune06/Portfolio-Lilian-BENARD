@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://co4ugu7e6npnh"]
+
+[node name="BoxSpot" type="Node2D"]
+
+[node name="Renderer" type="ColorRect" parent="."]
+offset_left = 5.0
+offset_top = 5.0
+offset_right = 35.0
+offset_bottom = 35.0
+color = Color(0.470588, 1, 1, 1)

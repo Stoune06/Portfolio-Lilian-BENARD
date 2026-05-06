@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{c2becf4d-95f2-43e7-b66e-6757208d7802}">
+		<property name="name">
+			<value>OpenSettings</value>
+		</property>
+		<relationship name="folder">
+			<destination>{2719a1d5-499a-4689-9577-a5400dc11c52}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{f401c19e-f9a9-42a9-81b8-9afc5ce15fab}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{f401c19e-f9a9-42a9-81b8-9afc5ce15fab}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Opened</value>
+			<value>Closed</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

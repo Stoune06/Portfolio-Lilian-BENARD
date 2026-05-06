@@ -1,0 +1,5 @@
+C:/Users/prsnc/Fork/2025_2026_f2p_gd2_gdp22026_f2p-goldmoon/F2P_PROJECT/.utmp/RelWithDebInfo/4g1k5a58/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/prsnc/Fork/2025_2026_f2p_gd2_gdp22026_f2p-goldmoon/F2P_PROJECT/.utmp/RelWithDebInfo/4g1k5a58/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Users/prsnc/Fork/2025_2026_f2p_gd2_gdp22026_f2p-goldmoon/F2P_PROJECT/.utmp/RelWithDebInfo/4g1k5a58/arm64-v8a/GameActivity/CMakeFiles/game.dir
+C:/Users/prsnc/Fork/2025_2026_f2p_gd2_gdp22026_f2p-goldmoon/F2P_PROJECT/.utmp/RelWithDebInfo/4g1k5a58/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+C:/Users/prsnc/Fork/2025_2026_f2p_gd2_gdp22026_f2p-goldmoon/F2P_PROJECT/.utmp/RelWithDebInfo/4g1k5a58/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir

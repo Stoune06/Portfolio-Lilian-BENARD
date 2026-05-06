@@ -1,0 +1,112 @@
+[gd_scene load_steps=8 format=3 uid="uid://7ornvobs8tbn"]
+
+[ext_resource type="Script" path="res://Scripts/UI/WinScreen.cs" id="1_qok2f"]
+[ext_resource type="PackedScene" uid="uid://3licdukx4ygq" path="res://Scenes/UI/Menu/Menu.tscn" id="2_icxbu"]
+[ext_resource type="PackedScene" uid="uid://dgklh7xd14i8" path="res://Scenes/SFX/FlameAnim.tscn" id="3_gnud0"]
+[ext_resource type="PackedScene" uid="uid://doe24x428yfb3" path="res://Scenes/SFX/Particles/FlameParticles.tscn" id="3_m0hxf"]
+[ext_resource type="FontFile" uid="uid://mq55u4u4fh4l" path="res://Assets/Fonts/DalekPinpointBold.ttf" id="5_bovae"]
+[ext_resource type="Theme" uid="uid://ckc0g2l53mxwy" path="res://Assets/Textures/UI/Modules/UITheme.tres" id="6_ntj8x"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_20sqh"]
+font = ExtResource("5_bovae")
+font_size = 90
+font_color = Color(0.870588, 0.823529, 0.717647, 1)
+
+[node name="WinScreen" type="CanvasLayer" node_paths=PackedStringArray("menu", "next", "background", "flameOne", "flameTwo", "flameThree", "bigFlame", "flameParticles")]
+process_mode = 3
+script = ExtResource("1_qok2f")
+menu = NodePath("Button")
+next = NodePath("Button2")
+sceneMenu = ExtResource("2_icxbu")
+background = NodePath("ColorRect")
+flameOne = NodePath("FlameAnim")
+flameTwo = NodePath("FlameAnim2")
+flameThree = NodePath("FlameAnim3")
+bigFlame = NodePath("BigFlameAnim")
+flameParticles = NodePath("BigFlameAnim/FlameParticles")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.0509804, 0.0470588, 0.0509804, 0.705882)
+
+[node name="FlameAnim" parent="." instance=ExtResource("3_gnud0")]
+visible = false
+position = Vector2(735, 688)
+scale = Vector2(0.4, 0.4)
+frame = 2
+frame_progress = 0.793617
+
+[node name="FlameAnim2" parent="." instance=ExtResource("3_gnud0")]
+visible = false
+position = Vector2(1182, 687)
+scale = Vector2(0.4, 0.4)
+
+[node name="FlameAnim3" parent="." instance=ExtResource("3_gnud0")]
+visible = false
+position = Vector2(962, 477)
+scale = Vector2(0.4, 0.4)
+
+[node name="BigFlameAnim" parent="." instance=ExtResource("3_gnud0")]
+visible = false
+position = Vector2(965, 494)
+scale = Vector2(0.85, 0.85)
+offset = Vector2(0, -100)
+
+[node name="FlameParticles" parent="BigFlameAnim" instance=ExtResource("3_m0hxf")]
+visible = false
+
+[node name="Label" type="Label" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -215.5
+offset_top = -399.5
+offset_right = 215.5
+offset_bottom = -284.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 84
+text = "YOU WIN !"
+label_settings = SubResource("LabelSettings_20sqh")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button" type="Button" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -230.0
+offset_top = 195.0
+offset_right = 190.0
+offset_bottom = 430.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.5, 0.5)
+theme = ExtResource("6_ntj8x")
+theme_override_font_sizes/font_size = 70
+text = "Menu"
+
+[node name="Button2" type="Button" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 34.0
+offset_top = 195.0
+offset_right = 466.0
+offset_bottom = 432.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.5, 0.5)
+theme = ExtResource("6_ntj8x")
+theme_override_font_sizes/font_size = 70
+text = "Next"

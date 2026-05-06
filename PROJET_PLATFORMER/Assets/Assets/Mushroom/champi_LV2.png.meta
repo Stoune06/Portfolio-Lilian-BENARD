@@ -1,0 +1,297 @@
+fileFormatVersion: 2
+guid: 0ed5b955f49cf7948be0c83c25921a88
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8770131909670757170
+    second: champi_LV2_0
+  - first:
+      213: -595499875109190437
+    second: champi_LV2_1
+  - first:
+      213: -3324921159186533542
+    second: champi_LV2_2
+  - first:
+      213: 3761250603323869154
+    second: champi_LV2_3
+  - first:
+      213: -6809675857501612549
+    second: champi_LV2_4
+  - first:
+      213: -2568375422509463216
+    second: champi_LV2_5
+  - first:
+      213: 743173131534369933
+    second: champi_LV2_6
+  - first:
+      213: -1531635459692417571
+    second: champi_LV2_7
+  - first:
+      213: 4374633189280834817
+    second: champi_LV2_8
+  - first:
+      213: -7911019938645512672
+    second: champi_LV2_9
+  - first:
+      213: 7698001898308349865
+    second: champi_LV2_10
+  - first:
+      213: 8237298358470941635
+    second: champi_LV2_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: champi_LV2_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 499
+        width: 420
+        height: 431
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc91ca8e7b3a4680800000000000000
+      internalID: -8770131909670757170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champi_LV2_1
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 84
+        width: 524
+        height: 662
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd4c358c40c5cb7f0800000000000000
+      internalID: -595499875109190437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champi_LV2_2
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 350
+        width: 557
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53b18862d18bd1d0800000000000000
+      internalID: -3324921159186533542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champi_LV2_3
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 546
+        width: 247
+        height: 469
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e7c75aee75a23430800000000000000
+      internalID: 3761250603323869154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champi_LV2_4
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 109
+        width: 265
+        height: 830
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf5101603eb2f71a0800000000000000
+      internalID: -6809675857501612549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champi_LV2_5
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 32
+        width: 605
+        height: 493
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 059ca7b392c4b5cd0800000000000000
+      internalID: -2568375422509463216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0f76a4aa2f2f80b40a4d09906abe4b98
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      champi_LV2_0: -8770131909670757170
+      champi_LV2_1: -595499875109190437
+      champi_LV2_10: 7698001898308349865
+      champi_LV2_11: 8237298358470941635
+      champi_LV2_2: -3324921159186533542
+      champi_LV2_3: 3761250603323869154
+      champi_LV2_4: -6809675857501612549
+      champi_LV2_5: -2568375422509463216
+      champi_LV2_6: 743173131534369933
+      champi_LV2_7: -1531635459692417571
+      champi_LV2_8: 4374633189280834817
+      champi_LV2_9: -7911019938645512672
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

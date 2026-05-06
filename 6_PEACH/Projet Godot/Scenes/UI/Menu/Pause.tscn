@@ -1,0 +1,79 @@
+[gd_scene load_steps=5 format=3 uid="uid://bj3ywjvcuea3y"]
+
+[ext_resource type="Script" path="res://Scripts/UI/Pause.cs" id="1_djn7h"]
+[ext_resource type="Theme" uid="uid://ckc0g2l53mxwy" path="res://Assets/Textures/UI/Modules/UITheme.tres" id="2_7hpbm"]
+[ext_resource type="FontFile" uid="uid://mq55u4u4fh4l" path="res://Assets/Fonts/DalekPinpointBold.ttf" id="3_u67hp"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_xes5w"]
+font = ExtResource("3_u67hp")
+font_size = 120
+font_color = Color(0.768627, 0.729412, 0.643137, 1)
+
+[node name="Pause" type="CanvasLayer" node_paths=PackedStringArray("resume", "menu")]
+process_mode = 3
+script = ExtResource("1_djn7h")
+resume = NodePath("ColorRect/RESUME")
+menu = NodePath("ColorRect/MENU")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.113725, 0.113725, 0.113725, 0.533333)
+
+[node name="RESUME" type="Button" parent="ColorRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -476.0
+offset_top = 98.0
+offset_right = -66.0
+offset_bottom = 323.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.8, 0.8)
+theme = ExtResource("2_7hpbm")
+theme_override_font_sizes/font_size = 60
+text = "RESUME"
+
+[node name="MENU" type="Button" parent="ColorRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 153.0
+offset_top = 98.0001
+offset_right = 563.0
+offset_bottom = 323.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.8, 0.8)
+theme = ExtResource("2_7hpbm")
+theme_override_font_sizes/font_size = 60
+text = "MENU"
+
+[node name="Label" type="Label" parent="ColorRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -312.5
+offset_top = -403.5
+offset_right = 312.5
+offset_bottom = -130.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 200
+text = "PAUSE"
+label_settings = SubResource("LabelSettings_xes5w")
+horizontal_alignment = 1
+vertical_alignment = 1

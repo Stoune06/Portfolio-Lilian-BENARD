@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{00c3a22c-8ea5-4142-944a-dd9cba063efe}">
+		<property name="assetPath">
+			<value>Decor_Frog.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{abb68068-9e76-410e-a4f2-729e2a978454}</destination>
+		</relationship>
+	</object>
+</objects>

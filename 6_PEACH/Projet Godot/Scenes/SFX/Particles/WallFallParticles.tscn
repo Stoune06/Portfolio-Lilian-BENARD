@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://b0nhiiankmnu3"]
+
+[ext_resource type="Texture2D" uid="uid://br4duv3jxpn2d" path="res://Assets/Textures/Particles/DustParticlePlayer.png" id="1_m2pus"]
+[ext_resource type="Material" uid="uid://d2pir1mip5wg2" path="res://Scenes/SFX/Particles/WallFallParticles2.tres" id="1_rmy7s"]
+[ext_resource type="Script" path="res://Scripts/Particles/Particle.cs" id="2_hdmm6"]
+
+[node name="WallFallParticles" type="GPUParticles2D"]
+emitting = false
+amount = 100
+process_material = ExtResource("1_rmy7s")
+texture = ExtResource("1_m2pus")
+lifetime = 0.5
+one_shot = true
+explosiveness = 0.64
+randomness = 1.0
+script = ExtResource("2_hdmm6")
+particleProcessMaterial = ExtResource("1_rmy7s")

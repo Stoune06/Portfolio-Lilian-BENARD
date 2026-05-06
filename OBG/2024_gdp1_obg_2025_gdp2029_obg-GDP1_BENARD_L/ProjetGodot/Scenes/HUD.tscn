@@ -1,0 +1,204 @@
+[gd_scene load_steps=15 format=3 uid="uid://bkrerjk7qvnh2"]
+
+[ext_resource type="Texture2D" uid="uid://brye8ptpj350b" path="res://Assets/ProgressBarBlack.png" id="1_56tsr"]
+[ext_resource type="Script" path="res://Scripts/Managers/HUDManager.cs" id="1_lmkju"]
+[ext_resource type="PackedScene" uid="uid://djj67e76s37hh" path="res://Scenes/UI/MainMenu.tscn" id="2_73ubg"]
+[ext_resource type="Texture2D" uid="uid://ebrclxjw2ta5" path="res://Assets/ProgressBarGreen.png" id="2_i7c3m"]
+[ext_resource type="PackedScene" uid="uid://b6y8ai82h8t3c" path="res://Scenes/UI/InGameUI.tscn" id="3_1cuor"]
+[ext_resource type="PackedScene" uid="uid://xweo8bimfjlh" path="res://Scenes/UI/TransitionScreen.tscn" id="4_2f2tt"]
+[ext_resource type="Texture2D" uid="uid://dby1u2p864ef5" path="res://Assets/utilisateur.png" id="4_5xeej"]
+[ext_resource type="PackedScene" uid="uid://vyfm4xocpnmu" path="res://Scenes/UI/WinScreen.tscn" id="5_3u37c"]
+[ext_resource type="PackedScene" uid="uid://c8nxqnd5lvis4" path="res://Scenes/UI/EndScreen.tscn" id="6_vixkh"]
+[ext_resource type="PackedScene" uid="uid://dia2y7u8g26hi" path="res://Scenes/UI/RecipeList.tscn" id="8_r88nj"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_6g4oq"]
+font_size = 200
+
+[sub_resource type="LabelSettings" id="LabelSettings_x71kn"]
+font_size = 60
+
+[sub_resource type="LabelSettings" id="LabelSettings_4l4rb"]
+font_size = 60
+
+[sub_resource type="LabelSettings" id="LabelSettings_1cok7"]
+font_size = 170
+
+[node name="HUD" type="Control" node_paths=PackedStringArray("mainMenu", "gameHUD", "transitionScreen", "recipeList", "endScreen", "timerPogress", "gCount", "scoreLabel", "playButton", "tapToContinue", "continueButton", "personCountLabel", "personCount")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_lmkju")
+mainMenu = NodePath("MainMenu")
+gameHUD = NodePath("InGameUI")
+transitionScreen = NodePath("TransitionScreen")
+recipeList = NodePath("RecipeList")
+endScreen = NodePath("EndScreen")
+timerPogress = NodePath("TimerProgress")
+gCount = NodePath("gCount")
+scoreLabel = NodePath("ScoreLabel")
+playButton = NodePath("PlayButton")
+tapToContinue = NodePath("TapToContinue")
+continueButton = NodePath("Continue")
+personCountLabel = NodePath("HBoxContainer/Label")
+personCount = NodePath("HBoxContainer")
+
+[node name="TransitionScreen" parent="." instance=ExtResource("4_2f2tt")]
+z_index = 11
+layout_mode = 1
+
+[node name="InGameUI" parent="." instance=ExtResource("3_1cuor")]
+visible = false
+z_index = 2
+layout_mode = 1
+
+[node name="MainMenu" parent="." instance=ExtResource("2_73ubg")]
+layout_mode = 1
+
+[node name="WinScreen" parent="." instance=ExtResource("5_3u37c")]
+visible = false
+layout_mode = 1
+
+[node name="EndScreen" parent="." instance=ExtResource("6_vixkh")]
+visible = false
+layout_mode = 1
+
+[node name="RecipeList" parent="." instance=ExtResource("8_r88nj")]
+layout_mode = 0
+anchors_preset = 0
+anchor_left = 0.0
+anchor_right = 0.0
+offset_left = 0.0
+offset_right = 0.0
+grow_horizontal = 1
+
+[node name="TimerProgress" type="TextureProgressBar" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -141.5
+offset_top = -420.0
+offset_right = 29.5
+offset_bottom = -249.0
+grow_horizontal = 2
+grow_vertical = 0
+scale = Vector2(1.67, 1.67)
+value = 100.0
+fill_mode = 5
+texture_under = ExtResource("1_56tsr")
+texture_progress = ExtResource("2_i7c3m")
+
+[node name="gCount" type="Label" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -117.5
+offset_top = 244.0
+offset_right = 117.5
+offset_bottom = 517.0
+grow_horizontal = 2
+text = "Xg"
+label_settings = SubResource("LabelSettings_6g4oq")
+
+[node name="ScoreLabel" type="Label" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -137.5
+offset_top = -300.5
+offset_right = 137.5
+offset_bottom = -217.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "SCORE : X"
+label_settings = SubResource("LabelSettings_x71kn")
+
+[node name="PlayButton" type="Button" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -320.0
+offset_top = -85.0
+offset_right = 319.0
+offset_bottom = 85.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "PLAY"
+
+[node name="TapToContinue" type="Label" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -436.5
+offset_top = 213.5
+offset_right = 436.5
+offset_bottom = 554.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "           Tap to continue !
+
+
+Hold to return to main menu !"
+label_settings = SubResource("LabelSettings_4l4rb")
+
+[node name="Continue" type="Button" parent="."]
+visible = false
+z_index = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -109.0
+offset_top = -29.0
+offset_right = 109.0
+offset_bottom = 29.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Continue
+"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -20.0
+offset_right = 20.0
+offset_bottom = 69.0
+grow_horizontal = 2
+
+[node name="Label" type="Label" parent="HBoxContainer"]
+layout_mode = 2
+text = "1"
+label_settings = SubResource("LabelSettings_1cok7")
+
+[node name="Control" type="Control" parent="HBoxContainer"]
+layout_mode = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="HBoxContainer/Control"]
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("4_5xeej")
+centered = false

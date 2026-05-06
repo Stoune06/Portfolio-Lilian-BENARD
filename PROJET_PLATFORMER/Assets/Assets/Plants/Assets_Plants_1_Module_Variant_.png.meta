@@ -1,0 +1,1068 @@
+fileFormatVersion: 2
+guid: 70839366169aa1b49bfdda8fa1037204
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3831874194666992618
+    second: Assets_Plants_1_Module_Variant__0
+  - first:
+      213: -8154814943465027001
+    second: Assets_Plants_1_Module_Variant__1
+  - first:
+      213: -8165712025593380695
+    second: Assets_Plants_1_Module_Variant__2
+  - first:
+      213: 3726777017592505589
+    second: Assets_Plants_1_Module_Variant__3
+  - first:
+      213: 710749767475870025
+    second: Assets_Plants_1_Module_Variant__4
+  - first:
+      213: -1944673778760814329
+    second: Assets_Plants_1_Module_Variant__5
+  - first:
+      213: -5305945001195776713
+    second: Assets_Plants_1_Module_Variant__6
+  - first:
+      213: -3790567951671101028
+    second: Assets_Plants_1_Module_Variant__7
+  - first:
+      213: 6802508288843770471
+    second: Assets_Plants_1_Module_Variant__8
+  - first:
+      213: 8271492987765904711
+    second: Assets_Plants_1_Module_Variant__9
+  - first:
+      213: 1810167905523365453
+    second: Assets_Plants_1_Module_Variant__10
+  - first:
+      213: -8718617465119609849
+    second: Assets_Plants_1_Module_Variant__11
+  - first:
+      213: -1147079332251655264
+    second: Assets_Plants_1_Module_Variant__12
+  - first:
+      213: -6925703964935186463
+    second: Assets_Plants_1_Module_Variant__13
+  - first:
+      213: 8878155393869015433
+    second: Assets_Plants_1_Module_Variant__14
+  - first:
+      213: -668364382899675535
+    second: Assets_Plants_1_Module_Variant__15
+  - first:
+      213: -7294070303167951576
+    second: Assets_Plants_1_Module_Variant__16
+  - first:
+      213: -5059927036913355928
+    second: Assets_Plants_1_Module_Variant__17
+  - first:
+      213: 6505862733539271444
+    second: Assets_Plants_1_Module_Variant__18
+  - first:
+      213: 3946260515754815263
+    second: Assets_Plants_1_Module_Variant__19
+  - first:
+      213: 217115368068077018
+    second: Assets_Plants_1_Module_Variant__20
+  - first:
+      213: -2364384208383253798
+    second: Assets_Plants_1_Module_Variant__21
+  - first:
+      213: 4962195637250453704
+    second: Assets_Plants_1_Module_Variant__22
+  - first:
+      213: 6388541237007620886
+    second: Assets_Plants_1_Module_Variant__23
+  - first:
+      213: -1165968810503617917
+    second: Assets_Plants_1_Module_Variant__24
+  - first:
+      213: -9197595560786779394
+    second: Assets_Plants_1_Module_Variant__25
+  - first:
+      213: 4607425579441456401
+    second: Assets_Plants_1_Module_Variant__26
+  - first:
+      213: -4208119821582053524
+    second: Assets_Plants_1_Module_Variant__27
+  - first:
+      213: 175628286885067160
+    second: Assets_Plants_1_Module_Variant__28
+  - first:
+      213: 7539088100070820481
+    second: Assets_Plants_1_Module_Variant__29
+  - first:
+      213: 4893484159039181252
+    second: Assets_Plants_1_Module_Variant__30
+  - first:
+      213: -962037928341355345
+    second: Assets_Plants_1_Module_Variant__31
+  - first:
+      213: -3354465360573903273
+    second: Assets_Plants_1_Module_Variant__32
+  - first:
+      213: 8738862492930066887
+    second: Assets_Plants_1_Module_Variant__33
+  - first:
+      213: 2217384214251824631
+    second: Assets_Plants_1_Module_Variant__34
+  - first:
+      213: 7152972170856221018
+    second: Assets_Plants_1_Module_Variant__35
+  - first:
+      213: 1386539081096522798
+    second: Assets_Plants_1_Module_Variant__36
+  - first:
+      213: -3000978884181147202
+    second: Assets_Plants_1_Module_Variant__37
+  - first:
+      213: -1921675888211937249
+    second: Assets_Plants_1_Module_Variant__38
+  - first:
+      213: 9020487318027763550
+    second: Assets_Plants_1_Module_Variant__39
+  - first:
+      213: 6789646347623734241
+    second: Assets_Plants_1_Module_Variant__40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Assets_Plants_1_Module_Variant__0
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1584
+        width: 180
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c43ead8b272dac0800000000000000
+      internalID: -3831874194666992618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_Module_Variant__1
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1584
+        width: 203
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74a48b5d30744de80800000000000000
+      internalID: -8154814943465027001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_Module_Variant__2
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1584
+        width: 177
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a00f503d209dae80800000000000000
+      internalID: -8165712025593380695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_Module_Variant__3
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 1584
+        width: 181
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4e0b2c3fb28b330800000000000000
+      internalID: 3726777017592505589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_Module_Variant__4
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1584
+        width: 202
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9493796d5271dd900800000000000000
+      internalID: 710749767475870025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_Module_Variant__5
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 1561
+        width: 177
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 701f1f460812305e0800000000000000
+      internalID: -1944673778760814329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_Module_Variant__6
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 1584
+        width: 183
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73557fd222f7d56b0800000000000000
+      internalID: -5305945001195776713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_Module_Variant__7
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 1584
+        width: 203
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c99f9aff782356bc0800000000000000
+      internalID: -3790567951671101028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_Module_Variant__8
+      rect:
+        serializedVersion: 2
+        x: 2129
+        y: 1584
+        width: 177
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76aee2a5f3d576e50800000000000000
+      internalID: 6802508288843770471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_Module_Variant__9
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1100
+        width: 181
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745dbe15c0f3ac270800000000000000
+      internalID: 8271492987765904711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_Module_Variant__10
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1100
+        width: 202
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4678809e120f1910800000000000000
+      internalID: 1810167905523365453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_Module_Variant__11
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1100
+        width: 176
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70c6703db9f310780800000000000000
+      internalID: -8718617465119609849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_Module_Variant__12
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 1100
+        width: 182
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a3a2ffbc61c410f0800000000000000
+      internalID: -1147079332251655264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_Module_Variant__13
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 1100
+        width: 202
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e7168610f4f2ef90800000000000000
+      internalID: -6925703964935186463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_Module_Variant__14
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 1100
+        width: 177
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 989e740da4b853b70800000000000000
+      internalID: 8878155393869015433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_Module_Variant__15
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 1100
+        width: 182
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17eddb8822e79b6f0800000000000000
+      internalID: -668364382899675535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_Module_Variant__16
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 1100
+        width: 202
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82dc2f474b146ca90800000000000000
+      internalID: -7294070303167951576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_Module_Variant__17
+      rect:
+        serializedVersion: 2
+        x: 2138
+        y: 1100
+        width: 176
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86372672b2787c9b0800000000000000
+      internalID: -5059927036913355928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_Module_Variant__18
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 690
+        width: 181
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4136f06cfa7794a50800000000000000
+      internalID: 6505862733539271444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_Module_Variant__19
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 678
+        width: 203
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f27b8e70fe3c630800000000000000
+      internalID: 3946260515754815263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_Module_Variant__20
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 684
+        width: 175
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5d9f4e649530300800000000000000
+      internalID: 217115368068077018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_Module_Variant__21
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 678
+        width: 182
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad2e5cae615003fd0800000000000000
+      internalID: -2364384208383253798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_Module_Variant__22
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 678
+        width: 202
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c07e4824a24dd440800000000000000
+      internalID: 4962195637250453704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_Module_Variant__23
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 678
+        width: 177
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61b16c83868a8a850800000000000000
+      internalID: 6388541237007620886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_Module_Variant__24
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 685
+        width: 182
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3824fbe5b85a1dfe0800000000000000
+      internalID: -1165968810503617917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_Module_Variant__25
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 685
+        width: 202
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef2289381939b5080800000000000000
+      internalID: -9197595560786779394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_Module_Variant__26
+      rect:
+        serializedVersion: 2
+        x: 2124
+        y: 685
+        width: 176
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11508af372dd0ff30800000000000000
+      internalID: 4607425579441456401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_Module_Variant__27
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 194
+        width: 183
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f425e5151c995c0800000000000000
+      internalID: -4208119821582053524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_Module_Variant__28
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 194
+        width: 203
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8997b441ff4ff6200800000000000000
+      internalID: 175628286885067160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_Module_Variant__29
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 194
+        width: 176
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a8817eea830a860800000000000000
+      internalID: 7539088100070820481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_Module_Variant__31
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 194
+        width: 202
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa4c2cce99726a2f0800000000000000
+      internalID: -962037928341355345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_Module_Variant__32
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 194
+        width: 177
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ec3abf68b8271d0800000000000000
+      internalID: -3354465360573903273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_Module_Variant__33
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 194
+        width: 181
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c9c418032da64970800000000000000
+      internalID: 8738862492930066887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_Module_Variant__30
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 194
+        width: 181
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1dfab83536cf4844940ee8ff47a2043
+      internalID: 4893484159039181252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_Module_Variant__34
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 194
+        width: 202
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f81d2bd5173f7546b43ef6fbde8db68
+      internalID: 2217384214251824631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_Module_Variant__35
+      rect:
+        serializedVersion: 2
+        x: 2122
+        y: 194
+        width: 177
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14854eadc0cc67438940c7d7d0b02d5
+      internalID: 7152972170856221018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a37afe99da3157744bddb44f3ca4ba4c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Assets_Plants_1_Module_Variant__0: -3831874194666992618
+      Assets_Plants_1_Module_Variant__1: -8154814943465027001
+      Assets_Plants_1_Module_Variant__10: 1810167905523365453
+      Assets_Plants_1_Module_Variant__11: -8718617465119609849
+      Assets_Plants_1_Module_Variant__12: -1147079332251655264
+      Assets_Plants_1_Module_Variant__13: -6925703964935186463
+      Assets_Plants_1_Module_Variant__14: 8878155393869015433
+      Assets_Plants_1_Module_Variant__15: -668364382899675535
+      Assets_Plants_1_Module_Variant__16: -7294070303167951576
+      Assets_Plants_1_Module_Variant__17: -5059927036913355928
+      Assets_Plants_1_Module_Variant__18: 6505862733539271444
+      Assets_Plants_1_Module_Variant__19: 3946260515754815263
+      Assets_Plants_1_Module_Variant__2: -8165712025593380695
+      Assets_Plants_1_Module_Variant__20: 217115368068077018
+      Assets_Plants_1_Module_Variant__21: -2364384208383253798
+      Assets_Plants_1_Module_Variant__22: 4962195637250453704
+      Assets_Plants_1_Module_Variant__23: 6388541237007620886
+      Assets_Plants_1_Module_Variant__24: -1165968810503617917
+      Assets_Plants_1_Module_Variant__25: -9197595560786779394
+      Assets_Plants_1_Module_Variant__26: 4607425579441456401
+      Assets_Plants_1_Module_Variant__27: -4208119821582053524
+      Assets_Plants_1_Module_Variant__28: 175628286885067160
+      Assets_Plants_1_Module_Variant__29: 7539088100070820481
+      Assets_Plants_1_Module_Variant__3: 3726777017592505589
+      Assets_Plants_1_Module_Variant__30: 4893484159039181252
+      Assets_Plants_1_Module_Variant__31: -962037928341355345
+      Assets_Plants_1_Module_Variant__32: -3354465360573903273
+      Assets_Plants_1_Module_Variant__33: 8738862492930066887
+      Assets_Plants_1_Module_Variant__34: 2217384214251824631
+      Assets_Plants_1_Module_Variant__35: 7152972170856221018
+      Assets_Plants_1_Module_Variant__4: 710749767475870025
+      Assets_Plants_1_Module_Variant__5: -1944673778760814329
+      Assets_Plants_1_Module_Variant__6: -5305945001195776713
+      Assets_Plants_1_Module_Variant__7: -3790567951671101028
+      Assets_Plants_1_Module_Variant__8: 6802508288843770471
+      Assets_Plants_1_Module_Variant__9: 8271492987765904711
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

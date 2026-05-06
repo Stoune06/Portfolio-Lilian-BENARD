@@ -1,0 +1,208 @@
+[gd_scene load_steps=10 format=3 uid="uid://bsb7lfgwkhu4k"]
+
+[ext_resource type="Script" path="res://Scripts/UI/Login/Login.cs" id="1_2wphj"]
+[ext_resource type="PackedScene" uid="uid://gtdklr31miqb" path="res://Scenes/UI/Login/NewUserAccount.tscn" id="2_odkim"]
+[ext_resource type="PackedScene" uid="uid://3licdukx4ygq" path="res://Scenes/UI/Menu/Menu.tscn" id="3_66m20"]
+[ext_resource type="Script" path="res://Scripts/UI/ParallaxLayer.cs" id="4_8r0ab"]
+[ext_resource type="Texture2D" uid="uid://cujrh0h2qwrv" path="res://Assets/Textures/UI/Separator.png" id="4_dlt7u"]
+[ext_resource type="Texture2D" uid="uid://sk17rwphe7xy" path="res://Assets/Textures/UI/Motif_UI_empty.png" id="5_14h5e"]
+[ext_resource type="Theme" uid="uid://ckc0g2l53mxwy" path="res://Assets/Textures/UI/Modules/UITheme.tres" id="6_sow43"]
+[ext_resource type="FontFile" uid="uid://mq55u4u4fh4l" path="res://Assets/Fonts/DalekPinpointBold.ttf" id="7_wr28k"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_w7oj1"]
+font = ExtResource("7_wr28k")
+font_size = 82
+font_color = Color(0.501961, 0.470588, 0.411765, 1)
+
+[node name="Login" type="CanvasLayer" node_paths=PackedStringArray("buttonNewAccount", "buttonConfirm", "username", "password", "errorText", "veil")]
+script = ExtResource("1_2wphj")
+sceneNewAccount = ExtResource("2_odkim")
+sceneMenu = ExtResource("3_66m20")
+buttonNewAccount = NodePath("Button")
+buttonConfirm = NodePath("ButtonConfirm")
+username = NodePath("LineEdit2")
+password = NodePath("LineEdit")
+errorText = NodePath("ColorRect/ErrorMessage")
+veil = NodePath("ColorRect")
+
+[node name="ParallaxBackground2" type="ParallaxBackground" parent="."]
+layer = 0
+follow_viewport_enabled = true
+
+[node name="Background" type="ColorRect" parent="ParallaxBackground2"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.768627, 0.729412, 0.643137, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground2" node_paths=PackedStringArray("topSprite", "bottomSprite")]
+modulate = Color(0.592157, 0.537255, 0.415686, 1)
+motion_offset = Vector2(1000, 0)
+motion_mirroring = Vector2(1844, 0)
+script = ExtResource("4_8r0ab")
+topSprite = NodePath("Node2D")
+bottomSprite = NodePath("Node2D2")
+
+[node name="Node2D" type="Node2D" parent="ParallaxBackground2/ParallaxLayer"]
+position = Vector2(0, 64)
+
+[node name="Sprite2D2" type="Sprite2D" parent="ParallaxBackground2/ParallaxLayer/Node2D"]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("5_14h5e")
+offset = Vector2(7377, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground2/ParallaxLayer/Node2D"]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("5_14h5e")
+
+[node name="Node2D2" type="Node2D" parent="ParallaxBackground2/ParallaxLayer"]
+position = Vector2(0, 1000)
+
+[node name="Sprite2D2" type="Sprite2D" parent="ParallaxBackground2/ParallaxLayer/Node2D2"]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("5_14h5e")
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground2/ParallaxLayer/Node2D2"]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("5_14h5e")
+offset = Vector2(7377, 0)
+
+[node name="Button" type="Button" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -150.0
+offset_top = 206.0
+offset_right = 458.0
+offset_bottom = 462.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.5, 0.5)
+theme = ExtResource("6_sow43")
+theme_override_font_sizes/font_size = 75
+text = "New Account"
+
+[node name="ButtonConfirm" type="Button" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -121.0
+offset_top = 3.0
+offset_right = 367.0
+offset_bottom = 244.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.5, 0.5)
+theme = ExtResource("6_sow43")
+theme_override_font_sizes/font_size = 75
+text = "Confirm"
+
+[node name="Separator" type="TextureRect" parent="."]
+modulate = Color(0.501961, 0.470588, 0.411765, 1)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -210.0
+offset_top = 163.0
+offset_right = 110.0
+offset_bottom = 179.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(1.32, 1)
+texture = ExtResource("4_dlt7u")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="."]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -126.0
+offset_top = 214.0
+offset_right = 126.0
+offset_bottom = 297.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 35
+text = "Login :"
+label_settings = SubResource("LabelSettings_w7oj1")
+
+[node name="LineEdit" type="LineEdit" parent="."]
+anchors_preset = -1
+anchor_left = 0.478125
+anchor_top = 0.500463
+anchor_right = 0.521875
+anchor_bottom = 0.500463
+offset_left = -88.0
+offset_top = -80.5
+offset_right = 88.0
+offset_bottom = -19.5
+grow_horizontal = 2
+grow_vertical = 2
+focus_neighbor_top = NodePath("../LineEdit2")
+focus_neighbor_bottom = NodePath("../ButtonConfirm")
+focus_next = NodePath("../ButtonConfirm")
+focus_previous = NodePath("../LineEdit2")
+theme = ExtResource("6_sow43")
+theme_override_font_sizes/font_size = 35
+placeholder_text = "Password"
+secret = true
+metadata/_edit_use_anchors_ = true
+
+[node name="LineEdit2" type="LineEdit" parent="."]
+anchors_preset = -1
+anchor_left = 0.473958
+anchor_top = 0.500463
+anchor_right = 0.529167
+anchor_bottom = 0.500463
+offset_left = -93.0
+offset_top = -184.5
+offset_right = 93.0
+offset_bottom = -123.5
+grow_horizontal = 2
+grow_vertical = 2
+focus_neighbor_bottom = NodePath("../LineEdit")
+focus_next = NodePath("../LineEdit")
+theme = ExtResource("6_sow43")
+theme_override_font_sizes/font_size = 35
+placeholder_text = "Username"
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect" type="ColorRect" parent="."]
+visible = false
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -384.0
+offset_top = -173.0
+offset_right = 384.0
+offset_bottom = 173.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.6)
+
+[node name="ErrorMessage" type="Label" parent="ColorRect"]
+modulate = Color(1, 0, 0, 1)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -333.5
+offset_top = -27.5
+offset_right = 333.5
+offset_bottom = 27.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 40
+text = "Username or Password is incorrect"

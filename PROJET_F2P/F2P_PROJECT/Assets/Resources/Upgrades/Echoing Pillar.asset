@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af373b8f133a4567811f782e397805aa, type: 3}
+  m_Name: Echoing Pillar
+  m_EditorClassIdentifier: 
+  effects:
+  - rid: 8433931967028002886
+  description: Regularly spawn a pillar that then heals anything between you two
+    after a delay
+  upgradeName: Echoing Pillar
+  icon: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 8433931967028002886
+      type: {class: ComposableAugmentEffect, ns: Com.IsartDigital.HealerSurvivor.SO, asm: Assembly-CSharp}
+      data:
+        _Trigger:
+          rid: 8433931967028002887
+        _Actions:
+        - rid: 8433931967028002888
+        _Cooldown: 0
+    - rid: 8433931967028002887
+      type: {class: TimerTrigger, ns: Com.IsartDigital.HealerSurvivor.SO.Triggers, asm: Assembly-CSharp}
+      data:
+        lastTarget: {fileID: 0}
+        lastAmount: 0
+        _Interval: 6
+    - rid: 8433931967028002888
+      type: {class: ChangeAttackTypeAction, ns: Com.IsartDigital.HealerSurvivor.SO.Actions, asm: Assembly-CSharp}
+      data:
+        m_TargetMode: 0
+        _AttackTypePrefab: {fileID: 8603299337124166223, guid: 1903c044c781d744f9ff382f5eb5523b, type: 3}

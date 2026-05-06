@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 8eb496c2e6ca1f84ea8f03da742eadcb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8372535652725861946
+    second: Assets_Plants_1_RESCALE_Variant__0
+  - first:
+      213: -3220182486170441956
+    second: Assets_Plants_1_RESCALE_Variant__1
+  - first:
+      213: 7117112679430409927
+    second: Assets_Plants_1_RESCALE_Variant__2
+  - first:
+      213: -8509498829729120166
+    second: Assets_Plants_1_RESCALE_Variant__3
+  - first:
+      213: 3704499214620241552
+    second: Assets_Plants_1_RESCALE_Variant__4
+  - first:
+      213: 5650730472427504828
+    second: Assets_Plants_1_RESCALE_Variant__5
+  - first:
+      213: 4225301138281038742
+    second: Assets_Plants_1_RESCALE_Variant__6
+  - first:
+      213: -8597543427913433954
+    second: Assets_Plants_1_RESCALE_Variant__7
+  - first:
+      213: 942925937356811319
+    second: Assets_Plants_1_RESCALE_Variant__8
+  - first:
+      213: 5530270680225875656
+    second: Assets_Plants_1_RESCALE_Variant__9
+  - first:
+      213: -5282999190232654366
+    second: Assets_Plants_1_RESCALE_Variant__10
+  - first:
+      213: 8569062497122825060
+    second: Assets_Plants_1_RESCALE_Variant__11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Assets_Plants_1_RESCALE_Variant__0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 463
+        width: 693
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c15bf5fe27cecb80800000000000000
+      internalID: -8372535652725861946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_RESCALE_Variant__1
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 464
+        width: 435
+        height: 273
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1760ef071d9f43d0800000000000000
+      internalID: -3220182486170441956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_RESCALE_Variant__2
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 473
+        width: 706
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cec0eb164015c260800000000000000
+      internalID: 7117112679430409927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_RESCALE_Variant__7
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 3
+        width: 693
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9cb936ddc36fa880800000000000000
+      internalID: -8597543427913433954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_RESCALE_Variant__8
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 12
+        width: 419
+        height: 291
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ca7a9e422f51d00800000000000000
+      internalID: 942925937356811319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_RESCALE_Variant__10
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 10
+        width: 698
+        height: 409
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ed918d1a340fa6b0800000000000000
+      internalID: -5282999190232654366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_RESCALE_Variant__3
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 16
+        width: 442
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4568f17146072084ba0c5980972383ef
+      internalID: -8509498829729120166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_RESCALE_Variant__4
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 474
+        width: 442
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1733c439e58884286f406abc901c85
+      internalID: 3704499214620241552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_RESCALE_Variant__5
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 923
+        width: 480
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2bb75be598ac34692e3f295df2c95e
+      internalID: 5650730472427504828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_RESCALE_Variant__6
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 1376
+        width: 472
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f98e7e7663a3541a9d1f30d062ccdc
+      internalID: 4225301138281038742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_RESCALE_Variant__9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1376
+        width: 707
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c209f7931b89849bca6fc0e5a664ef
+      internalID: 5530270680225875656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets_Plants_1_RESCALE_Variant__11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 912
+        width: 706
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82716f09990a72429bb63fe7fb4b2fb
+      internalID: 8569062497122825060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: fc20c63721b7a13409f92a83b1b2a3d4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Assets_Plants_1_RESCALE_Variant__0: -8372535652725861946
+      Assets_Plants_1_RESCALE_Variant__1: -3220182486170441956
+      Assets_Plants_1_RESCALE_Variant__10: -5282999190232654366
+      Assets_Plants_1_RESCALE_Variant__11: 8569062497122825060
+      Assets_Plants_1_RESCALE_Variant__2: 7117112679430409927
+      Assets_Plants_1_RESCALE_Variant__3: -8509498829729120166
+      Assets_Plants_1_RESCALE_Variant__4: 3704499214620241552
+      Assets_Plants_1_RESCALE_Variant__5: 5650730472427504828
+      Assets_Plants_1_RESCALE_Variant__6: 4225301138281038742
+      Assets_Plants_1_RESCALE_Variant__7: -8597543427913433954
+      Assets_Plants_1_RESCALE_Variant__8: 942925937356811319
+      Assets_Plants_1_RESCALE_Variant__9: 5530270680225875656
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://rqekwot2cs6w"]
+
+[sub_resource type="Curve" id="Curve_2dof0"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, 0.131868), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[node name="cookingParticles" type="CPUParticles2D"]
+amount = 5
+lifetime = 0.5
+emission_shape = 1
+emission_sphere_radius = 60.32
+spread = 180.0
+gravity = Vector2(0, 0)
+initial_velocity_min = 619.44
+initial_velocity_max = 619.44
+scale_amount_min = 26.0
+scale_amount_max = 26.0
+scale_amount_curve = SubResource("Curve_2dof0")
+color = Color(0.999999, 0.992698, 0.452953, 1)

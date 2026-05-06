@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 650b13f5208044c588421d66c413a147, type: 3}
+  m_Name: YetiKickAttack
+  m_EditorClassIdentifier: 
+  baseRange: 1
+  baseDamage: 1
+  baseAttackSpeed: 1
+  AttackPreparationTime: 0.1
+  knockback: 35
+  paternEnum: 0
+  width: 0
+  angle: 0
+  customAttack: {fileID: 4963578429712353602, guid: 0825964a335385440bf9fbe390cb3dd0, type: 3}
+  isInstanciateOnSelf: 0
+  maxRange: 0

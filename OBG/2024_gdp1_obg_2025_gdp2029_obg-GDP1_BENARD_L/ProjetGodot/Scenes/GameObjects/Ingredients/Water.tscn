@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://dr1x8b3nlp5ml"]
+
+[ext_resource type="Script" path="res://Scripts/GameObjects/Water.cs" id="1_8km5u"]
+[ext_resource type="PackedScene" uid="uid://b6gw4jneth4xy" path="res://Scenes/SFX/Liquid.tscn" id="2_nu2ns"]
+
+[node name="Water" type="Node2D" node_paths=PackedStringArray("renderer")]
+script = ExtResource("1_8km5u")
+renderer = NodePath("ColorRect")
+liquidParcilesScene = ExtResource("2_nu2ns")
+goal = 75
+contentColor = Color(0, 0.607843, 0.607843, 0.384314)
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 134.0
+offset_bottom = 326.0
+color = Color(0, 0.606321, 0.606321, 1)
+
+[node name="Liquid" parent="." instance=ExtResource("2_nu2ns")]
+emitting = false

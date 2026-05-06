@@ -1,0 +1,176 @@
+[gd_scene load_steps=33 format=3 uid="uid://chbhij5t31k8v"]
+
+[ext_resource type="Script" path="res://Scripts/Managers/AudioManager.cs" id="1_8fpyl"]
+[ext_resource type="AudioStream" uid="uid://bk6hbe6rr8iqj" path="res://Assets/Audio/Music/Quiet Theme #2.wav" id="2_6t6mt"]
+[ext_resource type="AudioStream" uid="uid://ch4hkoap75ksv" path="res://Assets/Audio/Music/MusicLvl1.wav" id="3_i7nj2"]
+[ext_resource type="AudioStream" uid="uid://s72pfby00b04" path="res://Assets/Audio/Music/MusicLvl2.wav" id="4_8xxiw"]
+[ext_resource type="AudioStream" uid="uid://doxwlfhgf8wfk" path="res://Assets/Audio/SFX/SpawnLvl.wav" id="4_m5mx7"]
+[ext_resource type="AudioStream" uid="uid://bdvvv0h5t5wax" path="res://Assets/Audio/SFX/SpawnLvl2.wav" id="5_hfa8k"]
+[ext_resource type="AudioStream" uid="uid://c1pejfuxxq0mj" path="res://Assets/Audio/Music/MusicLvl3.wav" id="5_pn0xb"]
+[ext_resource type="AudioStream" uid="uid://cw1emnp6q4jld" path="res://Assets/Audio/SFX/SpawnLvl3.wav" id="6_nltr8"]
+[ext_resource type="AudioStream" uid="uid://bfqnsntd0mhy3" path="res://Assets/Audio/SFX/Stepbeast 1.mp3" id="7_fo458"]
+[ext_resource type="AudioStream" uid="uid://cy517ngo2h25c" path="res://Assets/Audio/SFX/Stepbeast 2.mp3" id="8_i8kn4"]
+[ext_resource type="AudioStream" uid="uid://dsyqnqr5r3ja4" path="res://Assets/Audio/SFX/Stepbeast 3.mp3" id="9_00sa2"]
+[ext_resource type="AudioStream" uid="uid://crgegaxgb6rvi" path="res://Assets/Audio/SFX/Stepbeast 6.mp3" id="10_yp4iq"]
+[ext_resource type="AudioStream" uid="uid://du2mewu8i76ml" path="res://Assets/Audio/SFX/1SpeDash.ogg" id="11_td055"]
+[ext_resource type="AudioStream" uid="uid://cbrwjwrqguld1" path="res://Assets/Audio/Wind/Windy Place 001.wav" id="12_7pog7"]
+[ext_resource type="AudioStream" uid="uid://dowoim05k70bw" path="res://Assets/Audio/SFX/2SpeDash.ogg" id="12_cmjvf"]
+[ext_resource type="AudioStream" uid="uid://dlx1vnk8td8fx" path="res://Assets/Audio/SFX/3SpeDash.ogg" id="13_onqd0"]
+[ext_resource type="AudioStream" uid="uid://cfbixa7rw2tjv" path="res://Assets/Audio/SFX/4SpeDash.wav" id="14_x27if"]
+[ext_resource type="AudioStream" uid="uid://bv7eyiaqkd6xx" path="res://Assets/Audio/SFX/5SpeDash.wav" id="15_wfhpq"]
+[ext_resource type="AudioStream" uid="uid://cseecx5sogwy" path="res://Assets/Audio/SFX/FallingSpawn.wav" id="17_s6x76"]
+[ext_resource type="AudioStream" uid="uid://bgkugtd88iq6" path="res://Assets/Audio/SFX/BoxSlide1.ogg" id="18_vafc3"]
+[ext_resource type="AudioStream" uid="uid://dtvni8hqj2fue" path="res://Assets/Audio/SFX/BoxSlide2.ogg" id="19_sl4mh"]
+[ext_resource type="AudioStream" uid="uid://c7x1va0sawjxm" path="res://Assets/Audio/SFX/BoxSlide3.ogg" id="20_oym5i"]
+[ext_resource type="AudioStream" uid="uid://xscydiu7hay8" path="res://Assets/Audio/SFX/Click Foley 002.wav" id="21_0xcnl"]
+[ext_resource type="AudioStream" uid="uid://t4aqaj7ryn2m" path="res://Assets/Audio/Wind/Astral Winds 002.wav" id="23_5vpfi"]
+[ext_resource type="AudioStream" uid="uid://2ykbpp7m3qkn" path="res://Assets/Audio/SFX/Select Foley 002.wav" id="23_m1gur"]
+[ext_resource type="AudioStream" uid="uid://ggdvnxkuebxu" path="res://Assets/Audio/Music/Windy Place 001.wav" id="24_2kwc0"]
+[ext_resource type="AudioStream" uid="uid://bh3mde0t1kixt" path="res://Assets/Audio/SFX/magic_flame_of_light_04.wav" id="25_5bpgg"]
+[ext_resource type="AudioStream" uid="uid://daoagwku0b0u8" path="res://Assets/Audio/SFX/gas_med_flame_ignite_01.wav" id="25_necbd"]
+[ext_resource type="AudioStream" uid="uid://cb55l7iwnh5v8" path="res://Assets/Audio/SFX/gas_large_flame_ignite_01.wav" id="26_d84m1"]
+[ext_resource type="AudioStream" uid="uid://83bh5ikadl7" path="res://Assets/Audio/SFX/Event 1.mp3" id="26_hl8xm"]
+[ext_resource type="AudioStream" uid="uid://e400kudmx3ne" path="res://Assets/Audio/SFX/gas_large_flame_ignite_02.wav" id="27_md7b2"]
+[ext_resource type="AudioStream" uid="uid://diwemuk77ifga" path="res://Assets/Audio/SFX/lighter_gas_flame_ignite_02.wav" id="28_lp4ql"]
+
+[node name="AudioManager" type="Node2D"]
+script = ExtResource("1_8fpyl")
+
+[node name="Menu" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_6t6mt")
+bus = &"Music"
+
+[node name="Lvl1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_i7nj2")
+bus = &"Music"
+
+[node name="Lvl2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_8xxiw")
+volume_db = 1.5
+bus = &"Music"
+
+[node name="Lvl3" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_pn0xb")
+volume_db = 1.0
+bus = &"Music"
+
+[node name="Spawn" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_m5mx7")
+bus = &"SFX"
+
+[node name="SpawnWall" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_hfa8k")
+bus = &"SFX"
+
+[node name="SpawnWall2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_nltr8")
+bus = &"SFX"
+
+[node name="Step" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("7_fo458")
+volume_db = 5.0
+bus = &"SFX"
+
+[node name="Step2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("8_i8kn4")
+volume_db = 5.0
+bus = &"SFX"
+
+[node name="Step3" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("9_00sa2")
+volume_db = 5.0
+bus = &"SFX"
+
+[node name="Step4" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("10_yp4iq")
+volume_db = 5.0
+bus = &"SFX"
+
+[node name="Dash" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("11_td055")
+bus = &"SFX"
+
+[node name="Dash2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("12_cmjvf")
+bus = &"SFX"
+
+[node name="Dash3" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("13_onqd0")
+bus = &"SFX"
+
+[node name="Dash4" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("14_x27if")
+bus = &"SFX"
+
+[node name="Dash5" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("15_wfhpq")
+bus = &"SFX"
+
+[node name="Wind" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("12_7pog7")
+bus = &"SFX"
+
+[node name="SpawnTile" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("17_s6x76")
+volume_db = 4.0
+bus = &"SFX"
+
+[node name="BoxSlide" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("18_vafc3")
+bus = &"SFX"
+
+[node name="BoxSlide2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("19_sl4mh")
+bus = &"SFX"
+
+[node name="BoxSlide3" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("20_oym5i")
+bus = &"SFX"
+
+[node name="Click" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("21_0xcnl")
+bus = &"SFX"
+
+[node name="Click2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("23_m1gur")
+bus = &"SFX"
+
+[node name="Wind2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("23_5vpfi")
+volume_db = -5.288
+bus = &"SFX"
+
+[node name="Loading" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("24_2kwc0")
+volume_db = -12.0
+bus = &"Music"
+
+[node name="Flame1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("25_necbd")
+volume_db = 3.2
+bus = &"SFX"
+
+[node name="Flame2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("26_d84m1")
+volume_db = 3.2
+bus = &"SFX"
+
+[node name="Flame3" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("27_md7b2")
+volume_db = 3.2
+bus = &"SFX"
+
+[node name="Flame4" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("28_lp4ql")
+volume_db = 3.2
+bus = &"SFX"
+
+[node name="Flame5" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("25_5bpgg")
+volume_db = 3.525
+bus = &"SFX"
+
+[node name="PreWin" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("26_hl8xm")
+volume_db = 5.5
+bus = &"SFX"

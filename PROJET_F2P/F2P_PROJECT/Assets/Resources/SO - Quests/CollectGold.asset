@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd2ac04a8fe379b42bbe2e0b0e383687, type: 3}
+  m_Name: CollectGold
+  m_EditorClassIdentifier: 
+  questID: Quest_Collect_Gold
+  questName: Collect Golds
+  description: Bla bla
+  goalAmount: 1000
+  rewardAmount: 50
+  questType: 1
+  rewardType: 1

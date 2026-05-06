@@ -1,0 +1,308 @@
+[gd_scene load_steps=15 format=3 uid="uid://djj67e76s37hh"]
+
+[ext_resource type="Script" path="res://Scripts/UI/MainMenu.cs" id="1_2ocbt"]
+[ext_resource type="Shader" uid="uid://do0181lxpvt0s" path="res://shaders/scroll.tres" id="2_4rf45"]
+[ext_resource type="Texture2D" uid="uid://dlta6obqbv1ha" path="res://Assets/Nappe.png" id="2_n8uor"]
+[ext_resource type="Texture2D" uid="uid://clj6b4slngw74" path="res://Assets/Logo.png" id="2_olbfl"]
+[ext_resource type="Texture2D" uid="uid://cvo5cx5mu5y6" path="res://Assets/Button.png" id="3_sa3hb"]
+[ext_resource type="Texture2D" uid="uid://d3n5qjgk01q3a" path="res://Assets/Settings.png" id="4_7p0ko"]
+[ext_resource type="Texture2D" uid="uid://c0g321bihx7mm" path="res://Assets/return.png" id="5_cnl5y"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_d1rm8"]
+shader = ExtResource("2_4rf45")
+shader_parameter/Vector2Parameter = Vector2(0.05, -0.05)
+
+[sub_resource type="Animation" id="Animation_xyxah"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:visible_ratio")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="Animation" id="Animation_883fv"]
+resource_name = "textapparition"
+length = 3.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:visible_ratio")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 2, 2.5, 3, 3.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 1.0, 1.0, 1.0, 1.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_g3dqr"]
+_data = {
+"RESET": SubResource("Animation_xyxah"),
+"textapparition": SubResource("Animation_883fv")
+}
+
+[sub_resource type="LabelSettings" id="LabelSettings_2mu63"]
+font_size = 200
+
+[sub_resource type="SystemFont" id="SystemFont_g4gkb"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_us2bi"]
+font = SubResource("SystemFont_g4gkb")
+font_size = 70
+font_color = Color(0.184314, 0.145098, 0.145098, 1)
+
+[node name="MainMenu" type="Control" node_paths=PackedStringArray("gameTitle", "playButton", "settingsButton", "quitButton", "richTextAnimation", "settings")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_2ocbt")
+gameTitle = NodePath("Label")
+playButton = NodePath("Play")
+settingsButton = NodePath("Settings")
+quitButton = NodePath("Quit")
+richTextAnimation = NodePath("RichTextLabel/AnimationPlayer")
+settings = NodePath("SettingsTab")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+material = SubResource("ShaderMaterial_d1rm8")
+layout_mode = 0
+offset_left = 1661.0
+offset_right = 4211.0
+offset_bottom = 1761.0
+rotation = 1.5708
+texture = ExtResource("2_n8uor")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+z_index = 100
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -571.0
+offset_top = -113.0
+offset_right = 623.0
+offset_bottom = 140.0
+grow_horizontal = 2
+grow_vertical = 2
+bbcode_enabled = true
+text = "[font_size=50][wave][color=#000000][b]Retenez bien la liste[/b] d'ingrédients que vous allez voir. Vous ne pourrez la voir qu'au début de chaque niveau[/color]"
+visible_characters = 0
+visible_ratio = 0.0
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="RichTextLabel"]
+libraries = {
+"": SubResource("AnimationLibrary_g3dqr")
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -296.0
+offset_top = -71.0
+offset_right = 290.0
+offset_bottom = 71.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -596.5
+offset_top = 459.0
+offset_right = 596.5
+offset_bottom = 732.0
+grow_horizontal = 2
+label_settings = SubResource("LabelSettings_2mu63")
+
+[node name="Sprite2D" type="Sprite2D" parent="Label"]
+position = Vector2(594.5, 124)
+scale = Vector2(0.9, 0.9)
+texture = ExtResource("2_olbfl")
+
+[node name="Play" type="TextureButton" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -403.0
+offset_top = 235.0
+offset_right = 403.0
+offset_bottom = 386.0
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("3_sa3hb")
+stretch_mode = 0
+
+[node name="Label" type="Label" parent="Play"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "JOUER"
+label_settings = SubResource("LabelSettings_us2bi")
+
+[node name="Settings" type="TextureButton" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -403.0
+offset_top = 466.0
+offset_right = 403.0
+offset_bottom = 617.0
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("3_sa3hb")
+stretch_mode = 0
+
+[node name="Label2" type="Label" parent="Settings"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -84.0
+offset_top = -48.0
+offset_right = 84.0
+offset_bottom = 48.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "OPTIONS"
+label_settings = SubResource("LabelSettings_us2bi")
+
+[node name="Quit" type="TextureButton" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -403.0
+offset_top = 698.0
+offset_right = 403.0
+offset_bottom = 849.0
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("3_sa3hb")
+stretch_mode = 0
+
+[node name="Label2" type="Label" parent="Quit"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -84.0
+offset_top = -48.0
+offset_right = 84.0
+offset_bottom = 48.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "QUITTER"
+label_settings = SubResource("LabelSettings_us2bi")
+
+[node name="SettingsButton" type="Button" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -422.0
+offset_top = 85.0
+offset_right = 397.0
+offset_bottom = 233.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "SETTINGS"
+
+[node name="CreditsButton" type="Button" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -421.0
+offset_top = 349.0
+offset_right = 393.0
+offset_bottom = 496.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Credits
+"
+
+[node name="SettingsTab" type="TextureRect" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -122.0
+offset_top = 465.0
+offset_right = 106.0
+offset_bottom = 573.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(3.53728, 4.25926)
+pivot_offset = Vector2(114, 0)
+texture = ExtResource("4_7p0ko")
+
+[node name="Sprite2D" type="TextureButton" parent="SettingsTab"]
+layout_mode = 0
+offset_left = 94.7762
+offset_top = 119.035
+offset_right = 137.776
+offset_bottom = 157.035
+scale = Vector2(0.64, 0.64)
+texture_normal = ExtResource("5_cnl5y")
+
+[node name="HSlider" type="HSlider" parent="SettingsTab"]
+layout_mode = 0
+offset_left = 14.2058
+offset_top = 14.0869
+offset_right = 202.206
+offset_bottom = 30.0869
+min_value = -80.0
+max_value = 0.0
+
+[connection signal="pressed" from="SettingsTab/Sprite2D" to="." method="QuitSettingsTab"]
+[connection signal="value_changed" from="SettingsTab/HSlider" to="." method="ChangeVolume"]

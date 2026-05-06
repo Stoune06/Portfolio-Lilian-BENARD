@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=3 uid="uid://dgklh7xd14i8"]
+
+[ext_resource type="Texture2D" uid="uid://dku0idc6ss460" path="res://Assets/Textures/GameObjects/Movables/Box/Flamme1.png" id="1_8dixf"]
+[ext_resource type="Texture2D" uid="uid://cybmjnp8e801a" path="res://Assets/Textures/GameObjects/Movables/Box/Flamme2.png" id="2_hlh73"]
+[ext_resource type="Texture2D" uid="uid://caodaxav5pv7m" path="res://Assets/Textures/GameObjects/Movables/Box/Flamme3.png" id="3_ty6p5"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_x8a4k"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_8dixf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_hlh73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_ty6p5")
+}],
+"loop": true,
+"name": &"default",
+"speed": 9.0
+}]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+sprite_frames = SubResource("SpriteFrames_x8a4k")
+frame = 1
+frame_progress = 0.926142
+offset = Vector2(0, -360)

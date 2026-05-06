@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://b6gw4jneth4xy"]
+
+[node name="Liquid" type="CPUParticles2D"]
+amount = 50
+lifetime = 1.2
+emission_shape = 1
+emission_sphere_radius = 13.07
+gravity = Vector2(0, 900)
+scale_amount_min = 20.0
+scale_amount_max = 20.0

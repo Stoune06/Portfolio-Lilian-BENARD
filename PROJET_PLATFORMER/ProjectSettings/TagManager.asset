@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - PaintedPlatform
+  - PlayerCamera
+  - CheckPoint
+  - CustomPlayer
+  - Platform
+  - Ground
+  - Collectible
+  - Stone
+  - Grass
+  - Paint
+  - CinematicPlayer
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Platform
+  - Camera
+  - Player
+  - CheckPoint
+  - Killzone
+  - Enviro
+  - Collectibles
+  - Dark PostProcess
+  - One Way Platform
+  - CinematicLayer
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  m_RenderingLayers:
+  - Default

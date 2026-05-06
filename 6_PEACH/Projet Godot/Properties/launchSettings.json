@@ -1,0 +1,10 @@
+{
+  "profiles": {
+	"Kinisi Debug": {
+	  "commandName": "Executable",
+	  "executablePath": "$(Godot)",
+	  "commandLineArgs": "--path . --verbose",
+	  "workingDirectory": "."
+	}
+  }
+}

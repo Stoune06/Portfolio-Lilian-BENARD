@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 07d11bb513235d94a93d9f7521fc021a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _Animator: {instanceID: 0}
+  - _VFX: {fileID: 3756201227273792122, guid: 7a45fd517f480754c8a5f236c69d9137, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

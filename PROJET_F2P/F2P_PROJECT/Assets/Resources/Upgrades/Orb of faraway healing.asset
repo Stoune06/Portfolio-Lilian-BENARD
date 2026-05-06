@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af373b8f133a4567811f782e397805aa, type: 3}
+  m_Name: Orb of faraway healing
+  m_EditorClassIdentifier: 
+  effects:
+  - rid: 8433931833697894467
+  description: Lauches an orb that target the farthest allie and heal him
+  upgradeName: Orb of faraway healing
+  icon: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 8433931833697894467
+      type: {class: ComposableAugmentEffect, ns: Com.IsartDigital.HealerSurvivor.SO, asm: Assembly-CSharp}
+      data:
+        _Trigger:
+          rid: 8433931944761753786
+        _Actions:
+        - rid: 8433931833697894469
+        _Cooldown: 0
+    - rid: 8433931833697894469
+      type: {class: HealAction, ns: Com.IsartDigital.HealerSurvivor.SO.Actions, asm: Assembly-CSharp}
+      data:
+        m_TargetMode: 3
+        _HealAmount: 50
+    - rid: 8433931944761753786
+      type: {class: TimerTrigger, ns: Com.IsartDigital.HealerSurvivor.SO.Triggers, asm: Assembly-CSharp}
+      data:
+        lastTarget: {fileID: 0}
+        lastAmount: 0
+        _Interval: 1

@@ -1,0 +1,253 @@
+[gd_scene load_steps=6 format=3 uid="uid://cb18mb6o5wook"]
+
+[ext_resource type="FontFile" uid="uid://mq55u4u4fh4l" path="res://Assets/Fonts/DalekPinpointBold.ttf" id="1_7brfn"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_fud4u"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1mrir"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ybuq4"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_5t5p7"]
+
+[node name="LevelsSelector" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Level1" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -615.0
+offset_top = -191.0
+offset_right = -562.0
+offset_bottom = -65.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(41, 75.5)
+theme_override_colors/font_color = Color(0.882353, 0.74902, 0.560784, 1)
+theme_override_colors/font_hover_color = Color(0.756863, 0.607843, 0.388235, 1)
+theme_override_fonts/font = ExtResource("1_7brfn")
+theme_override_font_sizes/font_size = 92
+theme_override_styles/normal = SubResource("StyleBoxEmpty_fud4u")
+theme_override_styles/hover = SubResource("StyleBoxFlat_1mrir")
+text = "1"
+
+[node name="Level2" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -216.0
+offset_top = -161.0
+offset_right = -163.0
+offset_bottom = -35.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(41, 75.5)
+theme_override_colors/font_color = Color(0.882353, 0.74902, 0.560784, 1)
+theme_override_colors/font_hover_color = Color(0.756863, 0.607843, 0.388235, 1)
+theme_override_fonts/font = ExtResource("1_7brfn")
+theme_override_font_sizes/font_size = 92
+theme_override_styles/normal = SubResource("StyleBoxEmpty_fud4u")
+theme_override_styles/hover = SubResource("StyleBoxFlat_1mrir")
+text = "2"
+
+[node name="Level3" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -32.0
+offset_top = -161.0
+offset_right = 21.0
+offset_bottom = -35.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(54.5, 75.5)
+theme_override_colors/font_color = Color(0.882353, 0.74902, 0.560784, 1)
+theme_override_colors/font_hover_color = Color(0.756863, 0.607843, 0.388235, 1)
+theme_override_fonts/font = ExtResource("1_7brfn")
+theme_override_font_sizes/font_size = 92
+theme_override_styles/normal = SubResource("StyleBoxEmpty_fud4u")
+theme_override_styles/hover = SubResource("StyleBoxFlat_1mrir")
+text = "3"
+
+[node name="Level4" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 168.0
+offset_top = -161.0
+offset_right = 221.0
+offset_bottom = -35.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(47.5, 75.5)
+theme_override_colors/font_color = Color(0.882353, 0.74902, 0.560784, 1)
+theme_override_colors/font_hover_color = Color(0.756863, 0.607843, 0.388235, 1)
+theme_override_fonts/font = ExtResource("1_7brfn")
+theme_override_font_sizes/font_size = 92
+theme_override_styles/normal = SubResource("StyleBoxEmpty_fud4u")
+theme_override_styles/hover = SubResource("StyleBoxFlat_1mrir")
+text = "4"
+
+[node name="Level5" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -216.0
+offset_top = 28.0
+offset_right = -163.0
+offset_bottom = 154.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(47.5, 75.5)
+theme_override_colors/font_color = Color(0.882353, 0.74902, 0.560784, 1)
+theme_override_colors/font_hover_color = Color(0.756863, 0.607843, 0.388235, 1)
+theme_override_fonts/font = ExtResource("1_7brfn")
+theme_override_font_sizes/font_size = 92
+theme_override_styles/normal = SubResource("StyleBoxEmpty_fud4u")
+theme_override_styles/hover = SubResource("StyleBoxFlat_1mrir")
+text = "5"
+
+[node name="Level6" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -32.0
+offset_top = 28.0
+offset_right = 21.0
+offset_bottom = 154.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(47.5, 75.5)
+theme_override_colors/font_color = Color(0.882353, 0.74902, 0.560784, 1)
+theme_override_colors/font_hover_color = Color(0.756863, 0.607843, 0.388235, 1)
+theme_override_fonts/font = ExtResource("1_7brfn")
+theme_override_font_sizes/font_size = 92
+theme_override_styles/normal = SubResource("StyleBoxEmpty_fud4u")
+theme_override_styles/hover = SubResource("StyleBoxFlat_1mrir")
+text = "6"
+
+[node name="Level7" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 168.0
+offset_top = 28.0
+offset_right = 221.0
+offset_bottom = 154.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(47.5, 75.5)
+theme_override_colors/font_color = Color(0.882353, 0.74902, 0.560784, 1)
+theme_override_colors/font_hover_color = Color(0.756863, 0.607843, 0.388235, 1)
+theme_override_fonts/font = ExtResource("1_7brfn")
+theme_override_font_sizes/font_size = 92
+theme_override_styles/normal = SubResource("StyleBoxEmpty_fud4u")
+theme_override_styles/hover = SubResource("StyleBoxFlat_1mrir")
+text = "7"
+
+[node name="UnlockLevels" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 20.0
+offset_top = -82.0
+offset_right = 262.0
+offset_bottom = -13.0
+grow_vertical = 0
+pivot_offset = Vector2(47.5, 75.5)
+theme_override_colors/font_color = Color(0.882353, 0.74902, 0.560784, 1)
+theme_override_colors/font_hover_color = Color(0.756863, 0.607843, 0.388235, 1)
+theme_override_fonts/font = ExtResource("1_7brfn")
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxEmpty_fud4u")
+theme_override_styles/hover = SubResource("StyleBoxFlat_ybuq4")
+text = "UNLOCK
+"
+
+[node name="Back" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -78.5
+offset_top = 226.0
+offset_right = 78.5
+offset_bottom = 319.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(70, 25.5)
+theme_override_colors/font_color = Color(0.882353, 0.74902, 0.560784, 1)
+theme_override_colors/font_hover_color = Color(0.756863, 0.607843, 0.388235, 1)
+theme_override_fonts/font = ExtResource("1_7brfn")
+theme_override_font_sizes/font_size = 68
+theme_override_styles/normal = SubResource("StyleBoxEmpty_5t5p7")
+theme_override_styles/hover = SubResource("StyleBoxFlat_1mrir")
+text = "BACK"
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -142.0
+offset_top = -323.5
+offset_right = 142.0
+offset_bottom = -208.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.882353, 0.74902, 0.560784, 1)
+theme_override_fonts/font = ExtResource("1_7brfn")
+theme_override_font_sizes/font_size = 84
+text = "LEVELS"
+
+[node name="Label2" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -655.0
+offset_top = -260.0
+offset_right = -371.0
+offset_bottom = -145.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.882353, 0.74902, 0.560784, 1)
+theme_override_fonts/font = ExtResource("1_7brfn")
+theme_override_font_sizes/font_size = 60
+text = "TUTO"

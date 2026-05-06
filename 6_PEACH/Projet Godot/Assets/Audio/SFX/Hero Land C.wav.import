@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://0q6ugmi6j3lw"
+path="res://.godot/imported/Hero Land C.wav-7d07f6eae227c8a04414f5aae43c68d9.sample"
+
+[deps]
+
+source_file="res://Assets/Audio/SFX/Hero Land C.wav"
+dest_files=["res://.godot/imported/Hero Land C.wav-7d07f6eae227c8a04414f5aae43c68d9.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

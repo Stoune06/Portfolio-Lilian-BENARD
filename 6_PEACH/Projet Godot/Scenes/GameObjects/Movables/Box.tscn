@@ -1,0 +1,74 @@
+[gd_scene load_steps=10 format=3 uid="uid://b3dmf5dy0sghd"]
+
+[ext_resource type="Script" path="res://Scripts/GameObjects/Movables/Box.cs" id="1_ea50b"]
+[ext_resource type="Texture2D" uid="uid://bv3ijqfyqys86" path="res://Assets/Textures/GameObjects/Movables/Box/Flammes.png" id="2_houf0"]
+[ext_resource type="Texture2D" uid="uid://cngebd6hakel3" path="res://Assets/Textures/GameObjects/Movables/Box/Box.png" id="2_xhmar"]
+[ext_resource type="Texture2D" uid="uid://6wdnnhemjkue" path="res://Assets/Textures/GameObjects/Movables/Wall.png" id="3_uer0w"]
+[ext_resource type="Texture2D" uid="uid://caodaxav5pv7m" path="res://Assets/Textures/GameObjects/Movables/Box/Flamme3.png" id="4_22tu0"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_648cn"]
+atlas = ExtResource("2_houf0")
+region = Rect2(400, 0, 400, 660)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u2c5b"]
+atlas = ExtResource("2_houf0")
+region = Rect2(0, 0, 400, 660)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1olbc"]
+atlas = ExtResource("2_houf0")
+region = Rect2(801, 0, 399, 660)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_6ptr8"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_648cn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u2c5b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1olbc")
+}],
+"loop": true,
+"name": &"activated",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_xhmar")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Box" type="Node2D" node_paths=PackedStringArray("flame", "outRenderer", "marker")]
+script = ExtResource("1_ea50b")
+flame = NodePath("AnimatedSprite2D/Flamme")
+outRenderer = NodePath("AnimatedSprite2D")
+marker = NodePath("Marker2D")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -100)
+sprite_frames = SubResource("SpriteFrames_6ptr8")
+autoplay = "default"
+centered = false
+offset = Vector2(0, -16)
+
+[node name="Renderer3" type="Sprite2D" parent="AnimatedSprite2D"]
+modulate = Color(0, 0, 0, 0.356863)
+position = Vector2(49, 611)
+scale = Vector2(7.575, 0.729734)
+texture = ExtResource("3_uer0w")
+centered = false
+
+[node name="Flamme" type="Sprite2D" parent="AnimatedSprite2D"]
+visible = false
+position = Vector2(190, 360)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("4_22tu0")
+offset = Vector2(0, -360)
+
+[node name="Marker2D" type="Marker2D" parent="."]
+position = Vector2(40, 40)

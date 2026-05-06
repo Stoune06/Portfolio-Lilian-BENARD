@@ -1,0 +1,17 @@
+{
+    "name": "Login",
+    "rootNamespace": "",
+    "references": [
+        "Unity.TextMeshPro",
+        "Attributes"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

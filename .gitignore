@@ -1,0 +1,164 @@
+# =====================================================
+# .gitignore - Portfolio Lilian BENARD (ISART)
+# =====================================================
+
+# -----------------------------------------------------
+# Fichiers >100 Mo (limite GitHub stricte)
+# -----------------------------------------------------
+# Firebase iOS bundle (186 Mo)
+PROJET_PLATFORMER/Assets/Firebase/Plugins/x86_64/FirebaseCppApp-*.bundle
+PROJET_PLATFORMER/Assets/Firebase/Plugins/x86_64/
+
+# Vidéos lourdes (>50 Mo flaggées par GitHub)
+6_PEACH/Closing kit/*.mp4
+6_PEACH/Closing kit/Video/*.mp4
+
+# Pattern général : fichiers binaires lourds
+*.bundle
+*.fbx.gz
+
+
+# Scripts/logs de setup git (à ne pas pousser)
+setup-git.bat
+setup-git.ps1
+setup-git.log
+setup-git.done
+verify-and-commit.bat
+verify.log
+verify.done
+
+
+# -----------------------------------------------------
+# Projets / dossiers exclus du portfolio
+# -----------------------------------------------------
+/Git Test/
+/GitRemote/
+/GitWorskhop/
+/Build2/
+/BENARD_Lilian_GDP1A_SHMUP/
+/BENARD_Lilian_Yeti/
+/BENARD_LILIAN_Yeti.zip
+/Sokoban Proto/
+/Test Jusiness SOKOBAN/
+/Bat Brawl/
+
+# Gros zip à la racine (1.3 Go)
+/6_PEACH.zip
+
+# -----------------------------------------------------
+# Archives (zip, rar, 7z, tar) - jamais en git
+# -----------------------------------------------------
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+
+# -----------------------------------------------------
+# UNITY
+# -----------------------------------------------------
+Library/
+Logs/
+Temp/
+Obj/
+obj/
+Build/
+Builds/
+AndroidBuild/
+Recordings/
+MemoryCaptures/
+UserSettings/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.unityproj
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+*.apk
+*.aab
+*.unitypackage
+*.app
+crashlytics-build.properties
+
+# Asset meta data should NOT be ignored - Unity needs them
+# (donc PAS de *.meta dans le .gitignore)
+
+# -----------------------------------------------------
+# GODOT
+# -----------------------------------------------------
+.godot/
+.import/
+export.cfg
+export_presets.cfg.bak
+*.translation
+
+# Godot 4 - dossier généré
+.godot/imported/
+.godot/editor/
+
+# -----------------------------------------------------
+# IDE / Éditeurs
+# -----------------------------------------------------
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# JetBrains Rider
+*.sln.iml
+
+# -----------------------------------------------------
+# Visual Studio / .NET
+# -----------------------------------------------------
+bin/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+*.exe
+*.dll
+*.so
+*.dylib
+*.cache
+*.log
+*.tlog
+*.vsidx
+*.lock.json
+
+# -----------------------------------------------------
+# OS
+# -----------------------------------------------------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# -----------------------------------------------------
+# FMOD (audio middleware utilisé dans certains projets)
+# -----------------------------------------------------
+*.bank
+.cache/
+.user/
+
+# -----------------------------------------------------
+# Node / Web (si jamais)
+# -----------------------------------------------------
+node_modules/
+dist/
+.next/
+.cache/

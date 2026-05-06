@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "598372080453",
+    "project_id": "between-the-lines-ef14c",
+    "storage_bucket": "between-the-lines-ef14c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598372080453:android:58163b7a7002010cddfc2c",
+        "android_client_info": {
+          "package_name": "com.isartdigital.betweenthelines"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCljhShxX8a9CbY_Y_ioTLP8c3CKuxa0xM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

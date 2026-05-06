@@ -1,0 +1,1216 @@
+fileFormatVersion: 2
+guid: 7e2bc6a7991857d4b962815065220c1d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6823797367008226197
+    second: asset_0
+  - first:
+      213: 2278108887555276623
+    second: asset_1
+  - first:
+      213: 6751590783152510546
+    second: asset_2
+  - first:
+      213: -1078768386832990452
+    second: asset_3
+  - first:
+      213: -5321871525223082317
+    second: asset_4
+  - first:
+      213: -7028354252598281074
+    second: asset_5
+  - first:
+      213: -1640657759639748437
+    second: asset_6
+  - first:
+      213: 9104592331752744162
+    second: asset_7
+  - first:
+      213: 1057339697842848840
+    second: asset_8
+  - first:
+      213: -3774536219693888151
+    second: asset_9
+  - first:
+      213: -6553669850320339102
+    second: asset_10
+  - first:
+      213: -3680832152818682694
+    second: asset_11
+  - first:
+      213: -5856345844515611287
+    second: asset_12
+  - first:
+      213: -4179196751155982450
+    second: asset_13
+  - first:
+      213: 7775049121202781805
+    second: asset_14
+  - first:
+      213: -494497500540303074
+    second: asset_15
+  - first:
+      213: 1336263394135859761
+    second: asset_16
+  - first:
+      213: -1571580236630822512
+    second: asset_17
+  - first:
+      213: -7347799160967347263
+    second: asset_18
+  - first:
+      213: 8989119735908538676
+    second: asset_19
+  - first:
+      213: -618381202890646580
+    second: asset_20
+  - first:
+      213: -5154211127999539705
+    second: asset_21
+  - first:
+      213: 1430019097922023908
+    second: asset_22
+  - first:
+      213: 3466367251240525303
+    second: asset_23
+  - first:
+      213: 8842052109009147994
+    second: asset_24
+  - first:
+      213: 3645410648180966288
+    second: asset_25
+  - first:
+      213: 7976533930081082106
+    second: asset_26
+  - first:
+      213: -5535110816842032477
+    second: asset_27
+  - first:
+      213: -7402981344064801147
+    second: asset_28
+  - first:
+      213: 254497908386432240
+    second: asset_29
+  - first:
+      213: 8258378164065061047
+    second: asset_30
+  - first:
+      213: 2603481812626900774
+    second: asset_31
+  - first:
+      213: 8234253945762549855
+    second: asset_32
+  - first:
+      213: -4277401824048950047
+    second: asset_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ruines_modulaire_0
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 691
+        width: 610
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5ebb2062984a249840ec326899f148
+      internalID: 1460704861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_1
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 903
+        width: 287
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7624c08492dfc034c87958a9e681e1df
+      internalID: 1606379968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_2
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 901
+        width: 218
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c31d6ff6465f9542993a7140b91dddb
+      internalID: -1196594404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_3
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 901
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a71a33c0ff5634fa52760fa118f7fe
+      internalID: 1062057782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_4
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 953
+        width: 300
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc12bd8f3f1e184da0b114b2309b937
+      internalID: -1442367129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_5
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 904
+        width: 215
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9740250bed7041a4791d7eb854a41902
+      internalID: -1850252467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_6
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 904
+        width: 300
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f269aac511ed0784eae01a801c071271
+      internalID: -1766564267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_7
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 789
+        width: 287
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f325afe82134c43af8b78227394b44
+      internalID: 292774343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_8
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 788
+        width: 218
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e88daa4da8015a479619fc5963f7976
+      internalID: 58588458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_9
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 788
+        width: 110
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72bd94d90e78c3a40906c9f5ca49199c
+      internalID: 1627036079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_10
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 850
+        width: 300
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30203ee1a37bcdf4eb0e66e49b4ad80d
+      internalID: 2130860066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_11
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 804
+        width: 213
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35207fd9370ec1a4db28454a55249ece
+      internalID: -825935264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_12
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 802
+        width: 196
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4fb01586891c4459beb34d1f61dd73
+      internalID: -53645650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_13
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 674
+        width: 287
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb6419d17178374194fd93fe707510f
+      internalID: -922010873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_14
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 674
+        width: 218
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f131c4585600b1248bb961f8311d61d8
+      internalID: 254173085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_15
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 674
+        width: 110
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d62c963d65d28f4382eddc0a871b780
+      internalID: -468187575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_16
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 753
+        width: 196
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e9b271ff7ada149ae494204adceb9c
+      internalID: 949845263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_17
+      rect:
+        serializedVersion: 2
+        x: 1927
+        y: 695
+        width: 212
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda5485a17b614249be313de427e1219
+      internalID: -1809009849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_18
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 699
+        width: 196
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71050e601972264fb5f79ef6699856f
+      internalID: -894759106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_19
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 375
+        width: 610
+        height: 298
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f003ad5022e8bed43bf2b707e4573bc3
+      internalID: -443885304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_20
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 561
+        width: 287
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7000c3a972a7aa0419863edf79add0d4
+      internalID: -814379858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_21
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 559
+        width: 218
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60fcf5947b7d0f4cbdd7e88660690a9
+      internalID: -2005044888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_22
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 559
+        width: 111
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74790f6ac3b4474b818cf74bfe82920
+      internalID: -1466010057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_23
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 646
+        width: 118
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde0a29b9b599a2448a12cf96749182c
+      internalID: -1182364734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_24
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 596
+        width: 214
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef840baa6aa0a474da132fda39c9cc46
+      internalID: 1730951706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_25
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 598
+        width: 118
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5521431ff124641a6897067c41c5fd
+      internalID: -2126414134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_26
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 543
+        width: 118
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c529d7723731148a1df9a7e004f498
+      internalID: 242009183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_27
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 422
+        width: 77
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8e1fd65746458458a43e98737a6264
+      internalID: 1897204520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_28
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 422
+        width: 75
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0473a8f4344234d42840c00e11fa7e78
+      internalID: 889650288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_29
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 422
+        width: 77
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e061ddd9515706d419a5ecd542b91dcf
+      internalID: 363630202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_30
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 422
+        width: 77
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b86397ccbe62b4fad84f9822b5360c
+      internalID: -608632957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_31
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 480
+        width: 74
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f797e08d4883de44d9589314d3a93b4c
+      internalID: 335095843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_32
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 479
+        width: 74
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828d355edbfb7674092ba3b8e9aaa592
+      internalID: -215790413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_33
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 430
+        width: 74
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71fc199006103e04da1af554f0c1a438
+      internalID: 916359157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_34
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 428
+        width: 75
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a66dc1a738791a4c8cdd67c0170e0e3
+      internalID: 2113269349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_35
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 57
+        width: 610
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f68264e2c786fb4bad3b3ef74e9610c
+      internalID: 713835799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_36
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 56
+        width: 76
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569cae78de5db684c81de13b8e357c11
+      internalID: -247314440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_37
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 58
+        width: 75
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5a4ad125d1b9c4fb6e1c19233d36df
+      internalID: -1825757145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_38
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 56
+        width: 76
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61398a18f0e95fd4a9e6a886acc801a1
+      internalID: -1660444847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_40
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 56
+        width: 75
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e744c7c0baad08488cce0883912a07c
+      internalID: 448916084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_42
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 54
+        width: 197
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5d995efc4506d4086ebe045a520986
+      internalID: 1805972728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_43
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 57
+        width: 195
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a986d64f89e1114a97bd8dfb3496b6b
+      internalID: -498763274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruines_modulaire_44
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 54
+        width: 189
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93718ac92cec728448d9ef7bf01ea72c
+      internalID: 1756636156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f12f060b52a63e24f9105fff9879c8e2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ruines_modulaire_0: 1460704861
+      Ruines_modulaire_1: 1606379968
+      Ruines_modulaire_10: 2130860066
+      Ruines_modulaire_11: -825935264
+      Ruines_modulaire_12: -53645650
+      Ruines_modulaire_13: -922010873
+      Ruines_modulaire_14: 254173085
+      Ruines_modulaire_15: -468187575
+      Ruines_modulaire_16: 949845263
+      Ruines_modulaire_17: -1809009849
+      Ruines_modulaire_18: -894759106
+      Ruines_modulaire_19: -443885304
+      Ruines_modulaire_2: -1196594404
+      Ruines_modulaire_20: -814379858
+      Ruines_modulaire_21: -2005044888
+      Ruines_modulaire_22: -1466010057
+      Ruines_modulaire_23: -1182364734
+      Ruines_modulaire_24: 1730951706
+      Ruines_modulaire_25: -2126414134
+      Ruines_modulaire_26: 242009183
+      Ruines_modulaire_27: 1897204520
+      Ruines_modulaire_28: 889650288
+      Ruines_modulaire_29: 363630202
+      Ruines_modulaire_3: 1062057782
+      Ruines_modulaire_30: -608632957
+      Ruines_modulaire_31: 335095843
+      Ruines_modulaire_32: -215790413
+      Ruines_modulaire_33: 916359157
+      Ruines_modulaire_34: 2113269349
+      Ruines_modulaire_35: 713835799
+      Ruines_modulaire_36: -247314440
+      Ruines_modulaire_37: -1825757145
+      Ruines_modulaire_38: -1660444847
+      Ruines_modulaire_39: -1072949427
+      Ruines_modulaire_4: -1442367129
+      Ruines_modulaire_40: 448916084
+      Ruines_modulaire_41: 1247760107
+      Ruines_modulaire_42: 1805972728
+      Ruines_modulaire_43: -498763274
+      Ruines_modulaire_44: 1756636156
+      Ruines_modulaire_45: 696084375
+      Ruines_modulaire_46: -2036856709
+      Ruines_modulaire_47: 737146419
+      Ruines_modulaire_48: 1162029451
+      Ruines_modulaire_49: 1915028500
+      Ruines_modulaire_5: -1850252467
+      Ruines_modulaire_50: -404835555
+      Ruines_modulaire_6: -1766564267
+      Ruines_modulaire_7: 292774343
+      Ruines_modulaire_8: 58588458
+      Ruines_modulaire_9: 1627036079
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

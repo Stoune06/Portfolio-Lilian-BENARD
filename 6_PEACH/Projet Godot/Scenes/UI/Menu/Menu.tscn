@@ -1,0 +1,249 @@
+[gd_scene load_steps=27 format=3 uid="uid://3licdukx4ygq"]
+
+[ext_resource type="Script" path="res://Scripts/UI/Menu.cs" id="1_0vvwe"]
+[ext_resource type="PackedScene" uid="uid://jbx763moe0gt" path="res://Scenes/UI/Menu/ButtonsMenu.tscn" id="2_x7ivw"]
+[ext_resource type="PackedScene" path="res://Scenes/UI/Menu/Pause.tscn" id="3_litlt"]
+[ext_resource type="PackedScene" uid="uid://cb18mb6o5wook" path="res://Scenes/UI/Menu/LevelsSelector.tscn" id="4_fsoj8"]
+[ext_resource type="PackedScene" uid="uid://bvvwxm54uxfqf" path="res://Scenes/Levels/LevelTest.tscn" id="4_rfikq"]
+[ext_resource type="Texture2D" uid="uid://uhi61np3vryy" path="res://Assets/Textures/Background/AllBlue.png" id="4_tib4i"]
+[ext_resource type="Script" path="res://Scripts/UI/ParallaxLayer.cs" id="5_5h26g"]
+[ext_resource type="FontFile" uid="uid://cs6lc0oiwtv0c" path="res://Assets/Fonts/Greek-Freak.ttf" id="5_f1dpi"]
+[ext_resource type="PackedScene" uid="uid://djb0s8obtwh46" path="res://Scenes/Levels/Level2.tscn" id="5_l0e0q"]
+[ext_resource type="PackedScene" uid="uid://h8fbgcr6chyo" path="res://Scripts/Utils/Effects/shaker.tscn" id="5_yr1d0"]
+[ext_resource type="PackedScene" uid="uid://db5nmfsr71tek" path="res://Scenes/Levels/Level3.tscn" id="6_2i6s4"]
+[ext_resource type="Texture2D" uid="uid://bccqxr01idcap" path="res://Assets/Textures/Background/HiPaint_1744216571798.png" id="6_p6fca"]
+[ext_resource type="PackedScene" uid="uid://c23qaavpgqnkv" path="res://Scenes/Levels/Level4.tscn" id="7_qpk3m"]
+[ext_resource type="PackedScene" uid="uid://basevqjti03ub" path="res://Scenes/Levels/Level5.tscn" id="8_8lw0v"]
+[ext_resource type="PackedScene" uid="uid://dcn3p1hqqdusc" path="res://Scenes/UI/Menu/Leaderboard/Leaderboard.tscn" id="8_wo58k"]
+[ext_resource type="PackedScene" uid="uid://du86igsg40oc6" path="res://Scenes/Levels/Level6.tscn" id="9_73yxp"]
+[ext_resource type="PackedScene" uid="uid://dnwhryred7d8r" path="res://Scenes/UI/Menu/Settings.tscn" id="10_a5epv"]
+[ext_resource type="PackedScene" uid="uid://de3peotv68th5" path="res://Scenes/Levels/Level7.tscn" id="10_u2pem"]
+[ext_resource type="Texture2D" uid="uid://dhw786bjyignw" path="res://Assets/Textures/Player/DashBull.png" id="15_k6aoy"]
+[ext_resource type="Texture2D" uid="uid://cvkstwjodkp1l" path="res://Assets/Textures/Background/Ouiiii.png" id="16_4jo4n"]
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_f6hx2"]
+particle_flag_disable_z = true
+emission_shape = 1
+emission_sphere_radius = 1.0
+angle_min = -480.0
+angle_max = 405.0
+inherit_velocity_ratio = 0.71
+spread = 91.875
+initial_velocity_min = 72.92
+initial_velocity_max = 154.8
+angular_velocity_min = -450.55
+angular_velocity_max = 465.0
+orbit_velocity_min = 0.5
+orbit_velocity_max = 0.5
+gravity = Vector3(0, -400, 0)
+linear_accel_min = 100.0
+linear_accel_max = 100.0
+radial_accel_min = -8.33
+radial_accel_max = 29.17
+tangential_accel_min = -66.66
+tangential_accel_max = 22.92
+scale_min = 10.0
+scale_max = 10.0
+
+[sub_resource type="Animation" id="Animation_mhvb2"]
+resource_name = "Logo"
+length = 1.6
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Label:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.4, 0.6),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(696, -247), Vector2(688, 176)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Label:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.4, 0.6, 0.8, 1.2),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(1, 1), Vector2(1, 1), Vector2(1.5, 1.5), Vector2(1, 1)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Label:rotation")
+tracks/2/interp = 4
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.4, 0.5, 0.7, 0.8, 1, 1.1, 1.2, 1.3, 1.4, 1.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 2,
+"values": [-0.139626, 0.0, 0.279253, 0.0, -0.139626, 0.0, 0.279253, 0.0, -0.139626, 0.0]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Sprite2D2:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0.2, 0.9),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(960, -192), Vector2(989, 1256)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Sprite2D3:modulate")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0.3, 0.4),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_0sl63"]
+_data = {
+"Logo": SubResource("Animation_mhvb2")
+}
+
+[sub_resource type="Curve" id="Curve_vjeb2"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(0.756098, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="CurveTexture" id="CurveTexture_c1al4"]
+curve = SubResource("Curve_vjeb2")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_qwp44"]
+particle_flag_disable_z = true
+emission_shape = 3
+emission_box_extents = Vector3(190, 80, 1)
+angle_max = 720.0
+spread = 180.0
+initial_velocity_min = 321.23
+initial_velocity_max = 321.23
+angular_velocity_max = 72.0
+radial_velocity_min = 25.0
+radial_velocity_max = 25.0
+gravity = Vector3(0, 50, 0)
+scale_min = 18.0
+scale_max = 20.0
+color = Color(0.939043, 0.856801, 0.74051, 1)
+alpha_curve = SubResource("CurveTexture_c1al4")
+
+[node name="Menu" type="CanvasLayer" node_paths=PackedStringArray("buttonsMenu", "settings", "buttonsLevels", "shaker", "intro", "explo", "Fall", "parallaxBack", "kinisi")]
+script = ExtResource("1_0vvwe")
+buttonsMenu = NodePath("ButtonsMenu")
+settings = NodePath("Settings")
+buttonsLevels = NodePath("LevelsSelector")
+sceneScore = ExtResource("8_wo58k")
+scenePause = ExtResource("3_litlt")
+shaker = NodePath("Shaker")
+intro = NodePath("ParallaxBackground/AnimationPlayer")
+explo = NodePath("ParallaxBackground/GPUParticles2D")
+Fall = NodePath("ParallaxBackground/Sprite2D2/GPUParticles2D")
+parallaxBack = NodePath("ParallaxBackground")
+kinisi = NodePath("ParallaxBackground/Label")
+levelScenes = Array[PackedScene]([ExtResource("4_rfikq"), ExtResource("5_l0e0q"), ExtResource("6_2i6s4"), ExtResource("7_qpk3m"), ExtResource("8_8lw0v"), ExtResource("9_73yxp"), ExtResource("10_u2pem")])
+metadata/_edit_use_anchors_ = true
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+layer = 0
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground"]
+position = Vector2(961, 540)
+texture = ExtResource("4_tib4i")
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+position = Vector2(0, 1)
+motion_mirroring = Vector2(3840, 0)
+script = ExtResource("5_5h26g")
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2(1133, 540)
+texture = ExtResource("6_p6fca")
+
+[node name="Label" type="Label" parent="ParallaxBackground"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -264.0
+offset_top = -787.0
+offset_right = 263.0
+offset_bottom = -548.0
+grow_horizontal = 2
+grow_vertical = 2
+rotation = 6.14356
+pivot_offset = Vector2(263, 119)
+theme_override_colors/font_color = Color(0.915678, 0.80341, 0.651672, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.52549)
+theme_override_colors/font_outline_color = Color(0.719964, 0.568547, 0.353958, 1)
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = ExtResource("5_f1dpi")
+theme_override_font_sizes/font_size = 250
+text = "KINISI"
+
+[node name="Sprite2D2" type="Sprite2D" parent="ParallaxBackground"]
+position = Vector2(960, -192)
+rotation = 1.83259
+scale = Vector2(0.346939, 0.346939)
+texture = ExtResource("15_k6aoy")
+
+[node name="GPUParticles2D" type="GPUParticles2D" parent="ParallaxBackground/Sprite2D2"]
+position = Vector2(-121.703, 80.3543)
+emitting = false
+amount = 150
+process_material = SubResource("ParticleProcessMaterial_f6hx2")
+lifetime = 3.0
+one_shot = true
+preprocess = 1.0
+fixed_fps = 40
+draw_order = 0
+
+[node name="Sprite2D3" type="Sprite2D" parent="ParallaxBackground"]
+position = Vector2(952, 349)
+rotation = 0.179649
+scale = Vector2(2.45358, 2.45358)
+texture = ExtResource("16_4jo4n")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="ParallaxBackground"]
+libraries = {
+"": SubResource("AnimationLibrary_0sl63")
+}
+autoplay = "Logo"
+
+[node name="GPUParticles2D" type="GPUParticles2D" parent="ParallaxBackground"]
+position = Vector2(952, 304)
+emitting = false
+amount = 400
+process_material = SubResource("ParticleProcessMaterial_qwp44")
+lifetime = 2.0
+one_shot = true
+explosiveness = 1.0
+randomness = 0.5
+fixed_fps = 60
+
+[node name="ButtonsMenu" parent="." instance=ExtResource("2_x7ivw")]
+visible = false
+
+[node name="Settings" parent="." instance=ExtResource("10_a5epv")]
+visible = false
+
+[node name="LevelsSelector" parent="." instance=ExtResource("4_fsoj8")]
+visible = false
+
+[node name="Shaker" parent="." node_paths=PackedStringArray("_targets") instance=ExtResource("5_yr1d0")]
+position = Vector2(-464, 34)
+_targets = [NodePath("../ButtonsMenu")]
+duration = 0.1
+amplitude = Vector2(5, 7)
+step = 0.15

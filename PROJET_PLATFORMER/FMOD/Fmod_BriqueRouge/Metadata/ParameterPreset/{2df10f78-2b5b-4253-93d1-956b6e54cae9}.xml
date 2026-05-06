@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{2df10f78-2b5b-4253-93d1-956b6e54cae9}">
+		<property name="name">
+			<value>TempleReached</value>
+		</property>
+		<relationship name="folder">
+			<destination>{2719a1d5-499a-4689-9577-a5400dc11c52}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{c0477e8f-eb3c-4d6a-ba70-c6ec2af45a08}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{c0477e8f-eb3c-4d6a-ba70-c6ec2af45a08}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>NO</value>
+			<value>Yes</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

@@ -1,0 +1,180 @@
+[gd_scene load_steps=13 format=3 uid="uid://vyfm4xocpnmu"]
+
+[ext_resource type="Script" path="res://Scripts/UI/WinScreen.cs" id="1_hvjwe"]
+[ext_resource type="Texture2D" uid="uid://cfxhgt0q5utii" path="res://Assets/InGameBackground.png" id="2_f04cn"]
+[ext_resource type="Texture2D" uid="uid://cipnst3xk7ii2" path="res://Assets/marmite.png" id="2_x71ov"]
+[ext_resource type="Texture2D" uid="uid://cvo5cx5mu5y6" path="res://Assets/Button.png" id="3_cdim8"]
+[ext_resource type="Shader" uid="uid://bwwbc1tjlkru3" path="res://shaders/PersonLabelWinScreen.tres" id="3_ja872"]
+[ext_resource type="Texture2D" uid="uid://b8sbtrx5rfttk" path="res://Assets/marmite_colored.png" id="3_ufv3i"]
+[ext_resource type="Script" path="res://Scripts/UI/PersonWinScreen.cs" id="5_d2i87"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_khqu0"]
+font_size = 100
+font_color = Color(0.184314, 0.145098, 0.145098, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ma4ti"]
+shader = ExtResource("3_ja872")
+shader_parameter/waveSize = 0.017
+shader_parameter/cutoff = 1.0
+shader_parameter/frequency = 0.124
+shader_parameter/speed = 3.751
+shader_parameter/xOffset = 0.1
+
+[sub_resource type="LabelSettings" id="LabelSettings_rvaa7"]
+font_size = 100
+
+[sub_resource type="Animation" id="Animation_7q7ub"]
+resource_name = "perfect"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(83.41, 83.41), Vector2(3.1, 3.1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_n1yl3"]
+_data = {
+"perfect": SubResource("Animation_7q7ub")
+}
+
+[node name="WinScreen" type="Control" node_paths=PackedStringArray("personContainer", "pot", "starNumber", "continueButton", "label", "animationPlayer")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_hvjwe")
+personContainer = NodePath("PersonLabelContainer")
+pot = NodePath("Pot")
+starNumber = NodePath("StarNum")
+continueButton = NodePath("Continue")
+label = NodePath("Label")
+animationPlayer = NodePath("Label/AnimationPlayer")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+z_index = -100
+layout_mode = 0
+offset_right = 1600.0
+offset_bottom = 2560.0
+texture = ExtResource("2_f04cn")
+
+[node name="BoxContainer" type="BoxContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="PersonLabelContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 0.101
+offset_top = 213.0
+offset_bottom = 213.45
+grow_horizontal = 2
+alignment = 1
+
+[node name="Continue" type="TextureButton" parent="."]
+z_index = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -338.0
+offset_top = 729.0
+offset_right = 342.0
+offset_bottom = 915.0
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("3_cdim8")
+stretch_mode = 0
+
+[node name="Label" type="Label" parent="Continue"]
+layout_mode = 0
+offset_left = 78.0
+offset_top = 20.0
+offset_right = 559.0
+offset_bottom = 157.0
+text = "Continuer"
+label_settings = SubResource("LabelSettings_khqu0")
+
+[node name="Pot" type="TextureRect" parent="." node_paths=PackedStringArray("sprite")]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -235.0
+offset_top = -1792.0
+offset_right = 277.0
+offset_bottom = -1280.0
+grow_horizontal = 2
+grow_vertical = 0
+texture = ExtResource("2_x71ov")
+script = ExtResource("5_d2i87")
+sprite = NodePath("Colored_Pot")
+shader = ExtResource("3_ja872")
+
+[node name="Colored_Pot" type="TextureRect" parent="Pot"]
+material = SubResource("ShaderMaterial_ma4ti")
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -256.0
+offset_top = -256.0
+offset_right = 256.0
+offset_bottom = 256.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_ufv3i")
+
+[node name="StarNum" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -79.0
+offset_top = -1095.0
+offset_right = 79.0
+offset_bottom = -958.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "X/5"
+label_settings = SubResource("LabelSettings_rvaa7")
+
+[node name="Label" type="RichTextLabel" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -216.5
+offset_top = 167.0
+offset_right = 216.5
+offset_bottom = 299.0
+grow_horizontal = 2
+scale = Vector2(83.41, 83.41)
+pivot_offset = Vector2(216, 66)
+bbcode_enabled = true
+text = "[wave][font_size=100][color=black]PERFECT"
+scroll_active = false
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Label"]
+libraries = {
+"": SubResource("AnimationLibrary_n1yl3")
+}

@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://w4mwkqq10mf0"]
+
+[ext_resource type="Script" path="res://Scripts/IngredientsScenes/SimpleTapType.cs" id="1_iwgia"]
+[ext_resource type="Script" path="res://Scripts/Managers/InputManager.cs" id="2_uej56"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_iwgia")
+
+[node name="InputManager" type="Node2D" parent="."]
+position = Vector2(-417, -968)
+script = ExtResource("2_uej56")

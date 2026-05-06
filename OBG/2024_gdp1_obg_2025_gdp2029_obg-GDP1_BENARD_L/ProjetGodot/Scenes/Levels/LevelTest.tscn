@@ -1,0 +1,101 @@
+[gd_scene load_steps=7 format=3 uid="uid://cvm7m3l1c8ib5"]
+
+[ext_resource type="Script" path="res://Scripts/Levels/FTUE.cs" id="1_tqucn"]
+[ext_resource type="PackedScene" uid="uid://b7hs2uba4kou1" path="res://Scenes/GameObjects/Ingredients/Rice.tscn" id="2_fhjjl"]
+[ext_resource type="PackedScene" uid="uid://dr1x8b3nlp5ml" path="res://Scenes/GameObjects/Ingredients/Water.tscn" id="3_aiy2t"]
+[ext_resource type="PackedScene" uid="uid://bgrorkp6frhv6" path="res://Scenes/GameObjects/Recipient/TwoIngredientsPan.tscn" id="4_ydknm"]
+
+[sub_resource type="Animation" id="Animation_883fv"]
+resource_name = "textapparition"
+length = 4.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:visible_ratio")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 2, 2.5, 3, 3.5, 4.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_g3dqr"]
+_data = {
+"textapparition": SubResource("Animation_883fv")
+}
+
+[node name="Level Test" type="Node2D" node_paths=PackedStringArray("richTextAnimation", "marker2DPositions", "ingredientPos", "recipientPos")]
+script = ExtResource("1_tqucn")
+richTextAnimation = NodePath("Control/RichTextLabel/AnimationPlayer")
+marker2DPositions = NodePath("Control")
+ingredientsList = Array[PackedScene]([ExtResource("2_fhjjl"), ExtResource("3_aiy2t")])
+recipientsList = Array[PackedScene]([ExtResource("4_ydknm")])
+personNumber = 2
+time = 13.0
+ingredientPos = NodePath("Control/Control/IngredientPos")
+recipientPos = NodePath("Control/Control2/RecipientPos")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1600.0
+offset_bottom = 2550.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Control"]
+z_index = 100
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -571.0
+offset_top = -113.0
+offset_right = 623.0
+offset_bottom = 140.0
+grow_horizontal = 2
+grow_vertical = 2
+bbcode_enabled = true
+text = "[font_size=50][wave][b]Retenez bien la liste[/b] d'ingrédients que vous allez voir. [color=#000000]Vous ne pourrez la[/color] voir qu'au début de chaque niveau"
+visible_characters = 0
+visible_ratio = 0.0
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Control/RichTextLabel"]
+libraries = {
+"": SubResource("AnimationLibrary_g3dqr")
+}
+
+[node name="Control" type="Control" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 259.0
+offset_top = -335.0
+offset_right = 299.0
+offset_bottom = -295.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="IngredientPos" type="Marker2D" parent="Control/Control"]
+
+[node name="Control2" type="Control" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="RecipientPos" type="Marker2D" parent="Control/Control2"]
+position = Vector2(-371, -52)

@@ -1,0 +1,19 @@
+{
+    "name": "AutoLoadEditor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:4399775d3d37b564a8711d11e20fc825",
+        "GUID:cf03af8bbde41ef4e8b456c5372296f0"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

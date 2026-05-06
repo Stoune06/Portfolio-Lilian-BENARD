@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1abc128821c04b4e9272c14acbc1799, type: 3}
+  m_Name: MonsterTwoData
+  m_EditorClassIdentifier: 
+  description: "\t\t\t//--- ENEMY DATA SCRIPTABLE OBJECT ---\\\\\\\r\nDescription
+    : Permet de stocker les informations n\xE9cessaires pour lier les types d'ennemis
+    et leur pr\xE9fab.\r\n\r\nFonctionnement :\r\n- Assigner le type d'ennemis voulu.\r\n-
+    Ajouter son pr\xE9fab voulu pour l'instanciation."
+  type: 1
+  prefab: {fileID: 4827644954576805681, guid: 38b159371bd643545990426237472c0c, type: 3}

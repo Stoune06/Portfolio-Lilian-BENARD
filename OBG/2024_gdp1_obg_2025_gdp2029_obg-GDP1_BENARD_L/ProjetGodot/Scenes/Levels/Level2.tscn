@@ -1,0 +1,60 @@
+[gd_scene load_steps=7 format=3 uid="uid://l7wah60yehyg"]
+
+[ext_resource type="Script" path="res://Scripts/Levels/Level.cs" id="1_1u4c8"]
+[ext_resource type="PackedScene" uid="uid://brek8nsmn85vs" path="res://Scenes/GameObjects/Ingredients/Pasta.tscn" id="2_wghqm"]
+[ext_resource type="PackedScene" uid="uid://d4b51ddifhns" path="res://Scenes/GameObjects/Ingredients/Tomato.tscn" id="3_tcx7i"]
+[ext_resource type="PackedScene" uid="uid://br0il6dxoudta" path="res://Scenes/GameObjects/Ingredients/Steak.tscn" id="4_1n0pl"]
+[ext_resource type="PackedScene" uid="uid://bgrorkp6frhv6" path="res://Scenes/GameObjects/Recipient/TwoIngredientsPan.tscn" id="5_a04ec"]
+[ext_resource type="PackedScene" uid="uid://tjc8d45fygcd" path="res://Scenes/GameObjects/Recipient/Stove.tscn" id="6_i3i1b"]
+
+[node name="Level2" type="Node2D" node_paths=PackedStringArray("marker2DPositions", "ingredientPos", "recipientPos")]
+script = ExtResource("1_1u4c8")
+marker2DPositions = NodePath("Control")
+ingredientsList = Array[PackedScene]([ExtResource("2_wghqm"), ExtResource("3_tcx7i"), ExtResource("4_1n0pl")])
+recipientsList = Array[PackedScene]([ExtResource("5_a04ec"), ExtResource("6_i3i1b")])
+personNumber = 5
+time = 20.0
+ingredientPos = NodePath("Control/Control/IngredientPos")
+recipientPos = NodePath("Control/Control2/RecipientPos")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1600.0
+offset_bottom = 2550.0
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="Control" type="Control" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 259.0
+offset_top = -335.0
+offset_right = 299.0
+offset_bottom = -295.0
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="IngredientPos" type="Marker2D" parent="Control/Control"]
+
+[node name="Control2" type="Control" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="RecipientPos" type="Marker2D" parent="Control/Control2"]
+position = Vector2(-371, -52)

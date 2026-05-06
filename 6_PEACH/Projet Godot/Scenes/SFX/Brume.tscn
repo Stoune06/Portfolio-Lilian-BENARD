@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://13mcse5ll6j7"]
+
+[ext_resource type="Texture2D" uid="uid://b6acs7bl0amsu" path="res://Assets/Textures/GameObjects/Movables/Brume1.png" id="1_jll07"]
+[ext_resource type="Texture2D" uid="uid://dryg3hg8py237" path="res://Assets/Textures/GameObjects/Movables/Brume2.png" id="2_qp71f"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_abbt4"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_jll07")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_qp71f")
+}],
+"loop": true,
+"name": &"default",
+"speed": 2.0
+}]
+
+[node name="Brume" type="AnimatedSprite2D"]
+sprite_frames = SubResource("SpriteFrames_abbt4")
+autoplay = "default"
+centered = false

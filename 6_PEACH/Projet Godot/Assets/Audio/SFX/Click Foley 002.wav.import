@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://xscydiu7hay8"
+path="res://.godot/imported/Click Foley 002.wav-aa0cf11768802172d88a70f972e40735.sample"
+
+[deps]
+
+source_file="res://Assets/Audio/SFX/Click Foley 002.wav"
+dest_files=["res://.godot/imported/Click Foley 002.wav-aa0cf11768802172d88a70f972e40735.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

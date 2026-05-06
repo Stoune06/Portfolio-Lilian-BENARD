@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: fa241b5cfab08f8418ebdf8d6f3ec727
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7019543454409441717
+    second: Asset plantes test_0
+  - first:
+      213: 5262122052406406185
+    second: Asset plantes test_1
+  - first:
+      213: 5061923586414180380
+    second: Asset plantes test_2
+  - first:
+      213: 91676743791080608
+    second: Asset plantes test_3
+  - first:
+      213: 4217111826325517984
+    second: Asset plantes test_4
+  - first:
+      213: 6960618419270468677
+    second: Asset plantes test_5
+  - first:
+      213: 354484752203675169
+    second: Asset plantes test_6
+  - first:
+      213: 5251432306052099162
+    second: Asset plantes test_7
+  - first:
+      213: 5400310015185863348
+    second: Asset plantes test_8
+  - first:
+      213: -6104042464303983700
+    second: Asset plantes test_9
+  - first:
+      213: 3772755963560322153
+    second: Asset plantes test_10
+  - first:
+      213: -5316307800463346523
+    second: Asset plantes test_11
+  - first:
+      213: -3514153169284847079
+    second: Asset plantes test_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Asset plantes test_0
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 2130
+        width: 907
+        height: 433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4eb18a5b62959e90800000000000000
+      internalID: -7019543454409441717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset plantes test_1
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 2158
+        width: 474
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92cee627020d60940800000000000000
+      internalID: 5262122052406406185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset plantes test_2
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 2137
+        width: 632
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c187360cea09f3640800000000000000
+      internalID: 5061923586414180380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset plantes test_3
+      rect:
+        serializedVersion: 2
+        x: 2733
+        y: 2230
+        width: 346
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a4f4d34383b54100800000000000000
+      internalID: 91676743791080608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset plantes test_4
+      rect:
+        serializedVersion: 2
+        x: 3118
+        y: 2165
+        width: 315
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a63b32ecd0368a30800000000000000
+      internalID: 4217111826325517984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset plantes test_5
+      rect:
+        serializedVersion: 2
+        x: 3447
+        y: 2206
+        width: 412
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54448a9c295199060800000000000000
+      internalID: 6960618419270468677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset plantes test_6
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 1531
+        width: 729
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 126746501026be400800000000000000
+      internalID: 354484752203675169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset plantes test_7
+      rect:
+        serializedVersion: 2
+        x: 3256
+        y: 372
+        width: 890
+        height: 1573
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5cee3cebd5d0e840800000000000000
+      internalID: 5251432306052099162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset plantes test_8
+      rect:
+        serializedVersion: 2
+        x: 5099
+        y: 407
+        width: 451
+        height: 1476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b24324c851c1fa40800000000000000
+      internalID: 5400310015185863348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset plantes test_9
+      rect:
+        serializedVersion: 2
+        x: 5735
+        y: 475
+        width: 204
+        height: 1584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca3d24528b51a4ba0800000000000000
+      internalID: -6104042464303983700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset plantes test_10
+      rect:
+        serializedVersion: 2
+        x: 4220
+        y: 375
+        width: 443
+        height: 1095
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 964ef385f858b5430800000000000000
+      internalID: 3772755963560322153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset plantes test_11
+      rect:
+        serializedVersion: 2
+        x: 4527
+        y: 387
+        width: 391
+        height: 1135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a47eb4f83ea836b0800000000000000
+      internalID: -5316307800463346523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset plantes test_12
+      rect:
+        serializedVersion: 2
+        x: 6005
+        y: 435
+        width: 282
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91aa672bf483b3fc0800000000000000
+      internalID: -3514153169284847079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Asset plantes test_0: -7019543454409441717
+      Asset plantes test_1: 5262122052406406185
+      Asset plantes test_10: 3772755963560322153
+      Asset plantes test_11: -5316307800463346523
+      Asset plantes test_12: -3514153169284847079
+      Asset plantes test_2: 5061923586414180380
+      Asset plantes test_3: 91676743791080608
+      Asset plantes test_4: 4217111826325517984
+      Asset plantes test_5: 6960618419270468677
+      Asset plantes test_6: 354484752203675169
+      Asset plantes test_7: 5251432306052099162
+      Asset plantes test_8: 5400310015185863348
+      Asset plantes test_9: -6104042464303983700
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

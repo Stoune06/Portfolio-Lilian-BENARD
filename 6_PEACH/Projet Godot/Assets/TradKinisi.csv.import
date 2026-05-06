@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://biv4y8turn7e"
+
+[deps]
+
+files=["res://Assets/TradKinisi.en.translation", "res://Assets/TradKinisi.fr.translation"]
+
+source_file="res://Assets/TradKinisi.csv"
+dest_files=["res://Assets/TradKinisi.en.translation", "res://Assets/TradKinisi.fr.translation"]
+
+[params]
+
+compress=true
+delimiter=0

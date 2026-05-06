@@ -1,0 +1,1131 @@
+fileFormatVersion: 2
+guid: 9ae4072051d4204469a883b539a97d58
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6688364230883553368
+    second: Planches d'Asset Level 2_0
+  - first:
+      213: -6819661341875198736
+    second: Planches d'Asset Level 2_1
+  - first:
+      213: 1647061634538936746
+    second: Planches d'Asset Level 2_2
+  - first:
+      213: 5477154705206844479
+    second: Planches d'Asset Level 2_3
+  - first:
+      213: 972145396776479672
+    second: Planches d'Asset Level 2_4
+  - first:
+      213: -374538798731560025
+    second: Planches d'Asset Level 2_5
+  - first:
+      213: -5216951467623372162
+    second: Planches d'Asset Level 2_6
+  - first:
+      213: 7090787803603057139
+    second: Planches d'Asset Level 2_7
+  - first:
+      213: 5220516230285796671
+    second: Planches d'Asset Level 2_8
+  - first:
+      213: -5955430495839404164
+    second: Planches d'Asset Level 2_9
+  - first:
+      213: 413674673509483000
+    second: Planches d'Asset Level 2_10
+  - first:
+      213: -6505149840090982476
+    second: Planches d'Asset Level 2_11
+  - first:
+      213: -794210616120195882
+    second: Planches d'Asset Level 2_12
+  - first:
+      213: 6224502425444425328
+    second: Planches d'Asset Level 2_13
+  - first:
+      213: 4141103883489205463
+    second: Planches d'Asset Level 2_14
+  - first:
+      213: -6041188731887095589
+    second: Planches d'Asset Level 2_15
+  - first:
+      213: 1694473357169372423
+    second: Planches d'Asset Level 2_16
+  - first:
+      213: -5597927096056920697
+    second: Planches d'Asset Level 2_17
+  - first:
+      213: 4717622945973195060
+    second: Planches d'Asset Level 2_18
+  - first:
+      213: 7575775214170670407
+    second: Planches d'Asset Level 2_19
+  - first:
+      213: 5735377854812341485
+    second: Planches d'Asset Level 2_20
+  - first:
+      213: -9078920359406424569
+    second: Planches d'Asset Level 2_21
+  - first:
+      213: 2271248058368932701
+    second: Planches d'Asset Level 2_22
+  - first:
+      213: -6615610372071155718
+    second: Planches d'Asset Level 2_23
+  - first:
+      213: -5886795329342383296
+    second: Planches d'Asset Level 2_24
+  - first:
+      213: 6890290393703394967
+    second: Planches d'Asset Level 2_25
+  - first:
+      213: -7330318365659858798
+    second: Planches d'Asset Level 2_26
+  - first:
+      213: 4832301615626355974
+    second: Planches d'Asset Level 2_27
+  - first:
+      213: 3976155805305624029
+    second: Planches d'Asset Level 2_28
+  - first:
+      213: -6413648396375247424
+    second: Planches d'Asset Level 2_29
+  - first:
+      213: 8863710854385975170
+    second: Planches d'Asset Level 2_30
+  - first:
+      213: -7329925201796987976
+    second: Planches d'Asset Level 2_31
+  - first:
+      213: 5515230279929367072
+    second: Planches d'Asset Level 2_32
+  - first:
+      213: -3613198108278620767
+    second: Planches d'Asset Level 2_33
+  - first:
+      213: 4890905120124592109
+    second: Planches d'Asset Level 2_34
+  - first:
+      213: -8403982280123386567
+    second: Planches d'Asset Level 2_35
+  - first:
+      213: 2834699866552884378
+    second: Planches d'Asset Level 2_36
+  - first:
+      213: -962604714165770911
+    second: Planches d'Asset Level 2_37
+  - first:
+      213: 6857131301620549265
+    second: Planches d'Asset Level 2_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Planches d'Asset Level 2_0
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1032
+        width: 508
+        height: 1835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8afc1c12b282e23a0800000000000000
+      internalID: -6688364230883553368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planches d'Asset Level 2_1
+      rect:
+        serializedVersion: 2
+        x: 2037
+        y: 2262
+        width: 587
+        height: 628
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f4a0154422bb51a0800000000000000
+      internalID: -6819661341875198736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planches d'Asset Level 2_2
+      rect:
+        serializedVersion: 2
+        x: 4054
+        y: 2833
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa91ed184d98bd610800000000000000
+      internalID: 1647061634538936746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planches d'Asset Level 2_3
+      rect:
+        serializedVersion: 2
+        x: 4242
+        y: 2859
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c96b76f23c20c40800000000000000
+      internalID: 5477154705206844479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planches d'Asset Level 2_4
+      rect:
+        serializedVersion: 2
+        x: 4057
+        y: 2816
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bba4e47611cd7d00800000000000000
+      internalID: 972145396776479672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planches d'Asset Level 2_5
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1020
+        width: 559
+        height: 1767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7abf00b62fe5dcaf0800000000000000
+      internalID: -374538798731560025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planches d'Asset Level 2_6
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 2263
+        width: 450
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a2bd1e74aa997b0800000000000000
+      internalID: -5216951467623372162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planches d'Asset Level 2_7
+      rect:
+        serializedVersion: 2
+        x: 2668
+        y: 2235
+        width: 356
+        height: 542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f9be6350f9876260800000000000000
+      internalID: 7090787803603057139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planches d'Asset Level 2_8
+      rect:
+        serializedVersion: 2
+        x: 3112
+        y: 2262
+        width: 544
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f35a85a1adff27840800000000000000
+      internalID: 5220516230285796671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planches d'Asset Level 2_9
+      rect:
+        serializedVersion: 2
+        x: 3820
+        y: 1027
+        width: 698
+        height: 1616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7fb6fa648f0a5da0800000000000000
+      internalID: -5955430495839404164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planches d'Asset Level 2_10
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 2232
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f1cb1f7ceaadb500800000000000000
+      internalID: 413674673509483000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planches d'Asset Level 2_11
+      rect:
+        serializedVersion: 2
+        x: 3285
+        y: 1763
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b710baafa019b5a0800000000000000
+      internalID: -6505149840090982476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planches d'Asset Level 2_12
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 1043
+        width: 663
+        height: 567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d4cf4d07a56af4f0800000000000000
+      internalID: -794210616120195882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planches d'Asset Level 2_13
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 1045
+        width: 663
+        height: 567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e1c242affd16650800000000000000
+      internalID: 6224502425444425328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planches d'Asset Level 2_14
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 1140
+        width: 902
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dc5d51aa08287930800000000000000
+      internalID: 4141103883489205463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planches d'Asset Level 2_15
+      rect:
+        serializedVersion: 2
+        x: 3794
+        y: 1126
+        width: 37
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0f6ce1bd2692ca0800000000000000
+      internalID: -6041188731887095589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planches d'Asset Level 2_16
+      rect:
+        serializedVersion: 2
+        x: 2968
+        y: 1116
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70da1776a8af38710800000000000000
+      internalID: 1694473357169372423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planches d'Asset Level 2_17
+      rect:
+        serializedVersion: 2
+        x: 3820
+        y: 1119
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7854ef817fa2052b0800000000000000
+      internalID: -5597927096056920697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planches d'Asset Level 2_18
+      rect:
+        serializedVersion: 2
+        x: 2960
+        y: 1055
+        width: 302
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 431d6f6031d587140800000000000000
+      internalID: 4717622945973195060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planches d'Asset Level 2_19
+      rect:
+        serializedVersion: 2
+        x: 3261
+        y: 1032
+        width: 362
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7450ada4b6f822960800000000000000
+      internalID: 7575775214170670407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planches d'Asset Level 2_20
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 598
+        width: 159
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de44bb885c7289f40800000000000000
+      internalID: 5735377854812341485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planches d'Asset Level 2_21
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 584
+        width: 215
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ea4890902310280800000000000000
+      internalID: -9078920359406424569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planches d'Asset Level 2_22
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 832
+        width: 50
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b30e35318158f10800000000000000
+      internalID: 2271248058368932701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planches d'Asset Level 2_23
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 598
+        width: 159
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af71f48ea61a034a0800000000000000
+      internalID: -6615610372071155718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planches d'Asset Level 2_24
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 846
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04b5e1966d6ed4ea0800000000000000
+      internalID: -5886795329342383296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planches d'Asset Level 2_25
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 834
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79e2af35b9a3f9f50800000000000000
+      internalID: 6890290393703394967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planches d'Asset Level 2_26
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 598
+        width: 202
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 298725cb84a754a90800000000000000
+      internalID: -7330318365659858798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planches d'Asset Level 2_27
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 846
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60584fe77b8cf0340800000000000000
+      internalID: 4832301615626355974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planches d'Asset Level 2_28
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 834
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd559da63a42e2730800000000000000
+      internalID: 3976155805305624029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planches d'Asset Level 2_29
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 833
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c5bcc3b3c42ef6a0800000000000000
+      internalID: -6413648396375247424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planches d'Asset Level 2_30
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 180
+        width: 318
+        height: 838
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f33736f0a320b70800000000000000
+      internalID: 8863710854385975170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planches d'Asset Level 2_31
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 820
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b305b45ddfd64a90800000000000000
+      internalID: -7329925201796987976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planches d'Asset Level 2_32
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 819
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a0ba9f7b80a8c40800000000000000
+      internalID: 5515230279929367072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planches d'Asset Level 2_33
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 548
+        width: 93
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad70fcc6775bddc0800000000000000
+      internalID: -3613198108278620767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planches d'Asset Level 2_34
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 600
+        width: 61
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def5a2b2b4cffd340800000000000000
+      internalID: 4890905120124592109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planches d'Asset Level 2_35
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 600
+        width: 61
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 935719674ae0f5b80800000000000000
+      internalID: -8403982280123386567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planches d'Asset Level 2_36
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 645
+        width: 45
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9c5bbe7280e65720800000000000000
+      internalID: 2834699866552884378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planches d'Asset Level 2_37
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 541
+        width: 10
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1656801dc1424a2f0800000000000000
+      internalID: -962604714165770911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planches d'Asset Level 2_38
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 271
+        width: 14
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1960e43969c692f50800000000000000
+      internalID: 6857131301620549265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Planches d'Asset Level 2_0: -6688364230883553368
+      Planches d'Asset Level 2_1: -6819661341875198736
+      Planches d'Asset Level 2_10: 413674673509483000
+      Planches d'Asset Level 2_11: -6505149840090982476
+      Planches d'Asset Level 2_12: -794210616120195882
+      Planches d'Asset Level 2_13: 6224502425444425328
+      Planches d'Asset Level 2_14: 4141103883489205463
+      Planches d'Asset Level 2_15: -6041188731887095589
+      Planches d'Asset Level 2_16: 1694473357169372423
+      Planches d'Asset Level 2_17: -5597927096056920697
+      Planches d'Asset Level 2_18: 4717622945973195060
+      Planches d'Asset Level 2_19: 7575775214170670407
+      Planches d'Asset Level 2_2: 1647061634538936746
+      Planches d'Asset Level 2_20: 5735377854812341485
+      Planches d'Asset Level 2_21: -9078920359406424569
+      Planches d'Asset Level 2_22: 2271248058368932701
+      Planches d'Asset Level 2_23: -6615610372071155718
+      Planches d'Asset Level 2_24: -5886795329342383296
+      Planches d'Asset Level 2_25: 6890290393703394967
+      Planches d'Asset Level 2_26: -7330318365659858798
+      Planches d'Asset Level 2_27: 4832301615626355974
+      Planches d'Asset Level 2_28: 3976155805305624029
+      Planches d'Asset Level 2_29: -6413648396375247424
+      Planches d'Asset Level 2_3: 5477154705206844479
+      Planches d'Asset Level 2_30: 8863710854385975170
+      Planches d'Asset Level 2_31: -7329925201796987976
+      Planches d'Asset Level 2_32: 5515230279929367072
+      Planches d'Asset Level 2_33: -3613198108278620767
+      Planches d'Asset Level 2_34: 4890905120124592109
+      Planches d'Asset Level 2_35: -8403982280123386567
+      Planches d'Asset Level 2_36: 2834699866552884378
+      Planches d'Asset Level 2_37: -962604714165770911
+      Planches d'Asset Level 2_38: 6857131301620549265
+      Planches d'Asset Level 2_4: 972145396776479672
+      Planches d'Asset Level 2_5: -374538798731560025
+      Planches d'Asset Level 2_6: -5216951467623372162
+      Planches d'Asset Level 2_7: 7090787803603057139
+      Planches d'Asset Level 2_8: 5220516230285796671
+      Planches d'Asset Level 2_9: -5955430495839404164
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

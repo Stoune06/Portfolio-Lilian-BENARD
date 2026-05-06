@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: 9a311c8615cc5e241a986845c4b84498
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2127742041038546703
+    second: Asset Test_0
+  - first:
+      213: 3968872808498106894
+    second: Asset Test_1
+  - first:
+      213: -9037307000409975915
+    second: Asset Test_2
+  - first:
+      213: 7119219134662075988
+    second: Asset Test_3
+  - first:
+      213: 4723231151276566976
+    second: Asset Test_4
+  - first:
+      213: 5026663634457387485
+    second: Asset Test_5
+  - first:
+      213: 6437704332754172846
+    second: Asset Test_6
+  - first:
+      213: -5744280538163645906
+    second: Asset Test_7
+  - first:
+      213: -2520014167448413703
+    second: Asset Test_8
+  - first:
+      213: 6745646557113841465
+    second: Asset Test_9
+  - first:
+      213: -7588331358998601438
+    second: Asset Test_10
+  - first:
+      213: 4810641511767681836
+    second: Asset Test_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Asset Test_0
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1099
+        width: 570
+        height: 949
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0764c1fc12478d10800000000000000
+      internalID: 2127742041038546703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c1272f31a4258dc48b989023b6fb1f4b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Asset Test_0: 2127742041038546703
+      Asset Test_1: 3968872808498106894
+      Asset Test_10: -7588331358998601438
+      Asset Test_11: 4810641511767681836
+      Asset Test_2: -9037307000409975915
+      Asset Test_3: 7119219134662075988
+      Asset Test_4: 4723231151276566976
+      Asset Test_5: 5026663634457387485
+      Asset Test_6: 6437704332754172846
+      Asset Test_7: -5744280538163645906
+      Asset Test_8: -2520014167448413703
+      Asset Test_9: 6745646557113841465
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

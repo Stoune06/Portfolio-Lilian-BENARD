@@ -1,0 +1,16 @@
+{
+    "name": "Tween",
+    "rootNamespace": "",
+    "references": [
+        "GUID:cf03af8bbde41ef4e8b456c5372296f0"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

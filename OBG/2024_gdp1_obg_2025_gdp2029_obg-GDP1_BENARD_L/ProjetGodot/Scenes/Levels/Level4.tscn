@@ -1,0 +1,64 @@
+[gd_scene load_steps=11 format=3 uid="uid://bf2jwnsgimoi5"]
+
+[ext_resource type="Script" path="res://Scripts/Levels/Level.cs" id="1_pdgrh"]
+[ext_resource type="PackedScene" uid="uid://d4b51ddifhns" path="res://Scenes/GameObjects/Ingredients/Tomato.tscn" id="2_fvdm7"]
+[ext_resource type="PackedScene" uid="uid://brek8nsmn85vs" path="res://Scenes/GameObjects/Ingredients/Pasta.tscn" id="3_y4a3m"]
+[ext_resource type="PackedScene" uid="uid://b7hs2uba4kou1" path="res://Scenes/GameObjects/Ingredients/Rice.tscn" id="4_1f5nc"]
+[ext_resource type="PackedScene" uid="uid://dr1x8b3nlp5ml" path="res://Scenes/GameObjects/Ingredients/Water.tscn" id="5_8soah"]
+[ext_resource type="PackedScene" uid="uid://cctbsq3jfq2vm" path="res://Scenes/GameObjects/Ingredients/cream.tscn" id="6_xpg3m"]
+[ext_resource type="PackedScene" uid="uid://br0il6dxoudta" path="res://Scenes/GameObjects/Ingredients/Steak.tscn" id="7_3ra74"]
+[ext_resource type="PackedScene" uid="uid://bgrorkp6frhv6" path="res://Scenes/GameObjects/Recipient/TwoIngredientsPan.tscn" id="8_25mel"]
+[ext_resource type="PackedScene" uid="uid://ddqnsetg6bcha" path="res://Scenes/GameObjects/Recipient/ThreeIngredientsPan.tscn" id="9_egfqv"]
+[ext_resource type="PackedScene" uid="uid://tjc8d45fygcd" path="res://Scenes/GameObjects/Recipient/Stove.tscn" id="10_fcxrg"]
+
+[node name="Level4" type="Node2D" node_paths=PackedStringArray("marker2DPositions", "ingredientPos", "recipientPos")]
+script = ExtResource("1_pdgrh")
+marker2DPositions = NodePath("Control")
+ingredientsList = Array[PackedScene]([ExtResource("2_fvdm7"), ExtResource("3_y4a3m"), ExtResource("4_1f5nc"), ExtResource("5_8soah"), ExtResource("6_xpg3m"), ExtResource("7_3ra74")])
+recipientsList = Array[PackedScene]([ExtResource("8_25mel"), ExtResource("9_egfqv"), ExtResource("10_fcxrg")])
+personNumber = 5
+time = 20.0
+ingredientPos = NodePath("Control/Control/IngredientPos")
+recipientPos = NodePath("Control/Control2/RecipientPos")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1600.0
+offset_bottom = 2550.0
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="Control" type="Control" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 259.0
+offset_top = -335.0
+offset_right = 299.0
+offset_bottom = -295.0
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="IngredientPos" type="Marker2D" parent="Control/Control"]
+
+[node name="Control2" type="Control" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="RecipientPos" type="Marker2D" parent="Control/Control2"]
+position = Vector2(-371, -52)

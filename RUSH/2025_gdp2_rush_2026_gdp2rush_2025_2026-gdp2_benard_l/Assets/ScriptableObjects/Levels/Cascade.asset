@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3835efe90f416484faab6918ddfcd1d3, type: 3}
+  m_Name: Cascade
+  m_EditorClassIdentifier: 
+  levelPrefab: {fileID: 1451859197603667538, guid: dfd64dcd00a5ab347ad44ce2cea9d2e3, type: 3}
+  levelInventory:
+  - tileType: 1
+    direction: 2
+    quantity: 3
+  - tileType: 0
+    direction: 3
+    quantity: 1
+  - tileType: 1
+    direction: 1
+    quantity: 1
+  YBound: 3
+  previewScale: 0.6
+  PotionColorTop: {r: 0, g: 0.4066224, b: 1, a: 1}
+  PotionColorBottom: {r: 0, g: 0.7610062, b: 0.7610062, a: 1}

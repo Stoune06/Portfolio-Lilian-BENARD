@@ -1,0 +1,1 @@
+C:\Users\kelya\Documents\Isart\Projet\Platformer\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\31b5j5n4\obj\arm64-v8a

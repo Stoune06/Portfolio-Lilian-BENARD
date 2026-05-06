@@ -1,0 +1,41 @@
+[gd_scene load_steps=2 format=3 uid="uid://bgrorkp6frhv6"]
+
+[ext_resource type="Script" path="res://Scripts/GameObjects/Recipients/Pan.cs" id="1_6rbou"]
+
+[node name="TwoIngredientsRecipient" type="Node2D" node_paths=PackedStringArray("bottomRect", "contentPos")]
+z_index = 1
+script = ExtResource("1_6rbou")
+bottomRect = NodePath("ColorRect2")
+contentPos = NodePath("ContentPos")
+nIngredients = 2
+
+[node name="ContentPos" type="Marker2D" parent="."]
+position = Vector2(6, 411)
+scale = Vector2(1, -1)
+
+[node name="ColorRect" type="ColorRect" parent="."]
+z_index = 1
+offset_left = 3.0
+offset_top = 5.0
+offset_right = 89.0
+offset_bottom = 496.0
+color = Color(0.140447, 0.140447, 0.140447, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect3" type="ColorRect" parent="."]
+z_index = 1
+offset_left = 708.0
+offset_top = -3.0
+offset_right = 797.0
+offset_bottom = 496.0
+color = Color(0.141176, 0.141176, 0.141176, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect2" type="ColorRect" parent="."]
+z_index = 1
+offset_left = 8.0
+offset_top = 406.0
+offset_right = 794.0
+offset_bottom = 496.0
+color = Color(0.141176, 0.141176, 0.141176, 1)
+metadata/_edit_use_anchors_ = true

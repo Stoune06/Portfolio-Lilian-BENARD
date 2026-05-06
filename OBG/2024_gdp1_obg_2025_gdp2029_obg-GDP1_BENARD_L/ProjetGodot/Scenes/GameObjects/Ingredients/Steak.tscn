@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://br0il6dxoudta"]
+
+[ext_resource type="Script" path="res://Scripts/GameObjects/Steak.cs" id="1_cxuv8"]
+
+[node name="Steak" type="Node2D" node_paths=PackedStringArray("basePolygon")]
+script = ExtResource("1_cxuv8")
+basePolygon = NodePath("Polygon2D")
+rectSize = Vector2(100, 100)
+rectStartColor = Color(0.843137, 0, 0, 1)
+rectEndColor = Color(0.290196, 0.227451, 0.109804, 1)
+increment = 100
+contentColor = Color(0.909804, 0.219608, 0.0941176, 1)
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+color = Color(0.803417, 0.207067, 0.184273, 1)
+offset = Vector2(-120, -90)
+polygon = PackedVector2Array(15, 10, 70, -35, 170, -35, 239, 5, 238, 189, 195, 234, 76, 233, 14, 194)

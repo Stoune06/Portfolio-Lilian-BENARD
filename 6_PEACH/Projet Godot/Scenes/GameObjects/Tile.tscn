@@ -1,0 +1,34 @@
+[gd_scene load_steps=5 format=3 uid="uid://b3fxelb07vqxm"]
+
+[ext_resource type="Script" path="res://Scripts/GameObjects/Tile.cs" id="1_xualc"]
+[ext_resource type="Texture2D" uid="uid://daj6d3d3kfa46" path="res://Assets/Textures/GameObjects/Movables/Tiles/Tile.png" id="2_dxhh6"]
+[ext_resource type="Texture2D" uid="uid://c0b3kewoonaij" path="res://Assets/Textures/Particles/Cadre.png" id="6_7cvyl"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_jbfjd"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_dxhh6")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Tile" type="Node2D" node_paths=PackedStringArray("outRenderer")]
+z_index = -1
+script = ExtResource("1_xualc")
+frameCount = 0
+outRenderer = NodePath("AnimatedSprite2D")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(1, 1.10417)
+sprite_frames = SubResource("SpriteFrames_jbfjd")
+centered = false
+
+[node name="Sprite2D" type="Sprite2D" parent="AnimatedSprite2D"]
+visible = false
+modulate = Color(0.741176, 1, 1, 1)
+position = Vector2(193.25, 186.364)
+scale = Vector2(1.87375, 1.57381)
+texture = ExtResource("6_7cvyl")

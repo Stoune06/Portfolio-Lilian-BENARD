@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee50233409be1834380448dd9a1327d2, type: 3}
+  m_Name: HeroSeven
+  m_EditorClassIdentifier: 
+  _CardName: Megabot
+  _CardIcon: {fileID: 21300000, guid: d445a85870ee1b948bb90d66b3903b1b, type: 3}
+  _CardDescription: {fileID: 21300000, guid: d21ba69786784f94db36b7836bb90387, type: 3}
+  _PrefabCharacter: {fileID: 7025455566187609855, guid: 16b75495020bda04bbe28cc7970ff3fb, type: 3}
+  _Health: 0
+  _Damage: 0
+  _Rarity: 2
+  _Price: 0

@@ -1,0 +1,325 @@
+[gd_scene load_steps=12 format=3 uid="uid://dnwhryred7d8r"]
+
+[ext_resource type="Texture2D" uid="uid://cl73exgso6mc1" path="res://Assets/Textures/UI/sound_icon_on.png" id="1_3ht46"]
+[ext_resource type="Script" path="res://Scripts/UI/Settings.cs" id="1_bwc1p"]
+[ext_resource type="FontFile" uid="uid://mq55u4u4fh4l" path="res://Assets/Fonts/DalekPinpointBold.ttf" id="2_h3sl1"]
+[ext_resource type="Texture2D" uid="uid://dwqpx8ik8vl07" path="res://Assets/Textures/UI/sound_icon_mute.png" id="2_juoqg"]
+[ext_resource type="Texture2D" uid="uid://dtcbcbxk8kpwl" path="res://Assets/Textures/UI/french_flag.png" id="3_quks7"]
+[ext_resource type="Texture2D" uid="uid://r1dm4ucpe700" path="res://Assets/Textures/UI/US_UK_flag.png" id="4_mu82j"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_h1u7a"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ov1i1"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ls3qa"]
+bg_color = Color(0, 0, 0, 1)
+border_width_top = 3
+border_width_bottom = 3
+border_color = Color(1, 1, 1, 0.627451)
+shadow_color = Color(0, 0, 0, 0.121569)
+shadow_size = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2u52b"]
+bg_color = Color(0.878431, 0.745098, 0.54902, 1)
+border_color = Color(0.878431, 0.745098, 0.54902, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4vn46"]
+bg_color = Color(1, 1, 1, 0.517647)
+
+[node name="Settings" type="Control" node_paths=PackedStringArray("back", "frenchFlag", "englishFlag", "muteOverall", "muteMusic", "muteSfx", "unmuteOverall", "unmuteMusic", "unmuteSfx", "sliderOverall", "sliderMusic", "sliderSfx")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_bwc1p")
+back = NodePath("Back")
+frenchFlag = NodePath("FrenchFlag")
+englishFlag = NodePath("USUKFlag")
+muteOverall = NodePath("GeneralSoundButtonMute")
+muteMusic = NodePath("MusicSoundButtonMute2")
+muteSfx = NodePath("SfxSoundButtonMute3")
+unmuteOverall = NodePath("GeneralSoundButtonOn")
+unmuteMusic = NodePath("MusicSoundButtonOn2")
+unmuteSfx = NodePath("SfxSoundButtonOn3")
+sliderOverall = NodePath("GeneralSoundSlider")
+sliderMusic = NodePath("MusicSoundSlider")
+sliderSfx = NodePath("SfxSoundSlider2")
+
+[node name="Back" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.426
+anchor_top = 0.849
+anchor_right = 0.574
+anchor_bottom = 0.977
+offset_left = 0.247955
+offset_top = -0.152039
+offset_right = -0.247986
+offset_bottom = -0.0960083
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.882353, 0.74902, 0.560784, 1)
+theme_override_colors/font_hover_color = Color(0.756863, 0.607843, 0.388235, 1)
+theme_override_fonts/font = ExtResource("2_h3sl1")
+theme_override_font_sizes/font_size = 60
+theme_override_styles/normal = SubResource("StyleBoxEmpty_h1u7a")
+theme_override_styles/hover = SubResource("StyleBoxFlat_ov1i1")
+text = "BACK"
+
+[node name="General" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.426
+anchor_top = 0.017
+anchor_right = 0.626
+anchor_bottom = 0.145
+offset_left = 0.247955
+offset_top = -0.0160007
+offset_right = -0.152039
+offset_bottom = 0.0399933
+theme_override_colors/font_color = Color(0.882353, 0.74902, 0.560784, 1)
+theme_override_fonts/font = ExtResource("2_h3sl1")
+theme_override_font_sizes/font_size = 40
+text = "GENERAL"
+
+[node name="GeneralSoundSlider" type="HSlider" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.308
+anchor_top = 0.111
+anchor_right = 0.716
+anchor_bottom = 0.136
+offset_left = 0.18396
+offset_top = 0.071991
+offset_right = 0.167969
+offset_bottom = 13.997
+grow_horizontal = 2
+pivot_offset = Vector2(235, 8)
+theme_override_styles/slider = SubResource("StyleBoxFlat_ls3qa")
+theme_override_styles/grabber_area_highlight = SubResource("StyleBoxFlat_2u52b")
+max_value = 1.0
+step = 0.001
+
+[node name="GeneralSoundButtonOn" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.229
+anchor_top = 0.073
+anchor_right = 0.285
+anchor_bottom = 0.171
+offset_left = 0.191986
+offset_top = -0.304005
+offset_right = 1535.68
+offset_bottom = 1536.19
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.039898, 0.039898)
+theme_override_font_sizes/font_size = 60
+theme_override_styles/normal = SubResource("StyleBoxEmpty_h1u7a")
+theme_override_styles/hover = SubResource("StyleBoxFlat_4vn46")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_4vn46")
+icon = ExtResource("1_3ht46")
+
+[node name="GeneralSoundButtonMute" type="Button" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.226
+anchor_top = 0.068
+anchor_right = 0.284
+anchor_bottom = 0.172
+offset_left = -0.35202
+offset_top = -0.064003
+offset_right = 1932.83
+offset_bottom = 1932.54
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.0335844, 0.0335844)
+theme_override_font_sizes/font_size = 60
+theme_override_styles/normal = SubResource("StyleBoxEmpty_h1u7a")
+icon = ExtResource("2_juoqg")
+
+[node name="Music" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.426
+anchor_top = 0.157
+anchor_right = 0.626
+anchor_bottom = 0.285
+offset_left = 0.247955
+offset_top = 0.264
+offset_right = -0.152039
+offset_bottom = 0.319977
+theme_override_colors/font_color = Color(0.882353, 0.74902, 0.560784, 1)
+theme_override_fonts/font = ExtResource("2_h3sl1")
+theme_override_font_sizes/font_size = 40
+text = "MUSIC"
+
+[node name="MusicSoundSlider" type="HSlider" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.308
+anchor_top = 0.255
+anchor_right = 0.716
+anchor_bottom = 0.301
+offset_left = 0.18396
+offset_top = -0.240021
+offset_right = 0.167969
+offset_bottom = 0.0769653
+grow_horizontal = 2
+pivot_offset = Vector2(235, 8)
+theme_override_styles/slider = SubResource("StyleBoxFlat_ls3qa")
+theme_override_styles/grabber_area_highlight = SubResource("StyleBoxFlat_2u52b")
+max_value = 1.0
+step = 0.001
+
+[node name="MusicSoundButtonOn2" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.229
+anchor_top = 0.216
+anchor_right = 0.285
+anchor_bottom = 0.315
+offset_left = 0.191986
+offset_top = 0.0319977
+offset_right = 1535.68
+offset_bottom = 1535.88
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.039898, 0.039898)
+theme_override_font_sizes/font_size = 60
+theme_override_styles/normal = SubResource("StyleBoxEmpty_h1u7a")
+theme_override_styles/hover = SubResource("StyleBoxFlat_4vn46")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_4vn46")
+icon = ExtResource("1_3ht46")
+
+[node name="MusicSoundButtonMute2" type="Button" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.226
+anchor_top = 0.211
+anchor_right = 0.284
+anchor_bottom = 0.315
+offset_left = -0.35202
+offset_top = 0.271988
+offset_right = 1932.83
+offset_bottom = 1932.88
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.0335844, 0.0335844)
+theme_override_font_sizes/font_size = 60
+theme_override_styles/normal = SubResource("StyleBoxEmpty_h1u7a")
+icon = ExtResource("2_juoqg")
+
+[node name="Sfx" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.458
+anchor_top = 0.304
+anchor_right = 0.658
+anchor_bottom = 0.432
+offset_left = 0.383972
+offset_top = 0.00798035
+offset_right = -0.0160522
+offset_bottom = 0.0639954
+theme_override_colors/font_color = Color(0.882353, 0.74902, 0.560784, 1)
+theme_override_fonts/font = ExtResource("2_h3sl1")
+theme_override_font_sizes/font_size = 40
+text = "SFX"
+
+[node name="SfxSoundSlider2" type="HSlider" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.308
+anchor_top = 0.401
+anchor_right = 0.716
+anchor_bottom = 0.448
+offset_left = 0.18396
+offset_top = 0.151978
+offset_right = 0.167969
+offset_bottom = -0.179016
+grow_horizontal = 2
+pivot_offset = Vector2(235, 8)
+theme_override_styles/slider = SubResource("StyleBoxFlat_ls3qa")
+theme_override_styles/grabber_area_highlight = SubResource("StyleBoxFlat_2u52b")
+max_value = 1.0
+step = 0.001
+
+[node name="SfxSoundButtonOn3" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.229
+anchor_top = 0.363
+anchor_right = 0.285
+anchor_bottom = 0.461
+offset_left = 0.191986
+offset_top = -0.223999
+offset_right = 1535.68
+offset_bottom = 1536.27
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.039898, 0.039898)
+theme_override_font_sizes/font_size = 60
+theme_override_styles/normal = SubResource("StyleBoxEmpty_h1u7a")
+theme_override_styles/hover = SubResource("StyleBoxFlat_4vn46")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_4vn46")
+icon = ExtResource("1_3ht46")
+
+[node name="SfxSoundButtonMute3" type="Button" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.226
+anchor_top = 0.361
+anchor_right = 0.284
+anchor_bottom = 0.465
+offset_left = -0.35202
+offset_top = 0.0719757
+offset_right = 1932.83
+offset_bottom = 1932.68
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.0335844, 0.0335844)
+theme_override_font_sizes/font_size = 60
+theme_override_styles/normal = SubResource("StyleBoxEmpty_h1u7a")
+icon = ExtResource("2_juoqg")
+
+[node name="FrenchFlag" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.19
+anchor_top = 0.5
+anchor_right = 0.398
+anchor_bottom = 0.808
+offset_left = 0.119965
+offset_right = 1680.5
+offset_bottom = 1400.42
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.12473, 0.12473)
+theme_override_font_sizes/font_size = 60
+theme_override_styles/normal = SubResource("StyleBoxEmpty_h1u7a")
+theme_override_styles/hover = SubResource("StyleBoxFlat_4vn46")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_4vn46")
+icon = ExtResource("3_quks7")
+
+[node name="USUKFlag" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.59
+anchor_top = 0.552
+anchor_right = 0.818
+anchor_bottom = 0.768
+offset_left = 0.319885
+offset_top = 0.303925
+offset_right = 345.664
+offset_bottom = 184.336
+scale = Vector2(0.430651, 0.430651)
+theme_override_styles/normal = SubResource("StyleBoxEmpty_h1u7a")
+theme_override_styles/hover = SubResource("StyleBoxFlat_4vn46")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_4vn46")
+icon = ExtResource("4_mu82j")

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "OBG Debug": {
+      "commandName": "Executable",
+      "executablePath": "$(Godot)",
+      "commandLineArgs": "--path . --verbose",
+      "workingDirectory": "."
+    }
+  }
+}

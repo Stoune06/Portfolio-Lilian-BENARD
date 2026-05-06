@@ -1,0 +1,2 @@
+C:\Users\fmajc\Desktop\Isart\GDP2\F2P\GoldMoon - F2P\F2P_PROJECT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Users\fmajc\Desktop\Isart\GDP2\F2P\GoldMoon - F2P\F2P_PROJECT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt

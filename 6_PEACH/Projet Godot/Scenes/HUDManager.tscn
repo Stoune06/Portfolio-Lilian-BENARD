@@ -1,0 +1,154 @@
+[gd_scene load_steps=13 format=3 uid="uid://cfmerbkpbnmgd"]
+
+[ext_resource type="Script" path="res://Scripts/Managers/HUDManager.cs" id="1_os7wt"]
+[ext_resource type="Theme" uid="uid://ckc0g2l53mxwy" path="res://Assets/Textures/UI/Modules/UITheme.tres" id="2_7cl3p"]
+[ext_resource type="FontFile" uid="uid://mq55u4u4fh4l" path="res://Assets/Fonts/DalekPinpointBold.ttf" id="3_ir5bt"]
+[ext_resource type="Texture2D" uid="uid://ciy7i7muphvdp" path="res://Assets/Textures/Background/FTUEBACKGROUND.png" id="4_dsfg6"]
+[ext_resource type="Texture2D" uid="uid://bjyiw5i0whnor" path="res://Assets/Textures/Background/BackgroundLevel2.png" id="5_uvh0v"]
+[ext_resource type="Texture2D" uid="uid://ca03h3a3ff01p" path="res://Assets/Textures/Background/Background3.png" id="6_mrh6g"]
+[ext_resource type="Texture2D" uid="uid://o6xn81tarnaq" path="res://Assets/Textures/Background/Background4.png" id="7_370mq"]
+[ext_resource type="Texture2D" uid="uid://cqao0r5oqhppf" path="res://Assets/Textures/Background/BackGround5.png" id="8_dn1so"]
+[ext_resource type="Texture2D" uid="uid://ddeqkc6l5klyr" path="res://Assets/Textures/Background/Background6.png" id="9_a8nfl"]
+[ext_resource type="Texture2D" uid="uid://dcdit53drpxve" path="res://Assets/Textures/Background/Background7.png" id="10_5ihgt"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_xigyx"]
+font = ExtResource("3_ir5bt")
+font_size = 50
+
+[sub_resource type="LabelSettings" id="LabelSettings_fg56n"]
+font_size = 40
+
+[node name="HUDManager" type="Node2D" node_paths=PackedStringArray("undo", "redo", "reset", "stepLabel", "realizedBy", "parLabel", "container")]
+script = ExtResource("1_os7wt")
+undo = NodePath("Control/Undo")
+redo = NodePath("Control/Redo")
+reset = NodePath("Control/Reset")
+stepLabel = NodePath("Control/STEP")
+realizedBy = NodePath("Control/RealizedBy")
+parLabel = NodePath("Control/PAR")
+container = NodePath("Control")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="STEP" type="Label" parent="Control"]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -203.0
+offset_right = 390.0
+offset_bottom = 130.0
+grow_vertical = 0
+scale = Vector2(0.6, 0.6)
+theme = ExtResource("2_7cl3p")
+text = "STEP : X"
+label_settings = SubResource("LabelSettings_xigyx")
+
+[node name="RealizedBy" type="Label" parent="Control"]
+layout_mode = 0
+offset_right = 194.0
+offset_bottom = 69.0
+scale = Vector2(0.4, 0.4)
+theme = ExtResource("2_7cl3p")
+text = "Level Realized By : X"
+label_settings = SubResource("LabelSettings_fg56n")
+
+[node name="PAR" type="Label" parent="Control"]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 65.0
+offset_top = -95.0
+offset_right = 236.0
+offset_bottom = -45.0
+grow_vertical = 0
+scale = Vector2(0.6, 0.6)
+text = "PAR : X"
+label_settings = SubResource("LabelSettings_xigyx")
+
+[node name="Reset" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -540.0
+offset_top = 45.0
+offset_right = -175.0
+offset_bottom = 270.0
+grow_horizontal = 0
+scale = Vector2(0.4, 0.4)
+theme = ExtResource("2_7cl3p")
+theme_override_font_sizes/font_size = 60
+text = "RESET"
+
+[node name="Undo" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -374.0
+offset_top = 45.0
+offset_right = -6.0
+offset_bottom = 270.0
+grow_horizontal = 0
+scale = Vector2(0.4, 0.4)
+theme = ExtResource("2_7cl3p")
+theme_override_font_sizes/font_size = 60
+text = "UNDO"
+
+[node name="Redo" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -207.0
+offset_top = 45.0
+offset_right = 158.0
+offset_bottom = 270.0
+grow_horizontal = 0
+scale = Vector2(0.4, 0.4)
+theme = ExtResource("2_7cl3p")
+theme_override_font_sizes/font_size = 60
+text = "REDO"
+
+[node name="Background1" type="Sprite2D" parent="Control"]
+visible = false
+position = Vector2(955, 542)
+texture = ExtResource("4_dsfg6")
+
+[node name="Background2" type="Sprite2D" parent="Control"]
+visible = false
+position = Vector2(956, 540)
+texture = ExtResource("5_uvh0v")
+
+[node name="Background3" type="Sprite2D" parent="Control"]
+visible = false
+position = Vector2(960, 532)
+texture = ExtResource("6_mrh6g")
+
+[node name="Background4" type="Sprite2D" parent="Control"]
+visible = false
+position = Vector2(967, 540)
+texture = ExtResource("7_370mq")
+
+[node name="Background5" type="Sprite2D" parent="Control"]
+visible = false
+position = Vector2(966, 538)
+texture = ExtResource("8_dn1so")
+
+[node name="Background6" type="Sprite2D" parent="Control"]
+visible = false
+position = Vector2(956, 552)
+texture = ExtResource("9_a8nfl")
+
+[node name="Background7" type="Sprite2D" parent="Control"]
+position = Vector2(966, 538)
+texture = ExtResource("10_5ihgt")
+
+[node name="Background8" type="Sprite2D" parent="Control"]
+visible = false

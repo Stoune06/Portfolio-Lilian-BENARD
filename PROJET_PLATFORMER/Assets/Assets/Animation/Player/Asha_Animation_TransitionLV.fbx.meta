@@ -1,0 +1,508 @@
+fileFormatVersion: 2
+guid: bd964c86e2d6f634b8d26c51d92af005
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      internalID: 1827226128182048838
+      firstFrame: 1
+      lastFrame: 317
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: asha_geo
+        weight: 1
+      - path: GRP_CTRL_Root
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Fabric
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Fabric/CTRL_Fabric
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Fabric/CTRL_Fabric/GRP_CTRL_FabricProximal
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Fabric/CTRL_Fabric/GRP_CTRL_FabricProximal/CTRL_FabricProximal
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Fabric/CTRL_Fabric/GRP_CTRL_FabricProximal/CTRL_FabricProximal/GRP_CTRL_FabricIntermediate
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Fabric/CTRL_Fabric/GRP_CTRL_FabricProximal/CTRL_FabricProximal/GRP_CTRL_FabricIntermediate/CTRL_FabricIntermediate
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Leaf
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Leaf/CTRL_Leaf
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_leftShoulder
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_leftShoulder/CTRL_leftShoulder
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_leftShoulder/CTRL_leftShoulder/GRP_CTRL_leftHand
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_leftShoulder/CTRL_leftShoulder/GRP_CTRL_leftHand/CTRL_leftHand
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_leftShoulder/CTRL_leftShoulder/GRP_CTRL_leftHand/CTRL_leftHand/CTRL_PV_leftArm
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_leftShoulder/CTRL_leftShoulder/GRP_CTRL_leftHand/CTRL_leftHand/CTRL_PV_leftArm/CTRL_PV_leftArm
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_leftShoulder/CTRL_leftShoulder/GRP_CTRL_leftHand/CTRL_leftHand/GRP_CTRL_leftIndexProximal
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_leftShoulder/CTRL_leftShoulder/GRP_CTRL_leftHand/CTRL_leftHand/GRP_CTRL_leftIndexProximal/CTRL_leftIndexProximal
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_leftShoulder/CTRL_leftShoulder/GRP_CTRL_leftHand/CTRL_leftHand/GRP_CTRL_leftIndexProximal/CTRL_leftIndexProximal/GRP_CTRL_leftIndexIntermediate
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_leftShoulder/CTRL_leftShoulder/GRP_CTRL_leftHand/CTRL_leftHand/GRP_CTRL_leftIndexProximal/CTRL_leftIndexProximal/GRP_CTRL_leftIndexIntermediate/CTRL_leftIndexIntermediate
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_leftShoulder/CTRL_leftShoulder/GRP_CTRL_leftHand/CTRL_leftHand/GRP_CTRL_leftIndexProximal/CTRL_leftIndexProximal/GRP_CTRL_leftIndexIntermediate/CTRL_leftIndexIntermediate/GRP_CTRL_leftIndexDistal
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_leftShoulder/CTRL_leftShoulder/GRP_CTRL_leftHand/CTRL_leftHand/GRP_CTRL_leftIndexProximal/CTRL_leftIndexProximal/GRP_CTRL_leftIndexIntermediate/CTRL_leftIndexIntermediate/GRP_CTRL_leftIndexDistal/CTRL_leftIndexDistal
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_leftShoulder/CTRL_leftShoulder/GRP_CTRL_leftHand/CTRL_leftHand/GRP_CTRL_leftLittleProximal
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_leftShoulder/CTRL_leftShoulder/GRP_CTRL_leftHand/CTRL_leftHand/GRP_CTRL_leftLittleProximal/CTRL_leftLittleProximal
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_leftShoulder/CTRL_leftShoulder/GRP_CTRL_leftHand/CTRL_leftHand/GRP_CTRL_leftLittleProximal/CTRL_leftLittleProximal/GRP_CTRL_leftLittleIntermediate
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_leftShoulder/CTRL_leftShoulder/GRP_CTRL_leftHand/CTRL_leftHand/GRP_CTRL_leftLittleProximal/CTRL_leftLittleProximal/GRP_CTRL_leftLittleIntermediate/CTRL_leftLittleIntermediate
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_leftShoulder/CTRL_leftShoulder/GRP_CTRL_leftHand/CTRL_leftHand/GRP_CTRL_leftLittleProximal/CTRL_leftLittleProximal/GRP_CTRL_leftLittleIntermediate/CTRL_leftLittleIntermediate/GRP_CTRL_leftLittleDistal
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_leftShoulder/CTRL_leftShoulder/GRP_CTRL_leftHand/CTRL_leftHand/GRP_CTRL_leftLittleProximal/CTRL_leftLittleProximal/GRP_CTRL_leftLittleIntermediate/CTRL_leftLittleIntermediate/GRP_CTRL_leftLittleDistal/CTRL_leftLittleDistal
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_leftShoulder/CTRL_leftShoulder/GRP_CTRL_leftHand/CTRL_leftHand/GRP_CTRL_leftMiddleProximal
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_leftShoulder/CTRL_leftShoulder/GRP_CTRL_leftHand/CTRL_leftHand/GRP_CTRL_leftMiddleProximal/CTRL_leftMiddleProximal
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_leftShoulder/CTRL_leftShoulder/GRP_CTRL_leftHand/CTRL_leftHand/GRP_CTRL_leftMiddleProximal/CTRL_leftMiddleProximal/GRP_CTRL_leftMiddleIntermediate
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_leftShoulder/CTRL_leftShoulder/GRP_CTRL_leftHand/CTRL_leftHand/GRP_CTRL_leftMiddleProximal/CTRL_leftMiddleProximal/GRP_CTRL_leftMiddleIntermediate/CTRL_leftMiddleIntermediate
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_leftShoulder/CTRL_leftShoulder/GRP_CTRL_leftHand/CTRL_leftHand/GRP_CTRL_leftMiddleProximal/CTRL_leftMiddleProximal/GRP_CTRL_leftMiddleIntermediate/CTRL_leftMiddleIntermediate/GRP_CTRL_leftMiddleDistal
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_leftShoulder/CTRL_leftShoulder/GRP_CTRL_leftHand/CTRL_leftHand/GRP_CTRL_leftMiddleProximal/CTRL_leftMiddleProximal/GRP_CTRL_leftMiddleIntermediate/CTRL_leftMiddleIntermediate/GRP_CTRL_leftMiddleDistal/CTRL_leftMiddleDistal
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_leftShoulder/CTRL_leftShoulder/GRP_CTRL_leftHand/CTRL_leftHand/GRP_CTRL_leftThumbProximal
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_leftShoulder/CTRL_leftShoulder/GRP_CTRL_leftHand/CTRL_leftHand/GRP_CTRL_leftThumbProximal/CTRL_leftThumbProximal
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_leftShoulder/CTRL_leftShoulder/GRP_CTRL_leftHand/CTRL_leftHand/GRP_CTRL_leftThumbProximal/CTRL_leftThumbProximal/GRP_CTRL_leftThumbIntermediate
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_leftShoulder/CTRL_leftShoulder/GRP_CTRL_leftHand/CTRL_leftHand/GRP_CTRL_leftThumbProximal/CTRL_leftThumbProximal/GRP_CTRL_leftThumbIntermediate/CTRL_leftThumbIntermediate
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_leftShoulder/CTRL_leftShoulder/GRP_CTRL_leftHand/CTRL_leftHand/GRP_CTRL_leftThumbProximal/CTRL_leftThumbProximal/GRP_CTRL_leftThumbIntermediate/CTRL_leftThumbIntermediate/GRP_CTRL_leftThumbDistal
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_leftShoulder/CTRL_leftShoulder/GRP_CTRL_leftHand/CTRL_leftHand/GRP_CTRL_leftThumbProximal/CTRL_leftThumbProximal/GRP_CTRL_leftThumbIntermediate/CTRL_leftThumbIntermediate/GRP_CTRL_leftThumbDistal/CTRL_leftThumbDistal
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_Neck
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_Neck/CTRL_Neck
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_Neck/CTRL_Neck/GRP_CTRL_Head
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_Neck/CTRL_Neck/GRP_CTRL_Head/CTRL_Head
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_Neck/CTRL_Neck/GRP_CTRL_Head/CTRL_Head/GRP_CTRL_leftStrandSide
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_Neck/CTRL_Neck/GRP_CTRL_Head/CTRL_Head/GRP_CTRL_leftStrandSide/CTRL_leftStrandSide
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_Neck/CTRL_Neck/GRP_CTRL_Head/CTRL_Head/GRP_CTRL_leftStrandSide/CTRL_leftStrandSide/GRP_CTRL_leftStrandSideIntermediate
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_Neck/CTRL_Neck/GRP_CTRL_Head/CTRL_Head/GRP_CTRL_leftStrandSide/CTRL_leftStrandSide/GRP_CTRL_leftStrandSideIntermediate/CTRL_leftStrandSideIntermediate
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_Neck/CTRL_Neck/GRP_CTRL_Head/CTRL_Head/GRP_CTRL_PonyTail
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_Neck/CTRL_Neck/GRP_CTRL_Head/CTRL_Head/GRP_CTRL_PonyTail/CTRL_PonyTail
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_Neck/CTRL_Neck/GRP_CTRL_Head/CTRL_Head/GRP_CTRL_PonyTail/CTRL_PonyTail/GRP_CTRL_PonyTailProximal
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_Neck/CTRL_Neck/GRP_CTRL_Head/CTRL_Head/GRP_CTRL_PonyTail/CTRL_PonyTail/GRP_CTRL_PonyTailProximal/CTRL_PonyTailProximal
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_Neck/CTRL_Neck/GRP_CTRL_Head/CTRL_Head/GRP_CTRL_PonyTail/CTRL_PonyTail/GRP_CTRL_PonyTailProximal/CTRL_PonyTailProximal/GRP_CTRL_PonyTailDistal
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_Neck/CTRL_Neck/GRP_CTRL_Head/CTRL_Head/GRP_CTRL_PonyTail/CTRL_PonyTail/GRP_CTRL_PonyTailProximal/CTRL_PonyTailProximal/GRP_CTRL_PonyTailDistal/CTRL_PonyTailDistal
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_Neck/CTRL_Neck/GRP_CTRL_Head/CTRL_Head/GRP_CTRL_rightStrandSide
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_Neck/CTRL_Neck/GRP_CTRL_Head/CTRL_Head/GRP_CTRL_rightStrandSide/CTRL_rightStrandSide
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_Neck/CTRL_Neck/GRP_CTRL_Head/CTRL_Head/GRP_CTRL_rightStrandSide/CTRL_rightStrandSide/GRP_CTRL_rightStrandSideIntermediate
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_Neck/CTRL_Neck/GRP_CTRL_Head/CTRL_Head/GRP_CTRL_rightStrandSide/CTRL_rightStrandSide/GRP_CTRL_rightStrandSideIntermediate/CTRL_rightStrandSideIntermediate
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_Neck/CTRL_Neck/GRP_CTRL_Head/CTRL_Head/GRP_CTRL_StrandTop
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_Neck/CTRL_Neck/GRP_CTRL_Head/CTRL_Head/GRP_CTRL_StrandTop/CTRL_StrandTop
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_Neck/CTRL_Neck/GRP_CTRL_Head/CTRL_Head/GRP_CTRL_StrandTop/CTRL_StrandTop/GRP_CTRL_PV_StrandTop
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_Neck/CTRL_Neck/GRP_CTRL_Head/CTRL_Head/GRP_CTRL_StrandTop/CTRL_StrandTop/GRP_CTRL_PV_StrandTop/CTRL_PV_StrandTop
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_rightShoulder
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_rightShoulder/CTRL_rightShoulder
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_rightShoulder/CTRL_rightShoulder/GRP_CTRL_rightHand
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_rightShoulder/CTRL_rightShoulder/GRP_CTRL_rightHand/CTRL_rightHand
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_rightShoulder/CTRL_rightShoulder/GRP_CTRL_rightHand/CTRL_rightHand/CTRL_PV_rightArm
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_rightShoulder/CTRL_rightShoulder/GRP_CTRL_rightHand/CTRL_rightHand/CTRL_PV_rightArm/CTRL_PV_rightArm
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_rightShoulder/CTRL_rightShoulder/GRP_CTRL_rightHand/CTRL_rightHand/GRP_CTRL_rightIndexProximal
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_rightShoulder/CTRL_rightShoulder/GRP_CTRL_rightHand/CTRL_rightHand/GRP_CTRL_rightIndexProximal/CTRL_rightIndexProximal
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_rightShoulder/CTRL_rightShoulder/GRP_CTRL_rightHand/CTRL_rightHand/GRP_CTRL_rightIndexProximal/CTRL_rightIndexProximal/GRP_CTRL_rightIndexIntermediate
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_rightShoulder/CTRL_rightShoulder/GRP_CTRL_rightHand/CTRL_rightHand/GRP_CTRL_rightIndexProximal/CTRL_rightIndexProximal/GRP_CTRL_rightIndexIntermediate/CTRL_rightIndexIntermediate
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_rightShoulder/CTRL_rightShoulder/GRP_CTRL_rightHand/CTRL_rightHand/GRP_CTRL_rightIndexProximal/CTRL_rightIndexProximal/GRP_CTRL_rightIndexIntermediate/CTRL_rightIndexIntermediate/GRP_CTRL_rightIndexDistal
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_rightShoulder/CTRL_rightShoulder/GRP_CTRL_rightHand/CTRL_rightHand/GRP_CTRL_rightIndexProximal/CTRL_rightIndexProximal/GRP_CTRL_rightIndexIntermediate/CTRL_rightIndexIntermediate/GRP_CTRL_rightIndexDistal/CTRL_rightIndexDistal
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_rightShoulder/CTRL_rightShoulder/GRP_CTRL_rightHand/CTRL_rightHand/GRP_CTRL_rightLittleProximal
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_rightShoulder/CTRL_rightShoulder/GRP_CTRL_rightHand/CTRL_rightHand/GRP_CTRL_rightLittleProximal/CTRL_rightLittleProximal
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_rightShoulder/CTRL_rightShoulder/GRP_CTRL_rightHand/CTRL_rightHand/GRP_CTRL_rightLittleProximal/CTRL_rightLittleProximal/GRP_CTRL_rightLittleIntermediate
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_rightShoulder/CTRL_rightShoulder/GRP_CTRL_rightHand/CTRL_rightHand/GRP_CTRL_rightLittleProximal/CTRL_rightLittleProximal/GRP_CTRL_rightLittleIntermediate/CTRL_rightLittleIntermediate
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_rightShoulder/CTRL_rightShoulder/GRP_CTRL_rightHand/CTRL_rightHand/GRP_CTRL_rightLittleProximal/CTRL_rightLittleProximal/GRP_CTRL_rightLittleIntermediate/CTRL_rightLittleIntermediate/GRP_CTRL_rightLittleDistal
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_rightShoulder/CTRL_rightShoulder/GRP_CTRL_rightHand/CTRL_rightHand/GRP_CTRL_rightLittleProximal/CTRL_rightLittleProximal/GRP_CTRL_rightLittleIntermediate/CTRL_rightLittleIntermediate/GRP_CTRL_rightLittleDistal/CTRL_rightLittleDistal
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_rightShoulder/CTRL_rightShoulder/GRP_CTRL_rightHand/CTRL_rightHand/GRP_CTRL_rightMiddleProximal
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_rightShoulder/CTRL_rightShoulder/GRP_CTRL_rightHand/CTRL_rightHand/GRP_CTRL_rightMiddleProximal/CTRL_rightMiddleProximal
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_rightShoulder/CTRL_rightShoulder/GRP_CTRL_rightHand/CTRL_rightHand/GRP_CTRL_rightMiddleProximal/CTRL_rightMiddleProximal/GRP_CTRL_rightMiddleIntermediate
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_rightShoulder/CTRL_rightShoulder/GRP_CTRL_rightHand/CTRL_rightHand/GRP_CTRL_rightMiddleProximal/CTRL_rightMiddleProximal/GRP_CTRL_rightMiddleIntermediate/CTRL_rightMiddleIntermediate
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_rightShoulder/CTRL_rightShoulder/GRP_CTRL_rightHand/CTRL_rightHand/GRP_CTRL_rightMiddleProximal/CTRL_rightMiddleProximal/GRP_CTRL_rightMiddleIntermediate/CTRL_rightMiddleIntermediate/GRP_CTRL_rightMiddleDistal
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_rightShoulder/CTRL_rightShoulder/GRP_CTRL_rightHand/CTRL_rightHand/GRP_CTRL_rightMiddleProximal/CTRL_rightMiddleProximal/GRP_CTRL_rightMiddleIntermediate/CTRL_rightMiddleIntermediate/GRP_CTRL_rightMiddleDistal/CTRL_rightMiddleDistal
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_rightShoulder/CTRL_rightShoulder/GRP_CTRL_rightHand/CTRL_rightHand/GRP_CTRL_rightThumbProximal
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_rightShoulder/CTRL_rightShoulder/GRP_CTRL_rightHand/CTRL_rightHand/GRP_CTRL_rightThumbProximal/CTRL_rightThumbProximal
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_rightShoulder/CTRL_rightShoulder/GRP_CTRL_rightHand/CTRL_rightHand/GRP_CTRL_rightThumbProximal/CTRL_rightThumbProximal/GRP_CTRL_rightThumbIntermediate
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_rightShoulder/CTRL_rightShoulder/GRP_CTRL_rightHand/CTRL_rightHand/GRP_CTRL_rightThumbProximal/CTRL_rightThumbProximal/GRP_CTRL_rightThumbIntermediate/CTRL_rightThumbIntermediate
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_rightShoulder/CTRL_rightShoulder/GRP_CTRL_rightHand/CTRL_rightHand/GRP_CTRL_rightThumbProximal/CTRL_rightThumbProximal/GRP_CTRL_rightThumbIntermediate/CTRL_rightThumbIntermediate/GRP_CTRL_rightThumbDistal
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_Hips/CTRL_Hips/GRP_CTRL_Spine/CTRL_Spine/GRP_CTRL_Chest/CTRL_Chest/GRP_CTRL_rightShoulder/CTRL_rightShoulder/GRP_CTRL_rightHand/CTRL_rightHand/GRP_CTRL_rightThumbProximal/CTRL_rightThumbProximal/GRP_CTRL_rightThumbIntermediate/CTRL_rightThumbIntermediate/GRP_CTRL_rightThumbDistal/CTRL_rightThumbDistal
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_leftLeg
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_leftLeg/CTRL_leftLeg
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_leftLeg/CTRL_leftLeg/GRP_CTRL_PV_leftLeg
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_leftLeg/CTRL_leftLeg/GRP_CTRL_PV_leftLeg/CTRL_PV_leftLeg
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_rightLeg
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_rightLeg/CTRL_rightLeg
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_rightLeg/CTRL_rightLeg/GRP_CTRL_PV_rightLeg
+        weight: 1
+      - path: GRP_CTRL_Root/CTRL_Root/GRP_CTRL_rightLeg/CTRL_rightLeg/GRP_CTRL_PV_rightLeg/CTRL_PV_rightLeg
+        weight: 1
+      - path: JNT
+        weight: 1
+      - path: JNT/JNT_Hips
+        weight: 1
+      - path: JNT/JNT_Hips/ikHandle_leftLeg
+        weight: 1
+      - path: JNT/JNT_Hips/ikHandle_rightLeg
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Fabric
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Fabric/JNT_FabricProximal
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Fabric/JNT_FabricProximal/JNT_FabricIntermediate
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Fabric/JNT_FabricProximal/JNT_FabricIntermediate/JNT_FabricEnd
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Leaf
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Leaf/JNT_LeafEnd
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_leftUpperLeg
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_leftUpperLeg/JNT_leftLowerLeg
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_leftUpperLeg/JNT_leftLowerLeg/JNT_leftFoot
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_leftUpperLeg/JNT_leftLowerLeg/JNT_leftFoot/JNT_leftFootEnd
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_rightUpperLeg
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_rightUpperLeg/JNT_rightLowerLeg
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_rightUpperLeg/JNT_rightLowerLeg/JNT_rightFoot
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_rightUpperLeg/JNT_rightLowerLeg/JNT_rightFoot/JNT_rightFootEnd
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_leftShoulder
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_leftShoulder/ikHandle_leftArm
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_leftShoulder/JNT_leftUpperArm
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_leftShoulder/JNT_leftUpperArm/JNT_leftLowerArm
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_leftShoulder/JNT_leftUpperArm/JNT_leftLowerArm/JNT_leftHand
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_leftShoulder/JNT_leftUpperArm/JNT_leftLowerArm/JNT_leftHand/JNT_leftIndexProximal
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_leftShoulder/JNT_leftUpperArm/JNT_leftLowerArm/JNT_leftHand/JNT_leftIndexProximal/JNT_leftIndexIntermediate
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_leftShoulder/JNT_leftUpperArm/JNT_leftLowerArm/JNT_leftHand/JNT_leftIndexProximal/JNT_leftIndexIntermediate/JNT_leftIndexDistal
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_leftShoulder/JNT_leftUpperArm/JNT_leftLowerArm/JNT_leftHand/JNT_leftIndexProximal/JNT_leftIndexIntermediate/JNT_leftIndexDistal/JNT_leftIndexEnd
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_leftShoulder/JNT_leftUpperArm/JNT_leftLowerArm/JNT_leftHand/JNT_leftLittleProximal
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_leftShoulder/JNT_leftUpperArm/JNT_leftLowerArm/JNT_leftHand/JNT_leftLittleProximal/JNT_leftLittleIntermediate
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_leftShoulder/JNT_leftUpperArm/JNT_leftLowerArm/JNT_leftHand/JNT_leftLittleProximal/JNT_leftLittleIntermediate/JNT_leftLittleDistal
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_leftShoulder/JNT_leftUpperArm/JNT_leftLowerArm/JNT_leftHand/JNT_leftLittleProximal/JNT_leftLittleIntermediate/JNT_leftLittleDistal/JNT_leftLittleEnd
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_leftShoulder/JNT_leftUpperArm/JNT_leftLowerArm/JNT_leftHand/JNT_leftMiddleProximal
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_leftShoulder/JNT_leftUpperArm/JNT_leftLowerArm/JNT_leftHand/JNT_leftMiddleProximal/JNT_leftMiddleIntermediate
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_leftShoulder/JNT_leftUpperArm/JNT_leftLowerArm/JNT_leftHand/JNT_leftMiddleProximal/JNT_leftMiddleIntermediate/JNT_leftMiddleDistal
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_leftShoulder/JNT_leftUpperArm/JNT_leftLowerArm/JNT_leftHand/JNT_leftMiddleProximal/JNT_leftMiddleIntermediate/JNT_leftMiddleDistal/JNT_leftMiddleEnd
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_leftShoulder/JNT_leftUpperArm/JNT_leftLowerArm/JNT_leftHand/JNT_leftThumbProximal
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_leftShoulder/JNT_leftUpperArm/JNT_leftLowerArm/JNT_leftHand/JNT_leftThumbProximal/JNT_leftThumbIntermediate
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_leftShoulder/JNT_leftUpperArm/JNT_leftLowerArm/JNT_leftHand/JNT_leftThumbProximal/JNT_leftThumbIntermediate/JNT_leftThumbDistal
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_leftShoulder/JNT_leftUpperArm/JNT_leftLowerArm/JNT_leftHand/JNT_leftThumbProximal/JNT_leftThumbIntermediate/JNT_leftThumbDistal/JNT_leftThumbEnd
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_Neck
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_Neck/JNT_Head
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_Neck/JNT_Head/ikHandle_StrandTop
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_Neck/JNT_Head/JNT_leftStrandSide
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_Neck/JNT_Head/JNT_leftStrandSide/JNT_leftStrandSideIntermediate
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_Neck/JNT_Head/JNT_leftStrandSide/JNT_leftStrandSideIntermediate/JNT_leftStrandSideEnd
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_Neck/JNT_Head/JNT_PonyTail
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_Neck/JNT_Head/JNT_PonyTail/JNT_PonyTailProximal
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_Neck/JNT_Head/JNT_PonyTail/JNT_PonyTailProximal/JNT_PonyTailDistal
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_Neck/JNT_Head/JNT_PonyTail/JNT_PonyTailProximal/JNT_PonyTailDistal/JNT_PonyTailEnd
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_Neck/JNT_Head/JNT_rightStrandSide
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_Neck/JNT_Head/JNT_rightStrandSide/JNT_rightStrandSideIntermediate
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_Neck/JNT_Head/JNT_rightStrandSide/JNT_rightStrandSideIntermediate/JNT_rightStrandSideEnd
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_Neck/JNT_Head/JNT_StrandTop
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_Neck/JNT_Head/JNT_StrandTop/JNT_StrandTopIntermediate
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_Neck/JNT_Head/JNT_StrandTop/JNT_StrandTopIntermediate/JNT_StrandTopEnd
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_rightShoulder
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_rightShoulder/ikHandle_rightArm
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_rightShoulder/JNT_rightUpperArm
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_rightShoulder/JNT_rightUpperArm/JNT_rightLowerArm
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_rightShoulder/JNT_rightUpperArm/JNT_rightLowerArm/JNT_rightHand
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_rightShoulder/JNT_rightUpperArm/JNT_rightLowerArm/JNT_rightHand/JNT_rightIndexProximal
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_rightShoulder/JNT_rightUpperArm/JNT_rightLowerArm/JNT_rightHand/JNT_rightIndexProximal/JNT_rightIndexIntermediate
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_rightShoulder/JNT_rightUpperArm/JNT_rightLowerArm/JNT_rightHand/JNT_rightIndexProximal/JNT_rightIndexIntermediate/JNT_rightIndexDistal
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_rightShoulder/JNT_rightUpperArm/JNT_rightLowerArm/JNT_rightHand/JNT_rightIndexProximal/JNT_rightIndexIntermediate/JNT_rightIndexDistal/JNT_rightIndexEnd
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_rightShoulder/JNT_rightUpperArm/JNT_rightLowerArm/JNT_rightHand/JNT_rightLittleProximal
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_rightShoulder/JNT_rightUpperArm/JNT_rightLowerArm/JNT_rightHand/JNT_rightLittleProximal/JNT_rightLittleIntermediate
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_rightShoulder/JNT_rightUpperArm/JNT_rightLowerArm/JNT_rightHand/JNT_rightLittleProximal/JNT_rightLittleIntermediate/JNT_rightLittleDistal
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_rightShoulder/JNT_rightUpperArm/JNT_rightLowerArm/JNT_rightHand/JNT_rightLittleProximal/JNT_rightLittleIntermediate/JNT_rightLittleDistal/JNT_rightLittleEnd
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_rightShoulder/JNT_rightUpperArm/JNT_rightLowerArm/JNT_rightHand/JNT_rightMiddleProximal
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_rightShoulder/JNT_rightUpperArm/JNT_rightLowerArm/JNT_rightHand/JNT_rightMiddleProximal/JNT_rightMiddleIntermediate
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_rightShoulder/JNT_rightUpperArm/JNT_rightLowerArm/JNT_rightHand/JNT_rightMiddleProximal/JNT_rightMiddleIntermediate/JNT_rightMiddleDistal
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_rightShoulder/JNT_rightUpperArm/JNT_rightLowerArm/JNT_rightHand/JNT_rightMiddleProximal/JNT_rightMiddleIntermediate/JNT_rightMiddleDistal/JNT_rightMiddleEnd
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_rightShoulder/JNT_rightUpperArm/JNT_rightLowerArm/JNT_rightHand/JNT_rightThumbProximal
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_rightShoulder/JNT_rightUpperArm/JNT_rightLowerArm/JNT_rightHand/JNT_rightThumbProximal/JNT_rightThumbIntermediate
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_rightShoulder/JNT_rightUpperArm/JNT_rightLowerArm/JNT_rightHand/JNT_rightThumbProximal/JNT_rightThumbIntermediate/JNT_rightThumbDistal
+        weight: 1
+      - path: JNT/JNT_Hips/JNT_Spine/JNT_Chest/JNT_rightShoulder/JNT_rightUpperArm/JNT_rightLowerArm/JNT_rightHand/JNT_rightThumbProximal/JNT_rightThumbIntermediate/JNT_rightThumbDistal/JNT_rightThumbEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

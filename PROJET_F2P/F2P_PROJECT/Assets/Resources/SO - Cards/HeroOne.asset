@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee50233409be1834380448dd9a1327d2, type: 3}
+  m_Name: HeroOne
+  m_EditorClassIdentifier: 
+  _CardName: Prince
+  _CardIcon: {fileID: 21300000, guid: b5a22b97acbae54469a82a6639c40b8b, type: 3}
+  _CardDescription: {fileID: 21300000, guid: b5b5ec969d9752b429da240ca42f149a, type: 3}
+  _PrefabCharacter: {fileID: 7025455566187609855, guid: ee7b36d23568ab248aec08be74ebaf50, type: 3}
+  _Health: 0
+  _Damage: 0
+  _Rarity: 0
+  _Price: 0

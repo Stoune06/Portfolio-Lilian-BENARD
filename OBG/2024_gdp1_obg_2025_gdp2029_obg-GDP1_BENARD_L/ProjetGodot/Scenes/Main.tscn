@@ -1,0 +1,37 @@
+[gd_scene load_steps=11 format=3 uid="uid://buef4a28nhek1"]
+
+[ext_resource type="Script" path="res://Scripts/Managers/GameManager.cs" id="1_ij55x"]
+[ext_resource type="PackedScene" uid="uid://xss3kr5l6dor" path="res://Scenes/Managers/AudioManager.tscn" id="2_e33t6"]
+[ext_resource type="Script" path="res://Scripts/Managers/InputManager.cs" id="3_yfv4k"]
+[ext_resource type="Script" path="res://Scripts/Managers/LevelManager.cs" id="4_aaf7d"]
+[ext_resource type="PackedScene" uid="uid://bkrerjk7qvnh2" path="res://Scenes/HUD.tscn" id="4_cn6hl"]
+[ext_resource type="PackedScene" uid="uid://cvm7m3l1c8ib5" path="res://Scenes/Levels/LevelTest.tscn" id="5_buv10"]
+[ext_resource type="PackedScene" uid="uid://diihw2pssng57" path="res://Scenes/Levels/Level1.tscn" id="6_h4tb5"]
+[ext_resource type="PackedScene" uid="uid://l7wah60yehyg" path="res://Scenes/Levels/Level2.tscn" id="7_tvcr3"]
+[ext_resource type="PackedScene" uid="uid://co53d88xl2nay" path="res://Scenes/Levels/Level3.tscn" id="8_w1bpd"]
+[ext_resource type="PackedScene" uid="uid://bf2jwnsgimoi5" path="res://Scenes/Levels/Level4.tscn" id="9_6nbm7"]
+
+[node name="Main" type="Node2D" node_paths=PackedStringArray("timer")]
+script = ExtResource("1_ij55x")
+timer = NodePath("Timer")
+
+[node name="AudioManager" parent="." instance=ExtResource("2_e33t6")]
+
+[node name="InputManager" type="Node2D" parent="."]
+script = ExtResource("3_yfv4k")
+
+[node name="LevelManager" type="Node2D" parent="."]
+script = ExtResource("4_aaf7d")
+allLevels = Array[PackedScene]([ExtResource("5_buv10"), ExtResource("6_h4tb5"), ExtResource("7_tvcr3"), ExtResource("8_w1bpd"), ExtResource("9_6nbm7")])
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 10.0
+
+[node name="HUD" parent="." instance=ExtResource("4_cn6hl")]
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_right = 1600.0
+offset_bottom = 2550.0
+grow_horizontal = 1
+grow_vertical = 1

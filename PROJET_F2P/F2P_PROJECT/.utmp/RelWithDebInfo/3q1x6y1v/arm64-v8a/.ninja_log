@@ -1,0 +1,19 @@
+# ninja log v5
+20	1238	7983784365997688	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	ad35f2ce367f9180
+26	1245	7983784366006857	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	337d87f2fce8609d
+42	1496	7983784368604001	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	84be5ee17f715903
+14	1252	7983784366163667	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	b5d703c08e144c52
+0	1318	7983784366745670	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	3aeefc62ed453fb7
+52	1258	7983784366228908	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	ba260efcddc5506e
+1548	1695	7983784370590000	C:/Users/fmajc/Desktop/Isart/GDP2/F2P/GoldMoon - F2P/F2P_PROJECT/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/3q1x6y1v/obj/arm64-v8a/libgame.so	1515e967147dc3b
+34	1466	7983784368291602	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	a3b4b0d8ad5d0b90
+7	1543	7983784369041403	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	951291dcf915aad3
+10	1289	7984763623945994	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	337d87f2fce8609d
+26	1291	7984763623975397	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	ad35f2ce367f9180
+19	1317	7984763624211150	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	b5d703c08e144c52
+32	1328	7984763624324652	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	ba260efcddc5506e
+4	1374	7984763624804089	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	3aeefc62ed453fb7
+61	1503	7984763626096823	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	84be5ee17f715903
+47	1542	7984763626482960	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	a3b4b0d8ad5d0b90
+54	1612	7984763627168417	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	951291dcf915aad3
+1612	1723	7984763628303520	C:/Users/fmajc/Desktop/Isart/GDP2/F2P/GoldMoon - F2P/F2P_PROJECT/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/3q1x6y1v/obj/arm64-v8a/libgame.so	1515e967147dc3b

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af373b8f133a4567811f782e397805aa, type: 3}
+  m_Name: HoT
+  m_EditorClassIdentifier: 
+  effects:
+  - rid: 8474685211607040062
+  description: When you Heal an ally, apply a buff that heals him over time
+  upgradeName: HoT
+  icon: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 8474685211607040062
+      type: {class: ComposableAugmentEffect, ns: Com.IsartDigital.HealerSurvivor.SO, asm: Assembly-CSharp}
+      data:
+        _Trigger:
+          rid: 8474685211607040063
+        _Actions:
+        - rid: 8474685211607040064
+        _Cooldown: 0
+    - rid: 8474685211607040063
+      type: {class: OnHealAllyTrigger, ns: Com.IsartDigital.HealerSurvivor.SO.Triggers, asm: Assembly-CSharp}
+      data:
+        lastTarget: {fileID: 0}
+        lastAmount: 0
+    - rid: 8474685211607040064
+      type: {class: ApplyHoTAction, ns: Com.IsartDigital.HealerSurvivor.SO.Actions, asm: Assembly-CSharp}
+      data:
+        m_TargetMode: 1
+        _TotalHeal: 30
+        _Duration: 3
+        _TickInterval: 0.5

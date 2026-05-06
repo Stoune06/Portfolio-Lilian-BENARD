@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: YetiKickAnimator
+  m_Controller: {fileID: 9100000, guid: 37b0fa4ff9f32c5418fe476e8237835b, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: f5cd1941d5b33c744be2735e1b2d1397, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 28f45f827ed772745bd22f4717763149, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ac4b68e5818ebdc4cb889a80f33a9936, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b52dcde97cf317c43b0806e43a03bad2, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 9cab79708b0af094caf62be0624e5e34, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: bfda82e2f005dc6458474c5c30b374a8, type: 2}

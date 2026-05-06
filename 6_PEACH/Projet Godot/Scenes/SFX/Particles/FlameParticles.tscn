@@ -1,0 +1,32 @@
+[gd_scene load_steps=5 format=3 uid="uid://doe24x428yfb3"]
+
+[ext_resource type="Texture2D" uid="uid://caodaxav5pv7m" path="res://Assets/Textures/GameObjects/Movables/Box/Flamme3.png" id="1_dm20x"]
+
+[sub_resource type="Curve" id="Curve_uif4t"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveTexture" id="CurveTexture_ft0m8"]
+curve = SubResource("Curve_uif4t")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_qp1ci"]
+particle_flag_disable_z = true
+emission_shape = 3
+emission_box_extents = Vector3(180, 200, 1)
+angle_min = -15.0
+angle_max = 15.0
+direction = Vector3(0, -1, 0)
+spread = 70.0
+initial_velocity_min = 306.9
+initial_velocity_max = 348.27
+gravity = Vector3(0, 0, 0)
+scale_min = 0.2
+scale_max = 0.3
+scale_curve = SubResource("CurveTexture_ft0m8")
+
+[node name="FlameParticles" type="GPUParticles2D"]
+show_behind_parent = true
+amount = 40
+process_material = SubResource("ParticleProcessMaterial_qp1ci")
+texture = ExtResource("1_dm20x")
+lifetime = 0.8

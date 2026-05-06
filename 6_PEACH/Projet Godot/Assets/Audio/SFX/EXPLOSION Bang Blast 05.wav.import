@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cnbw5w4x7350e"
+path="res://.godot/imported/EXPLOSION Bang Blast 05.wav-eeddf0ac9d4d1500b9a8f178ff22299f.sample"
+
+[deps]
+
+source_file="res://Assets/Audio/SFX/EXPLOSION Bang Blast 05.wav"
+dest_files=["res://.godot/imported/EXPLOSION Bang Blast 05.wav-eeddf0ac9d4d1500b9a8f178ff22299f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

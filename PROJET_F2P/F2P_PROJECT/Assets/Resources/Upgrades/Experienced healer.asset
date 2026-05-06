@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af373b8f133a4567811f782e397805aa, type: 3}
+  m_Name: Experienced healer
+  m_EditorClassIdentifier: 
+  effects:
+  - rid: 8433931858668159039
+  description: Every time you pick up an xp point, heal the nearest ally
+  upgradeName: Experienced healer
+  icon: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 8433931858668159039
+      type: {class: ComposableAugmentEffect, ns: Com.IsartDigital.HealerSurvivor.SO, asm: Assembly-CSharp}
+      data:
+        _Trigger:
+          rid: 8433931858668159040
+        _Actions:
+        - rid: 8433931858668159041
+        _Cooldown: 0
+    - rid: 8433931858668159040
+      type: {class: OnXPPickupTrigger, ns: Com.IsartDigital.HealerSurvivor.SO.Triggers, asm: Assembly-CSharp}
+      data:
+        lastTarget: {fileID: 0}
+        lastAmount: 0
+    - rid: 8433931858668159041
+      type: {class: HealAction, ns: Com.IsartDigital.HealerSurvivor.SO.Actions, asm: Assembly-CSharp}
+      data:
+        m_TargetMode: 2
+        _HealAmount: 30

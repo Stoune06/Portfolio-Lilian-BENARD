@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://b7hs2uba4kou1"]
+
+[ext_resource type="Script" path="res://Scripts/IngredientsScenes/HoldType.cs" id="1_ae0ff"]
+[ext_resource type="PackedScene" uid="uid://b6gw4jneth4xy" path="res://Scenes/SFX/Liquid.tscn" id="2_v2t2t"]
+
+[node name="Rice" type="Node2D" node_paths=PackedStringArray("renderer")]
+script = ExtResource("1_ae0ff")
+renderer = NodePath("ColorRect")
+liquidParcilesScene = ExtResource("2_v2t2t")
+goal = 50
+contentColor = Color(0.92549, 0.92549, 0.92549, 1)
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 216.0
+offset_bottom = 216.0

@@ -1,0 +1,338 @@
+[gd_scene load_steps=26 format=3 uid="uid://ciwfujgjk3qun"]
+
+[ext_resource type="Script" path="res://Scripts/Managers/GameManager.cs" id="1_h3a5o"]
+[ext_resource type="Shader" path="res://Scenes/Main.gdshader" id="1_nrt42"]
+[ext_resource type="PackedScene" uid="uid://bsb7lfgwkhu4k" path="res://Scenes/UI/Login/Login.tscn" id="2_uhfay"]
+[ext_resource type="Script" path="res://Scripts/Managers/GridManager.cs" id="2_wt0ch"]
+[ext_resource type="PackedScene" uid="uid://3licdukx4ygq" path="res://Scenes/UI/Menu/Menu.tscn" id="3_7e8d5"]
+[ext_resource type="Script" path="res://Scripts/Managers/ScreenManager.cs" id="3_lk168"]
+[ext_resource type="Script" path="res://Scripts/Managers/InputManager.cs" id="4_tur5c"]
+[ext_resource type="PackedScene" uid="uid://7ornvobs8tbn" path="res://Scenes/UI/WinScreen.tscn" id="5_fyura"]
+[ext_resource type="Script" path="res://Scenes/Background.cs" id="6_g5es3"]
+[ext_resource type="Script" path="res://Scripts/Managers/DataManager.cs" id="7_sb0vm"]
+[ext_resource type="PackedScene" uid="uid://chbhij5t31k8v" path="res://Scenes/AudioManager.tscn" id="8_okoki"]
+[ext_resource type="PackedScene" uid="uid://cs87h80mq8wmn" path="res://Scenes/UI/TitleCard.tscn" id="9_d44b6"]
+[ext_resource type="PackedScene" uid="uid://h8fbgcr6chyo" path="res://Scripts/Utils/Effects/shaker.tscn" id="10_2g6rr"]
+[ext_resource type="PackedScene" uid="uid://cfmerbkpbnmgd" path="res://Scenes/HUDManager.tscn" id="11_74635"]
+[ext_resource type="Texture2D" uid="uid://uhi61np3vryy" path="res://Assets/Textures/Background/AllBlue.png" id="12_ltqlb"]
+[ext_resource type="FontFile" uid="uid://cs6lc0oiwtv0c" path="res://Assets/Fonts/Greek-Freak.ttf" id="13_sbomr"]
+[ext_resource type="Texture2D" uid="uid://sk17rwphe7xy" path="res://Assets/Textures/UI/Motif_UI_empty.png" id="15_jrd1n"]
+[ext_resource type="PackedScene" uid="uid://13mcse5ll6j7" path="res://Scenes/SFX/Brume.tscn" id="15_otyet"]
+[ext_resource type="Script" path="res://Scenes/LoadingScreen.cs" id="15_wddut"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_ou23w"]
+viewport_path = NodePath("SubViewport")
+
+[sub_resource type="Curve" id="Curve_y5d0j"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(0.591463, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="CurveTexture" id="CurveTexture_jgksf"]
+curve = SubResource("Curve_y5d0j")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_5ew6i"]
+particle_flag_disable_z = true
+spread = 105.0
+initial_velocity_min = 104.18
+initial_velocity_max = 134.97
+angular_velocity_max = 45.0
+orbit_velocity_max = 0.167
+radial_velocity_min = 437.5
+radial_velocity_max = 583.34
+gravity = Vector3(0, 0, 0)
+scale_min = 5.0
+scale_max = 10.0
+color = Color(0.83, 0.79016, 0.5312, 1)
+alpha_curve = SubResource("CurveTexture_jgksf")
+
+[sub_resource type="LabelSettings" id="LabelSettings_ti130"]
+font = ExtResource("13_sbomr")
+font_size = 100
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_s8xxr"]
+shader = ExtResource("1_nrt42")
+shader_parameter/player_screen_pos = null
+shader_parameter/hole_radius = 100.0
+shader_parameter/hole_feather = 60.0
+shader_parameter/fade_amount = 0.0
+shader_parameter/time = null
+shader_parameter/overlay_color = Color(0.436387, 0.109884, 7.21961e-08, 0.470588)
+
+[node name="Main" type="Node2D" node_paths=PackedStringArray("managers", "gameContainer", "screenShake", "screenShake2", "screenShake3", "globalCamera", "playerParticle", "shader", "viewportBackground", "transitionRect")]
+script = ExtResource("1_h3a5o")
+managers = [NodePath("Managers/GridManager"), NodePath("Managers/ScreenManager"), NodePath("Managers/InputManager"), NodePath("Managers/DataManager"), NodePath("Managers/AudioManager"), NodePath("GlobalCamera/HUDManager")]
+gameContainer = NodePath("SubViewport/GameContainer")
+sceneLogin = ExtResource("2_uhfay")
+sceneMenu = ExtResource("3_7e8d5")
+sceneTitleCard = ExtResource("9_d44b6")
+sceneWinScreen = ExtResource("5_fyura")
+screenShake = NodePath("SubViewport/Shaker")
+screenShake2 = NodePath("SubViewport/Shaker2")
+screenShake3 = NodePath("SubViewport/Shaker3")
+globalCamera = NodePath("GlobalCamera")
+playerParticle = NodePath("SubViewport/PlayerParticles")
+shader = NodePath("CanvasLayer/ColorRect")
+viewportBackground = NodePath("SubViewport/Sprite2D")
+transitionRect = NodePath("CanvasLayer/ColorRect3")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_right = 1921.0
+offset_bottom = 1084.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("6_g5es3")
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.230315, 0.230315, 0.230315, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="Sprite2D" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(1.02656, 1)
+color = Color(0.823529, 0.988235, 1, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="Button5" type="Button" parent="Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -263.0
+offset_top = 1.0
+offset_right = -171.0
+offset_bottom = 32.0
+grow_horizontal = 0
+text = "UNDO"
+
+[node name="Button6" type="Button" parent="Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -134.0
+offset_top = 1.0
+offset_right = -42.0
+offset_bottom = 32.0
+grow_horizontal = 0
+text = "REDO"
+
+[node name="Button7" type="Button" parent="Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -397.0
+offset_top = 2.0
+offset_right = -305.0
+offset_bottom = 33.0
+grow_horizontal = 0
+text = "RESET"
+
+[node name="TopBorder1" parent="." instance=ExtResource("15_otyet")]
+position = Vector2(414, 111)
+scale = Vector2(1, -1)
+
+[node name="BottomBorder1" parent="." instance=ExtResource("15_otyet")]
+position = Vector2(416, 853)
+
+[node name="LeftBorder1" parent="." instance=ExtResource("15_otyet")]
+position = Vector2(569, 57)
+rotation = 1.5708
+scale = Vector2(0.819307, 1)
+
+[node name="RightBorder1" parent="." instance=ExtResource("15_otyet")]
+position = Vector2(1284, 899)
+rotation = -1.5708
+scale = Vector2(0.871563, 1)
+
+[node name="Grid" type="Sprite2D" parent="."]
+texture = SubResource("ViewportTexture_ou23w")
+centered = false
+
+[node name="ColorRect2" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.768627, 0.705882, 0.458824, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="Managers" type="Node" parent="."]
+
+[node name="ScreenManager" type="Node2D" parent="Managers"]
+script = ExtResource("3_lk168")
+
+[node name="InputManager" type="Node2D" parent="Managers"]
+script = ExtResource("4_tur5c")
+
+[node name="DataManager" type="Node2D" parent="Managers"]
+script = ExtResource("7_sb0vm")
+
+[node name="AudioManager" parent="Managers" instance=ExtResource("8_okoki")]
+
+[node name="GridManager" type="Node2D" parent="Managers" node_paths=PackedStringArray("gridRender", "grid", "camera", "border", "topBorder", "bottomBorder", "leftBorder", "rightBorder", "globalTopBorder", "globalBottomBorder", "globalLeftBorder", "globalRightBorder")]
+script = ExtResource("2_wt0ch")
+gridRender = NodePath("../../SubViewport")
+grid = NodePath("../../Grid")
+camera = NodePath("../../SubViewport/Camera2D")
+border = NodePath("../../CanvasLayer/ColorRect3")
+topBorder = NodePath("../../SubViewport/TopBorder")
+bottomBorder = NodePath("../../SubViewport/BottomBorder")
+leftBorder = NodePath("../../SubViewport/LeftBorder")
+rightBorder = NodePath("../../SubViewport/RightBorder")
+globalTopBorder = NodePath("../../TopBorder1")
+globalBottomBorder = NodePath("../../BottomBorder1")
+globalLeftBorder = NodePath("../../LeftBorder1")
+globalRightBorder = NodePath("../../RightBorder1")
+
+[node name="SubViewport" type="SubViewport" parent="."]
+
+[node name="Camera2D" type="Camera2D" parent="SubViewport"]
+anchor_mode = 0
+
+[node name="Shaker" parent="SubViewport" node_paths=PackedStringArray("_targets") instance=ExtResource("10_2g6rr")]
+_targets = [NodePath("../GameContainer"), NodePath("../../ColorRect2"), NodePath("../Sprite2D"), NodePath("../../Control/Sprite2D")]
+duration = 1000.0
+amplitude = Vector2(2, 2)
+step = 0.08
+
+[node name="Shaker2" parent="SubViewport" node_paths=PackedStringArray("_targets") instance=ExtResource("10_2g6rr")]
+_targets = [NodePath("../GameContainer"), NodePath("../../ColorRect2"), NodePath("../Sprite2D"), NodePath("../../Control/Sprite2D")]
+duration = 0.1
+amplitude = Vector2(2, 2)
+duration_ = 0.05
+_duration = 0.05
+
+[node name="Shaker3" parent="SubViewport" node_paths=PackedStringArray("_targets") instance=ExtResource("10_2g6rr")]
+_targets = [NodePath("../GameContainer"), NodePath("../../ColorRect2"), NodePath("../Sprite2D"), NodePath("../../Control/Sprite2D")]
+duration = 0.1
+step = 0.06
+duration_ = 0.05
+_duration = 0.05
+
+[node name="Sprite2D" type="Sprite2D" parent="SubViewport"]
+z_index = -1000
+texture = ExtResource("12_ltqlb")
+centered = false
+
+[node name="GameContainer" type="Node2D" parent="SubViewport"]
+
+[node name="TopBorder" parent="SubViewport" instance=ExtResource("15_otyet")]
+position = Vector2(414, 111)
+scale = Vector2(1, -1)
+
+[node name="BottomBorder" parent="SubViewport" instance=ExtResource("15_otyet")]
+position = Vector2(416, 853)
+
+[node name="LeftBorder" parent="SubViewport" instance=ExtResource("15_otyet")]
+position = Vector2(569, 57)
+rotation = 1.5708
+scale = Vector2(0.819307, 1)
+
+[node name="RightBorder" parent="SubViewport" instance=ExtResource("15_otyet")]
+position = Vector2(1284, 899)
+rotation = -1.5708
+scale = Vector2(0.871563, 1)
+
+[node name="PlayerParticles" type="GPUParticles2D" parent="SubViewport"]
+emitting = false
+amount = 50
+process_material = SubResource("ParticleProcessMaterial_5ew6i")
+lifetime = 0.4
+one_shot = true
+explosiveness = 0.8
+randomness = 0.7
+fixed_fps = 60
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = 100
+
+[node name="ColorRect3" type="ColorRect" parent="CanvasLayer" node_paths=PackedStringArray("leftBand", "rightBand")]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -4.0
+offset_top = -1115.0
+offset_right = 54.0
+offset_bottom = -1082.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.768627, 0.729412, 0.643137, 1)
+script = ExtResource("15_wddut")
+leftBand = NodePath("Control/Sprite2D2")
+rightBand = NodePath("Control/Sprite2D")
+
+[node name="Label" type="Label" parent="CanvasLayer/ColorRect3"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -25.5
+offset_top = -11.5
+offset_right = 25.5
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "Loading ..."
+label_settings = SubResource("LabelSettings_ti130")
+
+[node name="Control" type="Control" parent="CanvasLayer/ColorRect3"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Sprite2D" type="Sprite2D" parent="CanvasLayer/ColorRect3/Control"]
+visible = false
+position = Vector2(2433, -3)
+rotation = 1.5708
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("15_jrd1n")
+centered = false
+
+[node name="Sprite2D2" type="Sprite2D" parent="CanvasLayer/ColorRect3/Control"]
+visible = false
+position = Vector2(139, 6)
+rotation = 1.5708
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("15_jrd1n")
+centered = false
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+material = SubResource("ShaderMaterial_s8xxr")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="GlobalCamera" type="Camera2D" parent="."]
+anchor_mode = 0
+
+[node name="HUDManager" parent="GlobalCamera" instance=ExtResource("11_74635")]
+
+[connection signal="pressed" from="Control/Button5" to="." method="Undo"]
+[connection signal="pressed" from="Control/Button6" to="." method="Redo"]
+[connection signal="pressed" from="Control/Button7" to="." method="Retry"]

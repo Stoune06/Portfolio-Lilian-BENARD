@@ -1,0 +1,8 @@
+C:/Users/lilia/Documents/ISART/Projet/PROJET_PLATFORMER/.utmp/RelWithDebInfo/5b141p57/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/lilia/Documents/ISART/Projet/PROJET_PLATFORMER/.utmp/RelWithDebInfo/5b141p57/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Users/lilia/Documents/ISART/Projet/PROJET_PLATFORMER/.utmp/RelWithDebInfo/5b141p57/arm64-v8a/GameActivity/CMakeFiles/game.dir
+C:/Users/lilia/Documents/ISART/Projet/PROJET_PLATFORMER/.utmp/RelWithDebInfo/5b141p57/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+C:/Users/lilia/Documents/ISART/Projet/PROJET_PLATFORMER/.utmp/RelWithDebInfo/5b141p57/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
+C:/Users/lilia/Documents/ISART/Projet/PROJET_PLATFORMER/.utmp/RelWithDebInfo/5b141p57/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir
+C:/Users/lilia/Documents/ISART/Projet/PROJET_PLATFORMER/.utmp/RelWithDebInfo/5b141p57/arm64-v8a/FramePacing/CMakeFiles/edit_cache.dir
+C:/Users/lilia/Documents/ISART/Projet/PROJET_PLATFORMER/.utmp/RelWithDebInfo/5b141p57/arm64-v8a/FramePacing/CMakeFiles/rebuild_cache.dir

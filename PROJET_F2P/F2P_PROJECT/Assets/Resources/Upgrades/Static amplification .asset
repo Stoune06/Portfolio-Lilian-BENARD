@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af373b8f133a4567811f782e397805aa, type: 3}
+  m_Name: 'Static amplification '
+  m_EditorClassIdentifier: 
+  effects:
+  - rid: 8433931861613871104
+  description: As long as you stand immobile, gain a permanent stacking buff increasing
+    healing done
+  upgradeName: 'Static amplification '
+  icon: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 8433931861613871104
+      type: {class: ComposableAugmentEffect, ns: Com.IsartDigital.HealerSurvivor.SO, asm: Assembly-CSharp}
+      data:
+        _Trigger:
+          rid: 8433931861613871105
+        _Actions:
+        - rid: 8433931861613871106
+        _Cooldown: 0
+    - rid: 8433931861613871105
+      type: {class: TimerTrigger, ns: Com.IsartDigital.HealerSurvivor.SO.Triggers, asm: Assembly-CSharp}
+      data:
+        lastTarget: {fileID: 0}
+        lastAmount: 0
+        _Interval: 0.2
+    - rid: 8433931861613871106
+      type: {class: PermanentStatModAction, ns: Com.IsartDigital.HealerSurvivor.SO.Actions, asm: Assembly-CSharp}
+      data:
+        m_TargetMode: 0
+        _StatType: 0
+        _ModifierType: 0
+        _Value: -0.005

@@ -1,6 +1,6 @@
 # Portfolio - Lilian BENARD
 
-Étudiant à l'ISART Digital, en filière Game Programming.
+Étudiant à ISART Digital, en filière Game Programming.
 Ce dépôt regroupe mes principaux projets réalisés pendant ma formation.
 
 ## Projets
@@ -32,4 +32,4 @@ Projet Unity (GDP2) - 2025-2026.
 
 ## Contact
 
-Lilian BENARD - mytsun3g@gmail.com
+Lilian BENARD - lilian.benard1907@gmail.com

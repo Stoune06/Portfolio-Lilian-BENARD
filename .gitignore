@@ -6,12 +6,12 @@
 # Fichiers >100 Mo (limite GitHub stricte)
 # -----------------------------------------------------
 # Firebase iOS bundle (186 Mo)
-PROJET_PLATFORMER/Assets/Firebase/Plugins/x86_64/FirebaseCppApp-*.bundle
-PROJET_PLATFORMER/Assets/Firebase/Plugins/x86_64/
+Platformer 2.5D - Between The Lines/Assets/Firebase/Plugins/x86_64/FirebaseCppApp-*.bundle
+Platformer 2.5D - Between The Lines/Assets/Firebase/Plugins/x86_64/
 
 # Vidéos lourdes (>50 Mo flaggées par GitHub)
-6_PEACH/Closing kit/*.mp4
-6_PEACH/Closing kit/Video/*.mp4
+Kinis - Puzzle 2D/Closing kit/*.mp4
+Kinis - Puzzle 2D/Closing kit/Video/*.mp4
 
 # Pattern général : fichiers binaires lourds
 *.bundle
@@ -89,6 +89,8 @@ sysinfo.txt
 *.unitypackage
 *.app
 crashlytics-build.properties
+# Fichiers temporaires de build Android (chemins trop longs pour Windows)
+.utmp/
 
 # Asset meta data should NOT be ignored - Unity needs them
 # (donc PAS de *.meta dans le .gitignore)
@@ -105,6 +107,11 @@ export_presets.cfg.bak
 # Godot 4 - dossier généré
 .godot/imported/
 .godot/editor/
+
+# -----------------------------------------------------
+# Claude Code
+# -----------------------------------------------------
+.claude/
 
 # -----------------------------------------------------
 # IDE / Éditeurs

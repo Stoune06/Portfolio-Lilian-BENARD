@@ -1,2 +1,0 @@
-C:\Users\prsnc\Fork\2025_2026_f2p_gd2_gdp22026_f2p-goldmoon\F2P_PROJECT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
-C:\Users\prsnc\Fork\2025_2026_f2p_gd2_gdp22026_f2p-goldmoon\F2P_PROJECT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt
